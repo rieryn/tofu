@@ -10,6 +10,7 @@ export default function Header () {
     <header>
       <noscript>
         <style>{`.nojs-show { opacity: 1; top: 0; }`}</style>
+        testing without js later
       </noscript>
       <a href="/">home </a>
             <a href="/a">a </a>

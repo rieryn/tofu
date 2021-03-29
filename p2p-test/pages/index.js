@@ -5,8 +5,8 @@ import Frame from '../components/frame'
 
 export default function Home({ isConnected }) {
   return (
-    <div className="container">
       <Frame>
+    <div className="container">
 
       <main>
         {isConnected ? (
@@ -22,7 +22,6 @@ export default function Home({ isConnected }) {
         </p>
         </main>
 
-        </Frame>
 
       <style jsx>{`
         .container {
@@ -43,14 +42,7 @@ export default function Home({ isConnected }) {
           align-items: center;
         }
 
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
+
 
         footer img {
           margin-left: 0.5rem;
@@ -174,6 +166,8 @@ export default function Home({ isConnected }) {
         }
       `}</style>
     </div>
+            </Frame>
+
   )
 }
 

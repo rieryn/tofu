@@ -4,20 +4,34 @@ db uri: localhost:27017
 db name: local
 collections:
 courses
+	schema:
+		coursecode
+		coursename
+
 ratings
+	schema:
+		coursecode
+		username?
+		score1
+		score2
+
 
 import json to test
 using mock data for now
+scrape from https://ssbp.mycampus.ca/prod_uoit/
+(low prio)
+check eg.html for what data we would be able to have
 
 env.local is set to default mongodb configs, change it if yours is diff
 
 run:
+cd p2p-test
 npm i
 npm run dev
 
 open http://localhost:3000/
 
-testing webrtc: open http://localhost:3000/ twice
+testing webrtc: open http://localhost:9000/ twice
 
 server.js is for reqs, keep it updated
 
@@ -27,8 +41,9 @@ structure:
 /public: static files
 /pages: react components that have routes
 /components: like actual react components
-/pages/api: db stuff here
+/pages/api: db query stuff here
 server.js: express server
+/utils: middleware & fn exports
 
 BIG TODO:
 login/session management
@@ -84,3 +99,7 @@ AJAX, web services: oauth, fetch something from external url
 multi-threading: webworkers (use for a canvas somewhere)
 
 Independent Study: webRTC
+
+wishlist: 
+migrate to postgres
+seperate out servers for prod

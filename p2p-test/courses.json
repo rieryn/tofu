@@ -1,5 +1,5 @@
-{ "courssecode": "ccar1", "coursename": "aaaa"}
-{ "courssecode": "ccar2", "coursename": "eee"}
-{ "courssecode": "ccar3", "coursename": "ddd"}
-{ "courssecode": "ccar4", "coursename": "ccc"}
-{ "courssecode": "ccar5", "coursename": "bbbb"}
+{ "coursecode": "CSCI 1040U", "coursename": "Intro to Programming for Scien"}
+{ "coursecode": "CSCI 4160U", "coursename": "Interactive Media"}
+{ "coursecode": "CSCI 1061U", "coursename": "Programming Workshop II"}
+{ "coursecode": "CSCI 2020U", "coursename": "Software Systems Dev. & Integ."}
+{ "coursecode": "CSCI 2040U", "coursename": "Software Design and Analysis"}
