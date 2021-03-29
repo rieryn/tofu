@@ -2,9 +2,9 @@
 { "coursecode": "CSCI 4160U", "rating": 4, "user": null, "review": null}
 { "coursecode": "CSCI 1061U", "rating": 4, "user": null, "review": null}
 { "coursecode": "CSCI 2020U", "rating": 4, "user": null, "review": null}
-{ "coursecode": "CSCI 2040U", "rating": 2, "user": null, "review": null}
+{ "coursecode": "CSCI 2040U", "rating": 2, "user": "goose", "review": null}
 { "coursecode": "CSCI 1040U", "rating": 4, "user": null, "review": null}
-{ "coursecode": "CSCI 4160U", "rating": 4, "user": null, "review": null}
+{ "coursecode": "CSCI 4160U", "rating": 4, "user": null, "review": "dolum"}
 { "coursecode": "CSCI 1061U", "rating": 4, "user": null, "review": null}
 { "coursecode": "CSCI 2020U", "rating": 2, "user": null, "review": null}
 { "coursecode": "CSCI 2040U", "rating": 4, "user": null, "review": null}
