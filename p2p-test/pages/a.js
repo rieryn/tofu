@@ -4,6 +4,7 @@ export default function A () {
   return (
     <Frame>
       <div>a</div>
+      
     </Frame>
   )
 }

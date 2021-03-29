@@ -6,11 +6,11 @@ import Frame from '../components/frame'
 export default function Home({ isConnected }) {
   return (
       <Frame>
-    <div className="container">
+    <div>
 
       <main>
         {isConnected ? (
-          <h2 className="subtitle">connected to MongoDB</h2>
+          <h2 className="flex flex-col items-center justify-center flex-1 px-20 text-center">connected to MongoDB</h2>
         ) : (
           <h2 className="subtitle">
             NOT connected to MongoDB.
