@@ -1,5 +1,6 @@
 import { Transition } from '@headlessui/react'
 import { useState } from 'react'
+import Avatar from '../components/avatar'
 
 
 export default function Component(props){
@@ -10,9 +11,9 @@ export default function Component(props){
       <div className="max-w-full px-5">
         <div className="relative flex justify-between h-16">
 
-          <div className="flex-1 flex items-center justify-left sm:items-stretch sm:justify-start">
+          <div className="flex-1 flex items-center justify-start">
             <div className="flex-shrink-0 px-5 flex items-center">
-              <img className="hidden lg:block h-8 w-auto" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sword_Art_Online_anime_logo.svg" alt="" />
+              <img className="lg:block h-8 w-auto" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sword_Art_Online_anime_logo.svg" alt="" />
             </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
@@ -36,7 +37,7 @@ export default function Component(props){
               <div>
                 <button type="button" onClick={() => setIsOpen(!isOpen)}  className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu" aria-expanded="false" aria-haspopup="true">
                   <span className="sr-only">Open user menu</span>
-                  <img className="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1535585105038-bf206e97d068?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="" />
+                  <Avatar/>    
                 </button>
               </div>
     
