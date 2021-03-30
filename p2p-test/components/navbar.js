@@ -1,13 +1,33 @@
 import { Transition } from '@headlessui/react'
-import { useState } from 'react'
+import { useCallback,useRef, useEffect,useState } from 'react'
 import Avatar from '../components/avatar'
+import clickAway from '../util/clickaway'
 
 
 export default function Component(props){
-    const [isOpen, setIsOpen] = useState(false)
+
+  const [isOpen, setIsOpen] = useState(false)
+  const ref = useRef(null);
+  const clickListener = useCallback(
+    (e) => {
+      if (ref.current && !ref.current.contains(event.target))  {
+        setIsOpen(false)// using optional chaining here, change to onClose && onClose(), if required
+      }
+    },
+    [ref.current],
+  )
+    useEffect(() => {
+    // Attach the listeners on component mount.
+    document.addEventListener('click', clickListener)
+    // Detach the listeners on component unmount.
+    return () => {
+      document.removeEventListener('click', clickListener)
+    }
+  }, [])
 
   return (
-    <nav className="bg-gray-800">
+
+    <nav  ref = {ref} className="bg-gray-800">
       <div className="max-w-full px-5">
         <div className="relative flex justify-between h-16">
 
