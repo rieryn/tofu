@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { connectToDatabase } from '../util/mongodb'
 import Frame from '../components/frame'
+import Splash from '../components/splash'
 
 
 export default function Home({ isConnected }) {
@@ -8,19 +9,20 @@ export default function Home({ isConnected }) {
       <Frame>
     <div>
 
-      <main>
+      <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
         {isConnected ? (
-          <h2 className="flex flex-col items-center justify-center flex-1 px-20 text-center">connected to MongoDB</h2>
+          <h2 >connected to MongoDB</h2>
         ) : (
           <h2 className="subtitle">
             NOT connected to MongoDB.
           </h2>
         )}
 
-        <p className="description">
-          Search bar here or in header or actually the landing page shouldn't have a header?
-        </p>
+
+
+
         </main>
+    <Splash/>
 
 
       <style jsx>{`

@@ -26,7 +26,7 @@ export default function Avatar () {
             
             <span className="text-gray-300">
               <small>Signed in as</small><br/>
-              <strong>{session.user.email || session.user.name}</strong>
+              <strong>{session.user.name|| session.user.email }</strong>
             </span>
             <a
                 href={`/api/auth/signout`}
