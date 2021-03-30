@@ -24,19 +24,11 @@ export default function Avatar () {
           </>}
           {session && <>
             
-            <span className="text-gray-300">
+            <span className="text-gray-300 pr-6">
               <small>Signed in as</small><br/>
               <strong>{session.user.name|| session.user.email }</strong>
             </span>
-            <a
-                href={`/api/auth/signout`}
-                onClick={(e) => {
-                  e.preventDefault()
-                  signOut()
-                }}
-              >
-                Sign out
-              </a>
+            
               <div className="flex-1 flex items-center justify-start">
               {session.user.image && <img className="h-8 w-8 rounded-full" src={session.user.image} alt="" />}
               </div>

@@ -2,6 +2,7 @@ import { Transition } from '@headlessui/react'
 import { useCallback,useRef, useEffect,useState } from 'react'
 import Avatar from '../components/avatar'
 import clickAway from '../util/clickaway'
+import { signIn, signOut, useSession } from 'next-auth/client'
 
 
 export default function Component(props){
@@ -32,19 +33,26 @@ export default function Component(props){
         <div className="relative flex justify-between h-16">
 
           <div className="flex-1 flex items-center justify-start">
-            <div className="flex-shrink-0 px-5 flex items-center">
-              <img className="lg:block h-8 w-auto" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sword_Art_Online_anime_logo.svg" alt="" />
+            <div className="flex-shrink-0 sm:px-5 flex items-center">
+              <a href="/">
+              <img className="hidden md:block h-8 w-auto" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sword_Art_Online_anime_logo.svg" alt="" />
+              </a>
+              <div class="sm:pl-4 text-gray-600">
+                  <input class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none" type="search" name="search" placeholder="Search for course code..." />
+                  <button type="submit" class="absolute right-0 top-0 mt-5 mr-4"></button>
+                </div>     
             </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
                 {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                <a href="/course_search_results" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Search Bar Would Be About This Long</a>
+                                
+                <a href="/course_search_results" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Courses</a>
     
-                <a href="/rooms" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Meeting Rooms</a>
+                <a href="/send.html" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Meetings</a>
     
-                <a href="/rooms" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Games</a>
+                <a href="/receive.html" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Games</a>
     
-                <a href="/schedulebuilder.html" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Schedule Builder</a>
+                <a href="/schedulebuilder.html" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Scheduler</a>
                 <a href="/d3graph.html" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Graphs</a>
               </div>
             </div>
@@ -72,11 +80,21 @@ export default function Component(props){
             leaveTo="transform opacity-0 scale-95"
           >
               <div className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu">
+                <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">+ Start New Meeting</a>
+                <hr/>
                 <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">My Profile</a>
+                
+                <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Dashboard</a>
+                
                 <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Friends</a>
-                <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">+ New Meeting</a>
-                <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Settings</a>
-                <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Sign out</a>
+                <a href={`/api/auth/signout`} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem"
+                  onClick={(e) => {
+                  e.preventDefault()
+                  signOut()
+                  }}
+                >
+                Sign out
+                </a>
               </div>
               </Transition>
             </div>
