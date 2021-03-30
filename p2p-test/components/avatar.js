@@ -7,11 +7,11 @@ export default function Avatar () {
   
   return (
     <div className="max-w-full px-5">
-      <div className="flex flex-row">
+      <div className="flex flex-row text-gray-300">
 
         
           {!session && <>
-            Not Signed in
+            
             <a
                 href={`/api/auth/signin`}
                 onClick={(e) => {
@@ -24,7 +24,7 @@ export default function Avatar () {
           </>}
           {session && <>
             
-            <span  className="text-gray-300">
+            <span className="text-gray-300">
               <small>Signed in as</small><br/>
               <strong>{session.user.email || session.user.name}</strong>
             </span>

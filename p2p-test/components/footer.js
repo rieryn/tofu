@@ -9,13 +9,13 @@ export default function Footer() {
       <hr/>
       <ul className={styles.navItems}>
         <li className={styles.navItem}>
-          <a href="http://localhost:3000/about.html">About</a>
+          <a href="/about.html">About</a>
         </li>
         <li className={styles.navItem}>
-          <a href="http://localhost:9000/send.html">test send</a>
+          <a href="/send.html">webrtc sendtest </a>
         </li>
         <li className={styles.navItem}>
-          <a href="http://localhost:9000/receive.html">test receive</a>
+          <a href="/receive.html">webrtc receivetest</a>
         </li>
       </ul>
     </footer>

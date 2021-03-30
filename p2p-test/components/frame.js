@@ -14,8 +14,6 @@ export default function Frame ({children}) {
       </Head>
       <Navbar/>
 
-          <Popdown>
-    </Popdown>
       <main >
             
 
