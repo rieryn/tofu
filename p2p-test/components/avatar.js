@@ -24,7 +24,7 @@ export default function Avatar () {
           </>}
           {session && <>
             
-            <span className="text-gray-300 pr-6">
+            <span className="text-gray-300 pr-6 pb-1">
               <small>Signed in as</small><br/>
               <strong>{session.user.name|| session.user.email }</strong>
             </span>
