@@ -7,6 +7,8 @@ const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()
 
+var count=0;
+
 app.prepare().then(() => {
   const server = express()
   //pjs
@@ -30,7 +32,9 @@ app.prepare().then(() => {
   })
 
   server.get('/b', (req, res) => {
-    return app.render(req, res, '/b', req.query)
+    count +=1;
+    console.log(count);
+    return res.send('Welcome to our page!');
   })
 
   server.all('*', (req, res) => {
