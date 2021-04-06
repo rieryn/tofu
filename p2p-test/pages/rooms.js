@@ -1,7 +1,9 @@
 import Frame from '../components/frame'
 import useSWR from 'swr'
-
-
+import Meetings from '../components/meetings'
+     //<div>hello {data[0]}!</div>
+     //{components}
+     // <div>meeting rooms list + webrtc client</div>
 export default function Rooms () {
 const fetcher = url => fetch(url).then(r => r.json())
 
@@ -16,9 +18,8 @@ const fetcher = url => fetch(url).then(r => r.json())
   }
   return (
     <Frame>
-     <div>hello {data[0]}!</div>
-     {components}
-      <div>meeting rooms list + webrtc client</div>
+    <Meetings/>
+
       
     </Frame>
   )
