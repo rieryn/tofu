@@ -97,6 +97,8 @@
                         console.log(err);
                         alert('' + err);
                     });
+
+
                 };
 
 
@@ -118,6 +120,16 @@
                         if (command)
                             conn.send(command);
                     });
+                    var getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
+                        getUserMedia({video: true, audio: true}, function(stream) {
+                          var call = peer.call(conn.peer, stream);
+                          console.log(stream)
+                          call.on('stream', function(remoteStream) {
+                            // Show stream in some video/canvas element.
+                          });
+                        }, function(err) {
+                          console.log('Failed to get local stream' ,err);
+                        });
 
                     conn.on('data', function (data) {
                         addMessage("<span class=\"peerMsg\">Peer:</span> " + data);
