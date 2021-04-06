@@ -67,13 +67,15 @@ npm i
 
 npm run dev
 
+wait ~ 10s, the jit compiler for tailwind is kinda buggy so just load the whole thing for now
+
 http://localhost:3000/
 ```
 
 testing webrtc: open http://localhost:9000/ twice
 
 
-server.js is for reqs, keep it updated
+server.js is for reqs
 
 will default to bultin routing otherwise(dev env only)
 ```
@@ -87,7 +89,7 @@ server.js: express server
 ```
 BIG TODO:
 
-login/session management
+login/session management, profile dashboard, friends
 
 
 rating page
@@ -135,7 +137,7 @@ reqs:
 CSS frameworks: tailwind
 client-side framework: react
 Database: mongodb, migrate to postgres later
-Node.js: server.js
+Node.js: server.js 
 Sockets: sockets used in signalling conn for webrtc
 
 reqs todo:
@@ -145,8 +147,151 @@ DHTML: put in static html file
 AJAX, web services: oauth, fetch something from external url
 multi-threading: webworkers (use for a canvas somewhere)
 ```
+```
 
-Independent Study: webRTC
+scheduler
+one panel
+we have day, time slot, courses and linked courses
+allow search and display choices with vacancies on side
+1. when linked course is selected others are disabled
+2. put courses into time slots on table
+3. if time slots collide don't put the course in
+4. persist in localstorage
+5. allow course to be dragged and previewed
+6. display requirement messages
+7. allow export
+8. persist in user account on server
+
+planner
+one panel
+1. dummy data of program map
+    program map has some 4 choose 1 options
+2. allow manual input of taken courses
+3. match with list of taken courses
+    match *anything* with required lists first, then match electives
+4. parse somthing to get courses
+5. dropdown of possible courses for each blank
+
+
+graph
+fetch from alphavantage api, cache and limit new updates to 5/min
+something like, onpageload fetches from cache
+in prod it would fetch from server that's running some lambda function
+display line graph with d3
+store last data point
+if newdata<olddata rotate canvas 180 and vice versa
+
+meetings page
+    navbar
+    sidebar
+        room list
+            room details
+            room buttons
+        search rooms
+        create room
+    canvas
+        splash graphic
+        drawing canvas
+        game
+        video/audio feed
+        preview rooms?
+    right bar
+        chat
+        settings
+        advertisements
+    footer
+
+    video page
+        hide left sidebar
+        main canvas
+        right bar
+            chat
+            settings
+            ads
+        room options on bottom
+
+meetings modal
+    list of rooms
+    webcam preview
+
+meetings
+list of rooms
+    list of list of conn id
+        new room
+            post roomid, peerid to server
+
+
+    get list of roomid (uuid)
+        button for each room 
+        options here: get peerlist from db, or get peers from host
+            click
+
+                get peers for roomid
+                then route to room page
+                    room page
+                        post peerid and room to collection
+                        takes peers as props and connects to all peers
+                        send
+                            iterate through peers and send
+                        leave
+                            remove id from collection
+        return list of peers for roomid
+        last user leaves room> delete room id entries
+    
+    join
+        iterate through list and establish conn
+        add id to list
+    send
+        iterate through list and send
+    leave
+        remove id from list
+ask for permissions
+create room > send connection details to server
+connect to room > get all peers from server> send connection request to all peers in room
+connect to all peers
+each peer sends media stream to every other peer
+persist chat messages locally
+
+
+game
+canvas
+peer sends data packet to all other peers
+update canvas with data inputs every tick
+lets say tickrate is 120fps
+every x ticks check for large discrepancy (actually manually test if this is needed)
+data format{
+    acceleration
+    current speed
+    current coordinates(for checking)
+    other input commands
+}
+
+profile dashboard
+profile things(name, etc)
+courses you're taking
+courses youv'e completed
+your schedule
+your program map
+external links
+friends
+    start a meeting
+    leave a message
+    courses your friend is taking
+    your friends schedule
+    swipe feature
+
+search for friends
+
+global
+banner notification on meeting request
+toasts
+
+course search results
+table of query results
+also include your friend is taking/has taken this course
+
+```
+Independent Study: webRTC, tailwind
 
 wishlist: 
 
