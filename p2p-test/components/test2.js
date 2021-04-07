@@ -8,12 +8,13 @@ const Chat = (props) => {
     var remotePeerIds=[]
     var dataConnections = []
     var mediaConnections = [] 
-    var refs = [] //unless something goes wrong these are 1:1
+    var mediaStreams = []
+     //unless something goes wrong these are 1:1
     var peer = null; 
     var peerId = null;
     var conn = null;
     var messages = []
-
+    const refs = useRef(mediaConnections.map(() => createRef()));
     var ref1 = React.createRef();
     var ref2 = React.createRef();
     var getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
@@ -25,10 +26,23 @@ const Chat = (props) => {
     console.log(items)
   };
 
+      const [streams, setStreams] = useState([]);
+
+  function addStream (stream) {
+
+    setStreams(streams => [...streams, stream]);
+    console.log(stream)
+  };
+    function setSrcObject(ref, stream) {
+    if(ref) {
+       ref.srcObject = stream;
+     }
+  }
+
     useEffect(() => {
                      function initialize() {
 
-                         /*for (const i in props.props){
+                         /*for (const i in props.props)
                              console.log(i);
                              remotePeerIds.push(i);
                          }*/
@@ -115,12 +129,22 @@ const Chat = (props) => {
 
                     //on remote peer call
                     peer.on('call', function(call) {
+                        console.log("called")
                         mediaConnections.push(call)
                           getUserMedia({video: true, audio: true}, function(stream) {
                             call.answer(stream); 
                             console.log(stream)
+                            let streams = 0
+                            //will call twice for video/audio thx 2019
                             call.on('stream', function(remoteStream) {
-                                 ref1.current.srcObject = remoteStream;
+                                console.log("connecting peerstream")
+                                streams +=1
+                                if(streams==1){
+                                     setStreams(streams => [...streams, stream]);
+
+                                }
+
+                                
 
                             });
                           }, function(err) {
@@ -229,16 +253,23 @@ const Chat = (props) => {
        // getMedia(constraints);
        //push peerid to db at the end
     }, []);
-    
+
+    var comps = []
+    for( let i in mediaStreams){
+        console.log(i)
+        comps.push(<video srcObject={i} autoPlay ></video> )
+    }
+var ref = React.createRef();
 
 
 
     return (
         <div>
         test2 div
-        <Test ref={ref1}/>
+        {streams.map(s => <Video stream={s} />)}
+      <Test ref={ref2}/>
         <Test ref={ref2}/>
-        <Test ref={ref1}/>
+        <Test ref={ref2}/>
         {items}
                </div>
         )
@@ -251,5 +282,43 @@ const Test = React.forwardRef((props, ref) => (
             <video ref={ref} autoPlay ></video>
         </div>
 ));
+
+function Test2({ srcObject}) {
+
+    const refVideo = useRef<HTMLVideoElement>(null)
+
+  useEffect(() => {
+    if (!refVideo.current) return
+    refVideo.current.srcObject = srcObject
+  }, [srcObject])
+
+    return(
+ <div>
+            peer component
+            <video ref={refVideo} autoPlay ></video>
+        </div>
+    )
+}
+
+const Video = ({ stream }) => {
+  const localVideo = React.createRef();
+
+  // localVideo.current is null on first render
+  // localVideo.current.srcObject = stream;
+
+  useEffect(() => {
+    // Let's update the srcObject only after the ref has been set
+    // and then every time the stream prop updates
+    if (localVideo.current) localVideo.current.srcObject = stream;
+  }, [stream, localVideo]);
+
+  return (
+      <div>
+    test
+      <video style={{ height: 100, width: 100 }} ref={localVideo} autoPlay />
+    </div>
+  );
+};   
+
 
 export default Chat;
