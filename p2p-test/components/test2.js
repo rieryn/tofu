@@ -1,17 +1,30 @@
-import React, { useEffect } from 'react';
+import React, { useCallback,useRef, useEffect,useState } from 'react'
 import Peer from 'peerjs';
+import ReactDOM from "react-dom";
 
 //props contains list of peers
 //for first user props will be empty
 const Chat = (props) => {
-     var remotePeerIds=[]
-     var connections = []
-     var refs = []
-     var peer = null; 
-     var peerId = null;
-     var conn = null;
+    var remotePeerIds=[]
+    var dataConnections = []
+    var mediaConnections = [] 
+    var refs = [] //unless something goes wrong these are 1:1
+    var peer = null; 
+    var peerId = null;
+    var conn = null;
+    var messages = []
+
     var ref1 = React.createRef();
     var ref2 = React.createRef();
+    var getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
+
+  const [items, setItems] = useState([]);
+
+  function addItem (msg) {
+    setItems(items => [...items, msg]);
+    console.log(items)
+  };
+
     useEffect(() => {
                      function initialize() {
 
@@ -49,11 +62,12 @@ const Chat = (props) => {
                     //use this for messages and arbitrary data
                     peer.on('connection', function (c) {
                         remotePeerIds.push(c.peer);
-                        connections.push(c);
+                        dataConnections.push(c);
                             c.on('open', function() {
                                 console.log("Connected with peer: "+c.peer);
                                 c.on('data',function(data){
-                                   dataHandler(c,data);
+                                   messages.push(data);
+                                   addItem(data)
                                 });
                                 c.on('error',function(){
                                   connectionError(c);
@@ -64,14 +78,15 @@ const Chat = (props) => {
                                 });
 
                                 
-                            for(var i=0;i<connections.length;i++){
-                                console.log(connections[i]);
-                                connections[i].send("Connected to: " + c.peer);
+                            for(var i=0;i<dataConnections.length;i++){
+                                console.log(dataConnections[i]);
+                                dataConnections[i].send("Connected to: " + c.peer);
                             }
-                                                        });
+                    });
 
                         conn = c;
                         console.log("Connected to: " + c.peer);
+                        console.log(dataConnections.length)
                         ready();
                     });
 
@@ -100,16 +115,19 @@ const Chat = (props) => {
 
                     //on remote peer call
                     peer.on('call', function(call) {
+                        mediaConnections.push(call)
                           getUserMedia({video: true, audio: true}, function(stream) {
                             call.answer(stream); 
+                            console.log(stream)
                             call.on('stream', function(remoteStream) {
-                                 ref1.current.srcObject = stream;
+                                 ref1.current.srcObject = remoteStream;
 
                             });
                           }, function(err) {
                             console.log('Failed to get local stream' ,err);
                           });
                         });
+                        console.log(mediaConnections.length)
                 };
 
                 /*docs: 
@@ -117,6 +135,9 @@ const Chat = (props) => {
                  You can send any type of data, including objects, strings, and blobs.*/
 
                 function ready() {
+                    for (let i in dataConnections){
+                        console.log(i)
+                    }
                     conn.on('data', function (data) {
                         console.log("Data recieved");
                         switch (data) {
@@ -147,7 +168,6 @@ const Chat = (props) => {
                         console.log("Connected to: " + conn.peer);
 
                     });
-                    var getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
                         getUserMedia({video: true, audio: true}, function(stream) {
                           var call = peer.call(conn.peer, stream);
                           console.log(stream)
@@ -215,10 +235,12 @@ const Chat = (props) => {
 
     return (
         <div>
+        test2 div
         <Test ref={ref1}/>
         <Test ref={ref2}/>
         <Test ref={ref1}/>
-        </div>
+        {items}
+               </div>
         )
         
 }

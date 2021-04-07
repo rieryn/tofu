@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width">
     </head>
     <body>
+        This page is purely for manual testing
         <table class="control">
             <tr>
                 <td class="title">Status:</td>
@@ -42,6 +43,7 @@
         <script type="text/javascript">
             (function () {
 
+
                 var lastPeerId = null;
                 var peer = null; // own peer object
                 var conn = null;
@@ -56,7 +58,7 @@
                 var cueString = "<span class=\"cueMsg\">Cue: </span>";
                 const localVideo = document.getElementById('localVideo');
                 var localStream;
-                
+
                 function initialize() {
 
                     peer = new Peer(null, {
@@ -118,9 +120,6 @@
                         status.innerHTML = "Connected to: " + conn.peer;
                         console.log("Connected to: " + conn.peer);
 
-                        var command = getUrlParam("command");
-                        if (command)
-                            conn.send(command);
                     });
                     var getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
                         getUserMedia({video: true, audio: true}, function(stream) {
