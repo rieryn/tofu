@@ -45,7 +45,7 @@
                 var idButton = document.getElementById("idButton");
                 const localVideo = document.getElementById('localVideo');
 
-                var getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
+                var getDisplayMedia = navigator.getDisplayMedia //|| navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
                  function initialize() {
                     var remotePeerIds=[],
                     
@@ -122,17 +122,22 @@
                     });
 
                     peer.on('call', function(call) {
-                          getUserMedia({video: true, audio: true}, function(stream) {
-                            call.answer(stream); 
+                        startCapture().then((e)=>{
+                            call.answer(e); 
                             call.on('stream', function(remoteStream) {
-                                 localVideo.srcObject = stream;
+                                 localVideo.srcObject = e;
+                             })}
 
-                            });
-                          }, function(err) {
-                            console.log('Failed to get local stream' ,err);
-                          });
+                            )
                         });
+                          
                 };
+                function startCapture() {
+ let captureStream = null;
+
+ return navigator.mediaDevices.getDisplayMedia()
+    .catch(err => { console.error("Error:" + err); return null; });
+}
 
                 function ready() {
                     conn.on('data', function (data) {

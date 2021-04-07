@@ -54,7 +54,9 @@
                 var clearMsgsButton = document.getElementById("clearMsgsButton");
                 var connectButton = document.getElementById("connect-button");
                 var cueString = "<span class=\"cueMsg\">Cue: </span>";
-
+                const localVideo = document.getElementById('localVideo');
+                var localStream;
+                
                 function initialize() {
 
                     peer = new Peer(null, {
@@ -125,7 +127,7 @@
                           var call = peer.call(conn.peer, stream);
                           console.log(stream)
                           call.on('stream', function(remoteStream) {
-                            // Show stream in some video/canvas element.
+                            localVideo.srcObject = stream;
                           });
                         }, function(err) {
                           console.log('Failed to get local stream' ,err);
@@ -188,8 +190,7 @@
                     message.innerHTML = "";
                     addMessage("Msgs cleared");
                 };
-                const localVideo = document.getElementById('localVideo');
-                var localStream;
+                
 
                 async function start() {
                       console.log('Requesting local stream');
