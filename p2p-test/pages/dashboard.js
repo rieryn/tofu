@@ -55,7 +55,7 @@ return(
         </div>
 
         <div className = "md:col-span-3">
-              <Calendar />
+              <Calendar color = "green"/>
               </div>
 
 
@@ -81,7 +81,7 @@ return(
         </div>
 
         <div className = "md:col-span-3">
-              <Calendar />
+              <Calendar color = "red" />
               </div>
 
 </div>
