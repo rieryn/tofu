@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { connectToDatabase } from '../util/mongodb'
 import Frame from '../components/frame'
 import Splash from '../components/splash'
+import SplashTitle from '../components/splashSearchbar'
 
 
 export default function Home({ isConnected }) {
@@ -20,10 +21,11 @@ export default function Home({ isConnected }) {
 
 
 
+        <SplashTitle/>
 
         </main>
-    <Splash/>
 
+    <Splash/>
 
       <style jsx>{`
         .container {
