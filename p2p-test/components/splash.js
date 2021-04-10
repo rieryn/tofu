@@ -1,19 +1,20 @@
 import { signIn, signOut, useSession } from 'next-auth/client'
+import Search from '../components/splashSearchbar'
 
 
 export default function Component(props){
   return (
     <div className="lg:relative lg:flex-none bg-white overflow-hidden">
       <div className="lg:max-w-7xl mx-auto ">
-        <div className="relative z-10 pb-64 bg-white md:w-1/2">
-          <svg className="hidden lg:block absolute right-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <div className="relative z-10 pb-64 bg-white md:w-3/5">
+          <svg className="hidden lg:block absolute -right-24 h-full w-56 text-white transform translate-x-1/5" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
             <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
 
-          <main className="mx-auto max-w-7xl pt-24">
+          <main className="mx-auto max-w-7xl pt-24 pr-16 ">
             <div className="text-center lg:text-left">
-              <h1 className="text-6xl tracking-tight font-extrabold text-blue-300">
-                <span className="block">Cool landing page</span>
+              <h1 className="text-6xl tracking-tight text-blue-400">
+                <Search/>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Search bar here or in header or actually the landing page shouldn't have a header?
@@ -37,7 +38,7 @@ export default function Component(props){
           </main>
         </div>
       </div>
-      <div className="absolute inset-y-0 right-16 w-1/2 pr-16 hidden lg:block">
+      <div className="absolute inset-y-0 right-16 w-2/5 pr-16 hidden lg:block">
         <img className="object-cover h-full" src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80" alt="" />
       </div>
     </div>

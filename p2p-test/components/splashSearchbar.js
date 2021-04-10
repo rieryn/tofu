@@ -1,13 +1,18 @@
+import { useCallback,useRef, useEffect,useState } from 'react'
 
 export default function Component(props){
 const today = new Date();
+const [text, setText] = useState(" ")
 
 return (
       <div >
       <div className="p-4 flex text-6xl justify-center items-center">
   <span>U</span>
   <span>T</span>
-  <input id = "search" autocomplete="off" className ="border rounded-full pb-2 searchbar" /> 
+  <input id = "search" autocomplete="off" placeholder = {text} 
+  className ="border border-4 rounded-full pb-2 searchbar" 
+  onAnimationEnd={()=>
+    setText("Search for courses...")} /> 
   
   <span>F</span>
   
@@ -25,7 +30,7 @@ return (
 }
 span{
   margin: 0 15px;
-  line-height: .7;
+  line-height: 4;
   text-shadow: 0 0 2px rgba(0, 0, 0, .45);
 
 }
@@ -33,11 +38,12 @@ span{
 
 .searchbar{
   margin: 0 15px;
+
   font-size:20px;
   display: inline-block;
   height: 45px;
   width: 27px;
-  border: 2.5px solid black;
+  border: 4px solid black;
   box-shadow:
     0 0 2px rgba(0, 0, 0, .75),
     inset 0 0 2px rgba(0, 0, 0, .45);
