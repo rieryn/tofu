@@ -30,7 +30,7 @@ export default function Footer() {
 
               <img className="object-fill w-24 rounded-lg" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sword_Art_Online_anime_logo.svg" alt="" />
           <div className="px-8 py-2">
-            <p className="max-w-2xl text-left text-lg text-gray-600">
+            <p className="max-w-xl text-left text-lg text-gray-600">
               Leading developer of the world's topics that are highly represented in the data (Brexit, Miley Cyrus, Lord of the Rings, and so on)
             </p>
           </div>
