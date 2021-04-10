@@ -43,7 +43,7 @@ span{
   display: inline-block;
   height: 45px;
   width: 27px;
-  border: 4px solid black;
+  border: 4px solid #242730;
   box-shadow:
     0 0 2px rgba(0, 0, 0, .75),
     inset 0 0 2px rgba(0, 0, 0, .45);
