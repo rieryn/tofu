@@ -7,11 +7,12 @@ export default async (req, res) => {
             {
                 "$search": {
                     "autocomplete": {
-                        "query": `C`,
+                        "query": `CSCI 4160U`,
                         "path": "coursecode",
                         "fuzzy": {
-                            "maxEdits": 2,
-                            "prefixLength": 0
+                            "maxEdits":1,
+                            "prefixLength": 2,
+                            "maxExpansions": 5
                         }
                     }
                 }
