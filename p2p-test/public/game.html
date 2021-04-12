@@ -10,19 +10,23 @@
 </body> 
 
 <script>
-
- 	var mapX = 24;		
+//following this tutorial https://lodev.org/cgtutor/raycasting.html
+var mapX = 24;		
 var mapY = 24;	
 var screenX = 640;
 var screenY =480;
 var map =  document.getElementById('map');
 var objects = document.getElementById("objects");
+var render = document.getElementById("render");
 map.width = screenX;
 map.height = screenY;
 objects.width = screenX;
 objects.height = screenY;
+render.width = screenX;
+render.height = screenY;
 var mapctx = map.getContext('2d');
 var objctx = objects.getContext('2d');
+var renderctx = render.getContext('2d');
 var unit = screenY/mapY;
 var gameMap = [
 	  [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
@@ -63,8 +67,8 @@ var player = {
     y: 0,
   },
   plane:{
-    x:0,
-    y:0,
+    x:1,
+    y:1,
   },
 
 	speed : 0,
@@ -131,6 +135,92 @@ function drawObj(){
   objctx.stroke();
 
 }
+function Raycast(){
+  renderctx.clearRect(0,0,screenX,screenY);
+  for(var x = 0; x < screenX; x+=10)
+    {
+      //calculate ray position and direction
+      
+      let dirX = player.direction.x;
+      let dirY = player.direction.y;
+      let planeX = player.plane.x*0.01;
+      let planeY = player.plane.y*0.01;
+      let cameraX = 2 * x / screenX - 1; //x-coordinate in camera space
+      let rayDirX = dirX + planeX * cameraX;
+      let rayDirY = dirY + planeY * cameraX;
+      //deltaDistX = sqrt(1 + (rayDirY * rayDirY) / (rayDirX * rayDirX))
+      // sqrt(rayDirX * rayDirX + rayDirY * rayDirY) simplifies to 1
+      //
+      //why is an exercise for the reader
+      let deltaDistX = Math.abs(1 / rayDirX)
+      let deltaDistY = Math.abs(1 / rayDirY)
+      let blockX = Math.floor(player.position.x);
+      let blockY = Math.floor(player.position.y);
+      let posX = player.position.x;
+      let posY = player.position.y;
+      let sideDistX;
+      let sideDistY;
+      //wall height
+      let perpWallDist;
+      //ray step
+      let stepX;
+      let stepY;
+      let hit = 0; //was there a wall hit?
+      let side; //was a NS or a EW wall hit?
+      
+      //calculate step and initial sideDist
+      if (rayDirX < 0)
+      {
+        stepX = -1;
+        sideDistX = (player.position.x - blockX) * deltaDistX;
+      }
+      else
+      {
+        stepX = 1;
+        sideDistX = (blockX + 1.0 - player.position.x) * deltaDistX;
+      }
+      if (rayDirY < 0)
+      {
+        stepY = -1;
+        sideDistY = (player.position.y - blockY) * deltaDistY;
+      }
+      else
+      {
+        stepY = 1;
+        sideDistY = (blockY + 1.0 - player.position.y) * deltaDistY;
+      }
+      while (hit == 0)
+      {
+        //jump to next map square, OR in x-direction, OR in y-direction
+        if (sideDistX < sideDistY)
+        {
+          sideDistX += deltaDistX;
+          blockX += stepX;
+          side = 0;
+        }
+        else
+        {
+          sideDistY += deltaDistY;
+          blockY += stepY;
+          side = 1;
+        }
+        //Check if ray has hit a wall
+        if (gameMap[blockX][blockY] > 0) hit = 1;
+        //still don't know why this is faster than directly solving for intersections
+        //Calculate distance projected on camera plane (Euclidean distance will give fisheye effect!) btw i still don't know what the camera plane is
+       //end while loop
+      } 
+       let hh = screenY/2;
+        if (side == 0) perpWallDist = (blockX - posX + (1 - stepX) / 2) / rayDirX;
+        else perpWallDist = (blockY - posY + (1 - stepY) / 2) / rayDirY;
+        let lineHeight = Math.round(hh / perpWallDist);
+        let drawStart = -lineHeight / 2 + hh;
+	      let drawEnd = drawStart + lineHeight;
+        //x from 1-24
+        renderctx.fillRect(x, drawStart, 10, lineHeight);
+    }
+
+}
 drawMap();
 drawObj();
 function rotateVector (vx, vy, angle) {
@@ -140,17 +230,19 @@ function rotateVector (vx, vy, angle) {
             }
 }
 function rotate(obj, angle) {
-    var rDir = rotateVector(obj.direction.x, obj.direction.y, angle);
-    console.log(rDir);
-    obj.direction.x = rDir.x;
-    obj.direction.y = rDir.y;
+    let dir = rotateVector(obj.direction.x, obj.direction.y, angle);
+    console.log(dir);
+    obj.direction.x = dir.x;
+    obj.direction.y = dir.y;
 
-    var rPlane = rotateVector(obj.plane.x, obj.plane.y, angle);
-    obj.plane.x = rPlane.x;
-    obj.plane.y = rPlane.y;
+    let plane = rotateVector(obj.plane.x, obj.plane.y, angle);
+    obj.plane.x = plane.x;
+    obj.plane.y = plane.y;
 }
 function update(){
  move();
+    Raycast();
+
   drawObj();
   setTimeout(update,1000/30);
 }
@@ -213,6 +305,12 @@ function bindKeys() {
 	}
 }
  bindKeys();
+
+
+
+
+
+
 
 
 
