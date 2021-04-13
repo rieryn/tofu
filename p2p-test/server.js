@@ -34,7 +34,7 @@ app.prepare().then(() => {
   server.get('/b', (req, res) => {
     count +=1;
     console.log(count);
-    return res.send('Welcome to our page!');
+    return res.sendStatus(418);
   })
 
   server.all('*', (req, res) => {
