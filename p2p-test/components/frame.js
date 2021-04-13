@@ -7,7 +7,7 @@ import Navbar from '../components/navbar'
 export default function Frame ({children}) {
   return (
     < >
-<div className="items-center justify-center text-center">
+<div className="items-center justify-center text-center ">
      	<Head >
         <title>test-proj</title>
       <link rel="icon" href="/favicon.ico" />
