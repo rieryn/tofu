@@ -4,10 +4,10 @@ import Search from '../components/splashSearchbar'
 
 export default function Component(props){
   return (
-    <div className="lg:relative lg:flex-none bg-white overflow-hidden">
+    <div className="lg:relative lg:flex-none lg:p-24 bg-white overflow-hidden">
       <div className="lg:max-w-7xl mx-auto ">
         <div className="relative z-10 pb-64 bg-white md:w-3/5">
-          <svg className="hidden lg:block absolute -right-36 h-full w-80 text-white transform translate-x-3/5" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <svg className="hidden lg:block absolute -right-48 h-full w-96 text-white transform translate-x-3/5" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
             <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
 
@@ -38,7 +38,7 @@ export default function Component(props){
           </main>
         </div>
       </div>
-      <div className="absolute inset-y-0 right-16 w-2/5 pb-24 pr-8 hidden lg:block">
+      <div className="absolute inset-y-0 top-24 right-16 w-2/5 pb-24 pr-8 hidden lg:block">
         <img className="object-cover h-full" src="https://i.imgur.com/Z8LRcsn.png" alt="" />
       </div>
     </div>

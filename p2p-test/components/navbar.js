@@ -12,15 +12,15 @@ export default function Component(props){
   const clickListener = useCallback(
     (e) => {
       if (ref.current && !ref.current.contains(event.target))  {
-        setIsOpen(false)// using optional chaining here, change to onClose && onClose(), if required
+        setIsOpen(false)
       }
     },
     [ref.current],
   )
     useEffect(() => {
-    // Attach the listeners on component mount.
+    // attach the listeners on component mount.
     document.addEventListener('click', clickListener)
-    // Detach the listeners on component unmount.
+    // detach the listeners on component unmount.
     return () => {
       document.removeEventListener('click', clickListener)
     }
@@ -35,7 +35,7 @@ export default function Component(props){
           <div className="flex-1 flex items-center justify-start">
             <div className="flex-shrink-0 sm:px-5 flex items-center">
               <a href="/">
-              <img className="hidden md:block h-8 w-auto" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sword_Art_Online_anime_logo.svg" alt="" />
+              <img className="hidden md:block h-12" src="tofu.svg" alt="tofu" />
               </a>
               <div class="sm:pl-12 text-gray-600">
                   <input className="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none" type="search" name="search" placeholder="Search by course code..." />

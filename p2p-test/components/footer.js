@@ -28,7 +28,7 @@ export default function Footer() {
 <footer className="bg-gray-800 justify-center ">
 <div className="md:pl-24 pt-8 mx-5 my-2 flex flex-wrap justify-center">
 
-              <img className="object-fill w-24 rounded-lg" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sword_Art_Online_anime_logo.svg" alt="" />
+              <img className="object-fill w-24 rounded-lg" src="/tofu.svg" alt="" />
           <div className="px-8 py-2">
             <p className="max-w-xl text-left text-lg text-gray-600">
               Leading developer of the world's topics that are highly represented in the data (Brexit, Miley Cyrus, Lord of the Rings, and so on)

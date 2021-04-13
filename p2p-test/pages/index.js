@@ -3,34 +3,20 @@ import { connectToDatabase } from '../util/mongodb'
 import Frame from '../components/frame'
 import Splash from '../components/splash'
 import SplashTitle from '../components/splashSearchbar'
-
+import Footer from '../components/footer'
+import Navbar from '../components/navbar'
 
 export default function Home({ isConnected }) {
   return (
-      <Frame>
     <div>
-
-      <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
-        {isConnected ? (
-          <h2 >connected to MongoDB</h2>
-        ) : (
-          <h2 className="subtitle">
-            NOT connected to MongoDB.
-          </h2>
-        )}
-
-
-
-        <SplashTitle/>
-
-        </main>
+    <Navbar/>
+     
 
     <Splash/>
-
+    <Footer/>
 
       
     </div>
-            </Frame>
 
   )
 }
