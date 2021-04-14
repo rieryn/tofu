@@ -2,8 +2,9 @@ import Frame from '../components/frame'
 import Dashbar from '../components/dashboardbar'
 import dynamic from 'next/dynamic';
 import { useCallback,useRef, useEffect,useState } from 'react'
-import Calendar from '../components/calendarHeatmap';
-
+const Calendar = dynamic(() => import('../components/calendarHeatmap'), {
+  ssr: false
+});
 
 export default function DashbBoard () {
 return(

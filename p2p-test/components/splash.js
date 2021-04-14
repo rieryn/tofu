@@ -11,7 +11,7 @@ export default function Component(props){
             <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
 
-          <main className="mx-auto max-w-7xl pt-24 lg:pr-16 px-8 lg:px-0">
+          <main className="mx-auto max-w-7xl pt-24 lg:pr-16 px-8 lg:px-0 z-0">
             <div className="text-center lg:text-left">
               <h1 className="text-6xl tracking-tight text-blue-400 pl-10 lg:pl-0">
                 <Search/>

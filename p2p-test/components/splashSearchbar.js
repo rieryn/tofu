@@ -1,4 +1,5 @@
 import { useCallback,useRef, useEffect,useState } from 'react'
+import Test from '../components/test4'
 
 export default function Component(props){
 const today = new Date();
@@ -9,10 +10,8 @@ return (
       <div className="p-4 flex text-6xl justify-center items-center">
   <span>U</span>
   <span>T</span>
-  <input id = "search" autocomplete="off" placeholder = {text} 
-  className ="border border-4 rounded-full pb-2 searchbar" 
-  onAnimationEnd={()=>
-    setText("Search for courses...")} /> 
+  <Test/>
+
   
   <span>F</span>
   
