@@ -65,9 +65,9 @@ export default function Component() {
 
  
     return (
-      <div ref = {ref} className = "searchbar relative inline-block rounded-full bg-white " onAnimationEnd={()=>
+      <div ref = {ref} className = "searchbar relative inline-block rounded-full bg-white font-sans  font-semibold text-base" onAnimationEnd={()=>
     setText("Search for courses...")}>
-        <input className = "relative w-3/4 h-full bg-transparent     truncate rounded-lg text-sm focus:outline-none"
+        <input className = "relative w-3/4 h-full bg-transparent     truncate rounded-lg  focus:outline-none"
         placeholder={text}  value={search} onChange={change} onClick={() => setIsOpen(!isOpen)}
         />
         <Transition
@@ -79,20 +79,17 @@ export default function Component() {
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-        { suggestions===undefined || suggestions.length == 0 ?  <></> :
-          <div className = "bg-white items-left z-50 absolute w-full overflow-hidden truncate border-2 border-black rounded-md">
-          {suggestions.map(i =>(<a href = {`course_search_results?q=${i.coursecode}`}><p className="truncate text-left">{i.coursecode} {i.coursename}</p></a>))}
+        { suggestions===undefined || suggestions.length == 0 ? <a href = '/course_search_results'><p className="w-4/5 bg-white p-2 hover:bg-red-100 truncate text-left border-2 border-grey rounded-md">Explore all courses</p></a>:
+          <div className = "divide-y divide-gray-100 bg-white items-left z-50 absolute w-4/5 overflow-hidden truncate border-2 border-grey rounded-md">
+          {suggestions.map(i =>(<div className = "hover:bg-red-100" ><a  href = {`course_search_results?q=${i.coursecode}`}><p className="p-2  truncate text-left">{i.coursecode} {i.coursename}</p></a></div>))}
+          <a href = '/course_search_results'><p className="p-2 hover:bg-red-100 truncate text-left">Explore all courses</p></a>
           </div> }
         </Transition>
 
         <style jsx>{`
         
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 span{
   margin: 0 15px;
   line-height: 4;
@@ -104,7 +101,6 @@ span{
 .searchbar{
   margin: 0 15px;
 
-  font-size:20px;
   display: inline-block;
   height: 45px;
   width: 27px;
@@ -139,9 +135,7 @@ transition: opacity 5s;
 .fade::-moz-placeholder { opacity : 0; }
 .fade:-ms-input-placeholder { opacity : 0; }
 
-textarea:focus, input:focus{
-    outline: none;
-}
+
 
       `}</style>
         </div>

@@ -78,9 +78,11 @@ export default function Component() {
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-        { suggestions===undefined || suggestions.length == 0 ?  <></> :
-          <div className = "bg-white items-left z-50 absolute w-full overflow-hidden truncate border-2 border-black rounded-md">
-          {suggestions.map(i =>(<a href = {`course_search_results?q=${i.coursecode}`}><p className="truncate text-left">{i.coursecode} {i.coursename}</p></a>))}
+        { suggestions===undefined || suggestions.length == 0 ? <a href = '/course_search_results'><p className="w-full absolute bg-white p-2 hover:bg-red-100 truncate text-left border-2 border-grey rounded-md">Explore all courses</p></a>
+ :
+          <div className = "bg-white items-left z-50 absolute w-full overflow-hidden truncate border-2 border-grey rounded-md">
+          {suggestions.map(i =>(<a href = {`course_search_results?q=${i.coursecode}`}><p className=" hover:bg-red-100 p-2 truncate text-left">{i.coursecode} {i.coursename}</p></a>))}
+           <a href = '/course_search_results'><p className="p-2 hover:bg-red-100 truncate text-left">Explore all courses</p></a>
           </div> }
         </Transition>
         </div>
