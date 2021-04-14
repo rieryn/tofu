@@ -3,6 +3,7 @@ import { useCallback,useRef, useEffect,useState } from 'react'
 import Avatar from '../components/avatar'
 import clickAway from '../util/clickaway'
 import { signIn, signOut, useSession } from 'next-auth/client'
+import Test from '../components/test3'
 
 
 export default function Component(props){
@@ -12,15 +13,15 @@ export default function Component(props){
   const clickListener = useCallback(
     (e) => {
       if (ref.current && !ref.current.contains(event.target))  {
-        setIsOpen(false)// using optional chaining here, change to onClose && onClose(), if required
+        setIsOpen(false)
       }
     },
     [ref.current],
   )
     useEffect(() => {
-    // Attach the listeners on component mount.
+    // attach the listeners on component mount.
     document.addEventListener('click', clickListener)
-    // Detach the listeners on component unmount.
+    // detach the listeners on component unmount.
     return () => {
       document.removeEventListener('click', clickListener)
     }
@@ -28,20 +29,18 @@ export default function Component(props){
 
   return (
 
-    <nav  ref = {ref} className="bg-gray-800">
+    <nav  ref = {ref} className="bg-gray-800 ">
       <div className="max-w-full px-5">
         <div className="relative flex justify-between h-16">
 
           <div className="flex-1 flex items-center justify-start">
             <div className="flex-shrink-0 sm:px-5 flex items-center">
               <a href="/">
-              <img className="hidden md:block h-8 w-auto" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sword_Art_Online_anime_logo.svg" alt="" />
+              <img className="hidden md:block h-12" src="tofu.svg" alt="tofu" />
               </a>
-              <div class="sm:pl-12 text-gray-600">
-                  <input className="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none" type="search" name="search" placeholder="Search by course code..." />
-                  <button type="submit" className="absolute right-0 top-0 mt-5 mr-4"></button>
-                </div>     
+                  
             </div>
+            <Test/>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
                 <a href="/dashboard" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
@@ -78,7 +77,7 @@ export default function Component(props){
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-              <div className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu">
+              <div className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-10" role="menu" aria-orientation="vertical" aria-labelledby="user-menu">
                 <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">+ Start New Meeting</a>
                 <hr/>
                 <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">My Profile</a>

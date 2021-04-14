@@ -6,5 +6,7 @@ export default async (req, res) => {
         val = true;
     }
   
-    res.status(418).send(JSON.stringify({isBool: val, advertisement: "Build the most efficient intergalactic factory in space simulation strategy game Dyson Sphere Program!"}));
+    res.send(JSON.stringify(
+        [{isBool: val, advertisement: "Build the most efficient intergalactic factory in space simulation strategy game Dyson Sphere Program!"},
+        {isBool: val, advertisement: "Build the most efficient intergalactic factory in space simulation strategy game Dyson Sphere Program!"}]));
 }

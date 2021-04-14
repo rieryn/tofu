@@ -1,4 +1,3 @@
-import Header from '../components/header'
 import Footer from '../components/footer'
 import Head from 'next/head'
 import styles from './frame.module.css'
