@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "60722969e4adaf6e345116ea"
+  },
+  "name": "aurie",
+  "email": "weiyin.tan@ontariotechu.net",
+  "image": "https://cdn.discordapp.com/embed/avatars/3.png",
+  "createdAt": {
+    "$date": "2021-04-10T22:40:41.944Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-10T22:40:41.944Z"
+  }
+}]
