@@ -63,10 +63,10 @@ export default function Component() {
 
  
     return (
-      <div ref = {ref} className = "flex items-center justify-center z-50 font-medium text-blue-400">
-      <div className = "relative inline-block">
+      <div ref = {ref} className = "flex items-center lg:w-full justify-center z-50 font-medium text-blue-400 xl:px-6">
+      <div className = "relative inline-block w-full">
         <input onKeyDown={(e)=> {if(e.key==='Enter') router.push(`/course_search_results?q=${search}`)}}
-        className = "relative truncate border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
+        className = "relative w-full truncate border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
         placeholder = "Search by course code..." value={search} onChange={change} onClick={() => setIsOpen(!isOpen)}
         />
         <Transition

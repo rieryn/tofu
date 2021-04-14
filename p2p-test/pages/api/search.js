@@ -1,11 +1,6 @@
 import { connectToDatabase } from "../../util/mongodb";
 export default async (req, res) => {
   const { db } = await connectToDatabase();
-   let qval = req.query.q.toString();
-   console.log(typeof `${req.query.q}`)
-   console.log(`${req.query.q}`)
-   console.log( `CS`)
-   console.log (typeof `CS`)
     try {
         let result = await db.collection("courses").aggregate([
             {
@@ -23,6 +18,7 @@ export default async (req, res) => {
             }
         ]).toArray();
         console.log(result);
+        console.log(result[5].CRNS)
         res.send(result);
     } catch (e) {
         res.status(418).send({message: e.message});
