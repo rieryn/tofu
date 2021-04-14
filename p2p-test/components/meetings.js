@@ -4,7 +4,7 @@ import ChatPanel from '../components/chatPanel'
 
 export default function Meetings(props){
   return (
-    <div className="h-screen flex overflow-hidden bg-white">
+    <div className="h-screen flex overflow-auto bg-white">
 
     <MeetingsBar/>
       
