@@ -1,4 +1,4 @@
-event_info = [
+userschedule = [
     {
         'color': '#fcba03',
         'name': 'csci1020u',
@@ -18,7 +18,7 @@ event_info = [
     }
 ]
 
-new_info = {
+newblock = {
     'color': '#abf3c0',
     'name': 'csci9999u',
     'type': 'lecture',
@@ -29,11 +29,36 @@ new_info = {
 }
 
 window.onload = function () {
-    create_table(event_info);
+    add_timeblock(userschedule, newblock)
+    create_table(userschedule);
 };
 
-function create_table(info) {
-    event_info.forEach(obj => {
+function add_timeblock(cur_schedule, newblock) {
+    let valid = true;
+    for (newday in newblock.times) {
+        for (oldblock of cur_schedule) {
+            for (oldday in oldblock.times) {
+                if (newday === oldday) {
+                    // check times if days are the same
+                    for (time of oldblock.times[oldday]) {
+                        if (newblock.times[newday].includes(time)) {
+                            alert('Course does not fit')
+                            valid = false
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    if (valid){
+        cur_schedule.push(newblock)
+    }
+}
+
+function create_table(schedule) {
+    console.log(schedule)
+    schedule.forEach(obj => {
         for (day in obj.times) {
             let times = obj.times[day];
             let start_time = 'time' + obj.times[day][0].replace(':', '');
