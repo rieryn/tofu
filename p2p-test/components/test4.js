@@ -1,6 +1,7 @@
 import { useCallback,useRef, useEffect,useState } from 'react'
 import useSWR from 'swr'
 import { Transition } from '@headlessui/react'
+import { useRouter } from 'next/router'
 
 //idk there's no good way to just modify child components with animations
 //i don't know how to use swr
@@ -14,6 +15,8 @@ const fruits = [
 
  
 export default function Component() {
+        const router = useRouter()
+
     const [suggestions, setSuggestions] = useState([]);
     const [search, setSearch] = useState("");
     const fetcher = url => fetch(url).then(r => r.json())
@@ -41,12 +44,10 @@ export default function Component() {
 
     const change = (evt) => {
         let value = evt.target.value;
-        console.log(value)
 
         setSearch(value);
         fetch('http://localhost:3000/api/search?q='+encodeURIComponent(value))
-          .then(r => {if (r.ok) {return r.json()} }).then(data => {if(data) setSuggestions(data)}).then(        console.log(suggestions)
-);
+          .then(r => {if (r.ok) {return r.json()} }).then(data => {if(data) setSuggestions(data)})
         if (value === "1") {
             setSuggestions([]);
         }
@@ -54,12 +55,10 @@ export default function Component() {
     };
  
     const submit = () => {
-        console.log(`Submit: ${search}`);
         setSearch("");
     };
  
-    const click = (suggestion) => {
-        console.log(`Accept suggestion: ${suggestion}`);
+    const click = () => {
         setSearch("");
     };
 
@@ -67,7 +66,8 @@ export default function Component() {
     return (
       <div ref = {ref} className = "searchbar relative inline-block rounded-full bg-white font-sans  font-semibold text-base" onAnimationEnd={()=>
     setText("Search for courses...")}>
-        <input className = "relative w-3/4 h-full bg-transparent     truncate rounded-lg  focus:outline-none"
+        <input onKeyDown={(e)=> {if(e.key==='Enter') router.push(`/course_search_results?q=${search}`)}}
+        className = "relative w-3/4 h-full bg-transparent     truncate rounded-lg  focus:outline-none"
         placeholder={text}  value={search} onChange={change} onClick={() => setIsOpen(!isOpen)}
         />
         <Transition
@@ -81,7 +81,7 @@ export default function Component() {
           >
         { suggestions===undefined || suggestions.length == 0 ? <a href = '/course_search_results'><p className="w-4/5 bg-white p-2 hover:bg-red-100 truncate text-left border-2 border-grey rounded-md">Explore all courses</p></a>:
           <div className = "divide-y divide-gray-100 bg-white items-left z-50 absolute w-4/5 overflow-hidden truncate border-2 border-grey rounded-md">
-          {suggestions.map(i =>(<div className = "hover:bg-red-100" ><a  href = {`course_search_results?q=${i.coursecode}`}><p className="p-2  truncate text-left">{i.coursecode} {i.coursename}</p></a></div>))}
+          {suggestions.map(i =>(<div key={i.coursecode} className = "hover:bg-red-100" ><a  href = {`course_search_results?q=${i.coursecode}`}><p className="p-2  truncate text-left">{i.coursecode} {i.coursename}</p></a></div>))}
           <a href = '/course_search_results'><p className="p-2 hover:bg-red-100 truncate text-left">Explore all courses</p></a>
           </div> }
         </Transition>
