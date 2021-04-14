@@ -1,5 +1,4 @@
 import Link from "next/link"
-import styles from "./footer.module.css"
 import { Transition } from '@headlessui/react'
 
 //if you want to do js stuff put it in /public and link it like this
