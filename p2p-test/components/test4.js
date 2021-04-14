@@ -64,7 +64,7 @@ export default function Component() {
 
  
     return (
-      <div ref = {ref} className = "searchbar relative inline-block rounded-full bg-white font-sans  font-semibold text-base" onAnimationEnd={()=>
+      <div ref = {ref} className = "searchbar relative inline-block rounded-full bg-white font-sans  font-semibold text-lg" onAnimationEnd={()=>
     setText("Search for courses...")}>
         <input onKeyDown={(e)=> {if(e.key==='Enter') router.push(`/course_search_results?q=${search}`)}}
         className = "relative w-3/4 h-full bg-transparent     truncate rounded-lg  focus:outline-none"
@@ -79,10 +79,10 @@ export default function Component() {
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-        { suggestions===undefined || suggestions.length == 0 ? <a href = '/course_search_results'><p className="w-4/5 bg-white p-2 hover:bg-red-100 truncate text-left border-2 border-grey rounded-md">Explore all courses</p></a>:
+        { suggestions===undefined || suggestions.length == 0 ? <a href = '/course_search_results'><p className="w-4/5 bg-white p-2 hover:bg-red-50 truncate text-left border-2 border-grey rounded-md"><u>Explore all courses</u></p></a>:
           <div className = "divide-y divide-gray-100 bg-white items-left z-50 absolute w-4/5 overflow-hidden truncate border-2 border-grey rounded-md">
           {suggestions.map(i =>(<div key={i.coursecode} className = "hover:bg-red-100" ><a  href = {`course_search_results?q=${i.coursecode}`}><p className="p-2  truncate text-left">{i.coursecode} {i.coursename}</p></a></div>))}
-          <a href = '/course_search_results'><p className="p-2 hover:bg-red-100 truncate text-left">Explore all courses</p></a>
+          <a href = '/course_search_results'><p className="p-2 hover:bg-red-100 truncate text-left"><u>Explore all courses</u></p></a>
           </div> }
         </Transition>
 
