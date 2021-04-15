@@ -1,6 +1,6 @@
 export default function DashBar(props){
   return (
-    <div className="flex flex-shrink-0">
+    <div className="flex flex-shrink-0 pb-14">
         <div className="flex flex-col lg:w-56">
           <div className="flex flex-col h-0 flex-1 bg-gray-100">
             <div className="flex-1 flex flex-col pt-5 overflow-y-auto">

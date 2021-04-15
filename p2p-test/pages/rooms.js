@@ -20,7 +20,7 @@ const fetcher = url => fetch(url).then(r => r.json())
   return (
     <Frame>
     {error ? <div>something went wrong</div>: <></>}
-    {data ? <Meetings/> : <div className = "h-screen">loading...</div>}
+    {data ? <Meetings/> : <div className = "h-full">loading...</div>}
     
 
       

@@ -3,6 +3,7 @@ export default async (req, res) => {
   const { db } = await connectToDatabase();
     try {
         let result = await db.collection("courses").aggregate([
+
             {
                 "$search": {
                     "autocomplete": {
@@ -16,7 +17,7 @@ export default async (req, res) => {
                     }
                 }
             }
-        ]).toArray();
+        ]).limit(8).toArray();
         console.log(result);
         console.log(result[5].CRNS)
         res.send(result);

@@ -9,13 +9,16 @@ export default function Frame ({children}) {
         <title>tofu</title>
       <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className = "h-screen">
       <Navbar/>
 
       <main >
+
             
 
         {children}
       </main>
+      </div>
       <Footer/>
       </div>
     </>
