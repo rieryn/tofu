@@ -1,9 +1,5 @@
 import scrapy
 import json
-import scrapy
-
-term = '202101'  
-
 
 subjects = [
 "ALSU",
@@ -57,7 +53,7 @@ class OfuSpider(scrapy.Spider):
     def parse(self, response):
         yield scrapy.FormRequest.from_response(
             response=response,
-            formdata={'p_term': term},
+            formdata={'p_term': self.term},
             callback=self.parseSubj
         )
 

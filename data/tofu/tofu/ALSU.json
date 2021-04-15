@@ -1,0 +1,50 @@
+[
+    {
+        "capacity": "80",
+        "coursecode": "ALSU 1101U",
+        "coursename": "Found for Acad Learn & Success",
+        "crn": "72015",
+        "daterange": "Jan 11, 2021 - Apr 09, 2021",
+        "days": "T",
+        "filled": "45",
+        "instructor": "Michael   Mueller (",
+        "location": "Synchronous SYN",
+        "remaining": "35",
+        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Energy Systems & Nuclear Sci\n\n\u00a0 \u00a0 \u00a0 Engineering & Applied Science\n\n\u00a0 \u00a0 \u00a0 Business & Information Tech\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\nShow linked Section(s)\n",
+        "section": "001",
+        "time": "9:40 am - 11:00 am",
+        "type": "Lecture"
+    },
+    {
+        "capacity": "40",
+        "coursecode": "ALSU 1101U",
+        "coursename": "Found for Acad Learn & Success",
+        "crn": "72021",
+        "daterange": "Jan 11, 2021 - Apr 09, 2021",
+        "days": "W",
+        "filled": "33",
+        "instructor": "TBA",
+        "location": "Synchronous SYN",
+        "remaining": "7",
+        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nTutorial \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\nShow linked Section(s)\n",
+        "section": "002",
+        "time": "9:40 am - 11:00 am",
+        "type": "Tutorial"
+    },
+    {
+        "capacity": "40",
+        "coursecode": "ALSU 1101U",
+        "coursename": "Found for Acad Learn & Success",
+        "crn": "72022",
+        "daterange": "Jan 11, 2021 - Apr 09, 2021",
+        "days": "M",
+        "filled": "12",
+        "instructor": "TBA",
+        "location": "Synchronous SYN",
+        "remaining": "28",
+        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nTutorial \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\nShow linked Section(s)",
+        "section": "003",
+        "time": "9:40 am - 11:00 am",
+        "type": "Tutorial"
+    }
+]
