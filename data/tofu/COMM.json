@@ -1,242 +1,347 @@
 [
     {
-        "capacity": "50",
         "coursecode": "COMM 1320U",
         "coursename": "Public Speaking",
-        "crn": "71279",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "48",
-        "instructor": "Laura   Thursby (",
-        "location": "Synchronous SYN",
-        "remaining": "2",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\n\n",
-        "section": "002",
-        "time": "2:10 pm - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 1320U",
+                "coursename": "Public Speaking",
+                "crn": "71279",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "48",
+                "instructor": "Laura   Thursby",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       COMM  1100 - INTRO TO COMMUNICATION STUDIES [Min Grade: D]  "
+                ],
+                "remaining": "2",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\n\n",
+                "section": "002",
+                "time": "2:10 pm - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "COMM 2220U",
         "coursename": "The Media & Commun. in Canada",
-        "crn": "72769",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "55",
-        "instructor": "Andrea   Braithwaite (",
-        "location": "Synchronous SYN",
-        "remaining": "-5",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 2220U",
+                "coursename": "The Media & Commun. in Canada",
+                "crn": "72769",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "55",
+                "instructor": "Andrea   Braithwaite",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       COMM  1100 - INTRO TO COMMUNICATION STUDIES [Min Grade: D]  "
+                ],
+                "remaining": "-5",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "COMM 2240U",
         "coursename": "Television",
-        "crn": "72227",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "47",
-        "instructor": "Andrea   Braithwaite (",
-        "location": "Synchronous SYN",
-        "remaining": "3",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\n\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 2240U",
+                "coursename": "Television",
+                "crn": "72227",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "47",
+                "instructor": "Andrea   Braithwaite",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       COMM  1100 - INTRO TO COMMUNICATION STUDIES [Min Grade: D]  "
+                ],
+                "remaining": "3",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\n\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "COMM 2311U",
         "coursename": "Writing & Publ in Digital Age",
-        "crn": "74474",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "50",
-        "instructor": "Amanda   Robinson (",
-        "location": "N/A",
-        "remaining": "0",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\n\n",
-        "section": "001",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 2311U",
+                "coursename": "Writing & Publ in Digital Age",
+                "crn": "74474",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "50",
+                "instructor": "Amanda   Robinson",
+                "location": "N/A",
+                "prereq": [
+                    "** PRERQ:       COMM  1100 - INTRO TO COMMUNICATION STUDIES [Min Grade: D]  "
+                ],
+                "remaining": "0",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\n\n",
+                "section": "001",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "COMM 2410U",
         "coursename": "History of Communic Technology",
-        "crn": "71664",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "43",
-        "instructor": "Andrea   Braithwaite (",
-        "location": "Synchronous SYN",
-        "remaining": "7",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 2410U",
+                "coursename": "History of Communic Technology",
+                "crn": "71664",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "43",
+                "instructor": "Andrea   Braithwaite",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       COMM  4120 - CONTEMPORARY ISSUES IN COMMUN. [Min Grade: D]  "
+                ],
+                "remaining": "7",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "COMM 2411U",
         "coursename": "Digital Media Policy",
-        "crn": "72234",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "40",
-        "instructor": "Dale   Shin (",
-        "location": "Synchronous SYN",
-        "remaining": "10",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 2411U",
+                "coursename": "Digital Media Policy",
+                "crn": "72234",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "40",
+                "instructor": "Dale   Shin",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       COMM  4120 - CONTEMPORARY ISSUES IN COMMUN. [Min Grade: D]  "
+                ],
+                "remaining": "10",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "70",
         "coursecode": "COMM 3250U",
         "coursename": "Pop Culture",
-        "crn": "72788",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "69",
-        "instructor": "Teresa   Pierce (",
-        "location": "Synchronous SYN",
-        "remaining": "1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "70",
+                "coursecode": "COMM 3250U",
+                "coursename": "Pop Culture",
+                "crn": "72788",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "69",
+                "instructor": "Teresa   Pierce",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       COMM  1100 - INTRO TO COMMUNICATION STUDIES [Min Grade: D]  "
+                ],
+                "remaining": "1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "COMM 3410U",
         "coursename": "Digital Media Storytelling",
-        "crn": "74475",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "48",
-        "instructor": "Laura   Thursby (",
-        "location": "Synchronous SYN",
-        "remaining": "2",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 3410U",
+                "coursename": "Digital Media Storytelling",
+                "crn": "74475",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "48",
+                "instructor": "Laura   Thursby",
+                "location": "Synchronous SYN",
+                "remaining": "2",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "COMM 3510U",
         "coursename": "Work in the Digital Age",
-        "crn": "72122",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "57",
-        "instructor": "Tanner   Mirrlees (",
-        "location": "Synchronous SYN",
-        "remaining": "-7",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\n\n",
-        "section": "001",
-        "time": "12:40 pm - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 3510U",
+                "coursename": "Work in the Digital Age",
+                "crn": "72122",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "57",
+                "instructor": "Tanner   Mirrlees",
+                "location": "Synchronous SYN",
+                "remaining": "-7",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\n\n",
+                "section": "001",
+                "time": "12:40 pm - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "COMM 3610U",
         "coursename": "Persuasion",
-        "crn": "72237",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "F",
-        "filled": "64",
-        "instructor": "Teresa   Pierce (",
-        "location": "Synchronous SYN",
-        "remaining": "-14",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Comm & Digital Media Std Brdge\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies-Bridge Program\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\n\n",
-        "section": "001",
-        "time": "2:10 pm - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 3610U",
+                "coursename": "Persuasion",
+                "crn": "72237",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "F",
+                "filled": "64",
+                "instructor": "Teresa   Pierce",
+                "location": "Synchronous SYN",
+                "remaining": "-14",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Comm & Digital Media Std Brdge\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies-Bridge Program\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\n\n",
+                "section": "001",
+                "time": "2:10 pm - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "25",
         "coursecode": "COMM 4130U",
         "coursename": "Capstone Project",
-        "crn": "72498",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "25",
-        "instructor": "Lawrence Dugan  Nichols (",
-        "location": "Synchronous SYN",
-        "remaining": "0",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "25",
+                "coursecode": "COMM 4130U",
+                "coursename": "Capstone Project",
+                "crn": "72498",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "25",
+                "instructor": "Lawrence Dugan  Nichols",
+                "location": "Synchronous SYN",
+                "remaining": "0",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            },
+            {
+                "capacity": "25",
+                "coursecode": "COMM 4130U",
+                "coursename": "Capstone Project",
+                "crn": "72500",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "24",
+                "instructor": "Lawrence Dugan  Nichols",
+                "location": "Synchronous SYN",
+                "remaining": "1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
+                "section": "002",
+                "time": "2:10 pm - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "25",
-        "coursecode": "COMM 4130U",
-        "coursename": "Capstone Project",
-        "crn": "72500",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "24",
-        "instructor": "Lawrence Dugan  Nichols (",
-        "location": "Synchronous SYN",
-        "remaining": "1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
-        "section": "002",
-        "time": "2:10 pm - 5:00 pm",
-        "type": "Lecture"
-    },
-    {
-        "capacity": "50",
         "coursecode": "COMM 4261U",
         "coursename": "Tweet, Friend & Follow Me",
-        "crn": "73715",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "58",
-        "instructor": "Dale   Shin (",
-        "location": "Synchronous SYN",
-        "remaining": "-8",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
-        "section": "001",
-        "time": "2:10 pm - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 4261U",
+                "coursename": "Tweet, Friend & Follow Me",
+                "crn": "73715",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "58",
+                "instructor": "Dale   Shin",
+                "location": "Synchronous SYN",
+                "remaining": "-8",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Communication\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
+                "section": "001",
+                "time": "2:10 pm - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "COMM 4420U",
         "coursename": "Digtl Media, Politics & Democr",
-        "crn": "72792",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "54",
-        "instructor": "Tanner   Mirrlees (",
-        "location": "Synchronous SYN",
-        "remaining": "-4",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Community Dev & Policy Studies\n\n\u00a0 \u00a0 \u00a0 Political Science\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\n\n",
-        "section": "001",
-        "time": "2:10 pm - 3:30 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 4420U",
+                "coursename": "Digtl Media, Politics & Democr",
+                "crn": "72792",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "54",
+                "instructor": "Tanner   Mirrlees",
+                "location": "Synchronous SYN",
+                "remaining": "-4",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Community Dev & Policy Studies\n\n\u00a0 \u00a0 \u00a0 Political Science\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\n\n",
+                "section": "001",
+                "time": "2:10 pm - 3:30 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "COMM 4610U",
         "coursename": "Commun. & Conflict Resolut.",
-        "crn": "72503",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "62",
-        "instructor": "Sharon   Lauricella (",
-        "location": "Synchronous SYN",
-        "remaining": "-12",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Community Dev & Policy Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Political Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ",
-        "section": "001",
-        "time": "11:10 am - 12:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "COMM 4610U",
+                "coursename": "Commun. & Conflict Resolut.",
+                "crn": "72503",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "62",
+                "instructor": "Sharon   Lauricella",
+                "location": "Synchronous SYN",
+                "remaining": "-12",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\nAffordable Course Content, Open Educational Resources \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Community Dev & Policy Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Political Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ",
+                "section": "001",
+                "time": "11:10 am - 12:00 pm",
+                "type": "Lecture"
+            }
+        ]
     }
 ]

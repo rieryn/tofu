@@ -1,98 +1,134 @@
 [
     {
-        "capacity": "20",
         "coursecode": "74181",
         "coursename": "EAP",
-        "crn": "Level 1",
-        "daterange": "Mar 01, 2021 - Apr 23, 2021",
-        "days": "M",
-        "filled": "0",
-        "instructor": "TBA",
-        "location": "Synchronous SYN",
-        "remaining": "20",
-        "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\n\n\n",
-        "section": "EAP 1000E",
-        "time": "9:40 am - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "20",
+                "coursecode": "74181",
+                "coursename": "EAP",
+                "crn": "Level 1",
+                "daterange": "Mar 01, 2021 - Apr 23, 2021",
+                "days": "M",
+                "filled": "0",
+                "instructor": "TBA",
+                "location": "Synchronous SYN",
+                "remaining": "20",
+                "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\n\n\n",
+                "section": "EAP 1000E",
+                "time": "9:40 am - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "20",
         "coursecode": "74182",
         "coursename": "EAP",
-        "crn": "Level 2",
-        "daterange": "Mar 01, 2021 - Apr 23, 2021",
-        "days": "M",
-        "filled": "1",
-        "instructor": "Arleta   Music (",
-        "location": "Synchronous SYN",
-        "remaining": "19",
-        "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\n\n\n",
-        "section": "EAP 2000E",
-        "time": "9:40 am - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "20",
+                "coursecode": "74182",
+                "coursename": "EAP",
+                "crn": "Level 2",
+                "daterange": "Mar 01, 2021 - Apr 23, 2021",
+                "days": "M",
+                "filled": "1",
+                "instructor": "Arleta   Music",
+                "location": "Synchronous SYN",
+                "remaining": "19",
+                "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\n\n\n",
+                "section": "EAP 2000E",
+                "time": "9:40 am - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "20",
         "coursecode": "74183",
         "coursename": "EAP",
-        "crn": "Level 3",
-        "daterange": "Mar 01, 2021 - Apr 23, 2021",
-        "days": "M",
-        "filled": "7",
-        "instructor": "Arleta   Music (",
-        "location": "Synchronous SYN",
-        "remaining": "13",
-        "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\n\n\n",
-        "section": "EAP 3000E",
-        "time": "9:40 am - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "20",
+                "coursecode": "74183",
+                "coursename": "EAP",
+                "crn": "Level 3",
+                "daterange": "Mar 01, 2021 - Apr 23, 2021",
+                "days": "M",
+                "filled": "7",
+                "instructor": "Arleta   Music",
+                "location": "Synchronous SYN",
+                "remaining": "13",
+                "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\n\n\n",
+                "section": "EAP 3000E",
+                "time": "9:40 am - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "20",
         "coursecode": "74184",
         "coursename": "EAP",
-        "crn": "Level 4",
-        "daterange": "Mar 01, 2021 - Apr 23, 2021",
-        "days": "M",
-        "filled": "7",
-        "instructor": "Rozita   Bryant-Whitelaw (",
-        "location": "Synchronous SYN",
-        "remaining": "13",
-        "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\n\n\n",
-        "section": "EAP 4000E",
-        "time": "9:40 am - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "20",
+                "coursecode": "74184",
+                "coursename": "EAP",
+                "crn": "Level 4",
+                "daterange": "Mar 01, 2021 - Apr 23, 2021",
+                "days": "M",
+                "filled": "7",
+                "instructor": "Rozita   Bryant-Whitelaw",
+                "location": "Synchronous SYN",
+                "remaining": "13",
+                "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\n\n\n",
+                "section": "EAP 4000E",
+                "time": "9:40 am - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "20",
         "coursecode": "74185",
         "coursename": "EAP",
-        "crn": "Level 5",
-        "daterange": "Mar 01, 2021 - Apr 23, 2021",
-        "days": "M",
-        "filled": "4",
-        "instructor": "Jill   Campbell (",
-        "location": "Synchronous SYN",
-        "remaining": "16",
-        "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\n\n\n",
-        "section": "EAP 5000E",
-        "time": "9:40 am - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "20",
+                "coursecode": "74185",
+                "coursename": "EAP",
+                "crn": "Level 5",
+                "daterange": "Mar 01, 2021 - Apr 23, 2021",
+                "days": "M",
+                "filled": "4",
+                "instructor": "Jill   Campbell",
+                "location": "Synchronous SYN",
+                "remaining": "16",
+                "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\n\n\n",
+                "section": "EAP 5000E",
+                "time": "9:40 am - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "20",
         "coursecode": "74187",
         "coursename": "EAP",
-        "crn": "Level 6",
-        "daterange": "Mar 01, 2021 - Apr 23, 2021",
-        "days": "M",
-        "filled": "1",
-        "instructor": "Jill   Campbell (",
-        "location": "Synchronous SYN",
-        "remaining": "19",
-        "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undeclared\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes",
-        "section": "EAP 6000E",
-        "time": "9:40 am - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "20",
+                "coursecode": "74187",
+                "coursename": "EAP",
+                "crn": "Level 6",
+                "daterange": "Mar 01, 2021 - Apr 23, 2021",
+                "days": "M",
+                "filled": "1",
+                "instructor": "Jill   Campbell",
+                "location": "Synchronous SYN",
+                "remaining": "19",
+                "reqs": "Winter 2021 \n\nFeb 08, 2021 to Mar 01, 2021 \n\nEnglish for Academic Purposes \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undeclared\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 English for Academic Purposes",
+                "section": "EAP 6000E",
+                "time": "9:40 am - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     }
 ]

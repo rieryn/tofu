@@ -1,162 +1,251 @@
 [
     {
-        "capacity": "65",
         "coursecode": "LGLS 2011U",
         "coursename": "Immigration and Refugee Law",
-        "crn": "74747",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "66",
-        "instructor": "Sasha   Baglay (",
-        "location": "N/A",
-        "remaining": "-1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "65",
+                "coursecode": "LGLS 2011U",
+                "coursename": "Immigration and Refugee Law",
+                "crn": "74747",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "66",
+                "instructor": "Sasha   Baglay",
+                "location": "N/A",
+                "prereq": [
+                    "** PRERQ:       LGLS  1000 - FOUNDATIONS OF LEGAL STUDIES   [Min Grade: D]  ",
+                    "** PRERQ:  OR   SSCI  1010 - INTRO TO CANADIAN LEGAL SYSTEM [Min Grade: D]  "
+                ],
+                "remaining": "-1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "LGLS 2120U",
         "coursename": "International Law",
-        "crn": "72484",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "37",
-        "instructor": "D\u00e9lon Alain  Omrow (",
-        "location": "Synchronous SYN",
-        "remaining": "13",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies-Bridge Program\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "9:40 am - 11:00 am",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "LGLS 2120U",
+                "coursename": "International Law",
+                "crn": "72484",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "37",
+                "instructor": "D\u00e9lon Alain  Omrow",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       SSCI  1010 - INTRO TO CANADIAN LEGAL SYSTEM [Min Grade: D]  ",
+                    "** PRERQ:  OR   LGLS  1000 - FOUNDATIONS OF LEGAL STUDIES   [Min Grade: D]  "
+                ],
+                "remaining": "13",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies-Bridge Program\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "9:40 am - 11:00 am",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "LGLS 2420U",
         "coursename": "Canadian Human Rights Law",
-        "crn": "72485",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "50",
-        "instructor": "Sheila   Jennings (",
-        "location": "Synchronous SYN",
-        "remaining": "0",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies-Bridge Program\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "11:10 am - 12:30 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "LGLS 2420U",
+                "coursename": "Canadian Human Rights Law",
+                "crn": "72485",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "50",
+                "instructor": "Sheila   Jennings",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       SSCI  1010 - INTRO TO CANADIAN LEGAL SYSTEM [Min Grade: D]  ",
+                    "** PRERQ:  OR   LGLS  1000 - FOUNDATIONS OF LEGAL STUDIES   [Min Grade: D]  "
+                ],
+                "remaining": "0",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies-Bridge Program\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "11:10 am - 12:30 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "40",
         "coursecode": "LGLS 2500U",
         "coursename": "Information and Privacy Law",
-        "crn": "72487",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "39",
-        "instructor": "Julian   Von Bargen (",
-        "location": "Synchronous SYN",
-        "remaining": "1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies-Bridge Program\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "12:40 pm - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "40",
+                "coursecode": "LGLS 2500U",
+                "coursename": "Information and Privacy Law",
+                "crn": "72487",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "39",
+                "instructor": "Julian   Von Bargen",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       SSCI  1010 - INTRO TO CANADIAN LEGAL SYSTEM [Min Grade: D]  ",
+                    "** PRERQ:  OR   LGLS  1000 - FOUNDATIONS OF LEGAL STUDIES   [Min Grade: D]  "
+                ],
+                "remaining": "1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies-Bridge Program\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "12:40 pm - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "35",
         "coursecode": "LGLS 3310U",
         "coursename": "Indign Ppls Law & State in Can",
-        "crn": "72665",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "31",
-        "instructor": "Regina   Hartwick (",
-        "location": "Synchronous SYN",
-        "remaining": "4",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "3:40 pm - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "35",
+                "coursecode": "LGLS 3310U",
+                "coursename": "Indign Ppls Law & State in Can",
+                "crn": "72665",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "31",
+                "instructor": "Regina   Hartwick",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       LGLS  2940 - LEGAL RESEARCH METHODS         [Min Grade: D]  "
+                ],
+                "remaining": "4",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "3:40 pm - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "60",
         "coursecode": "LGLS 3330U",
         "coursename": "Gender, Sexuality and the Law",
-        "crn": "72075",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "66",
-        "instructor": "Sheila   Jennings (",
-        "location": "Synchronous SYN",
-        "remaining": "-6",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "11:10 am - 12:30 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "60",
+                "coursecode": "LGLS 3330U",
+                "coursename": "Gender, Sexuality and the Law",
+                "crn": "72075",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "66",
+                "instructor": "Sheila   Jennings",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       LGLS  2940 - LEGAL RESEARCH METHODS         [Min Grade: D]  "
+                ],
+                "remaining": "-6",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "11:10 am - 12:30 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "65",
         "coursecode": "LGLS 3520U",
         "coursename": "Law and Technology",
-        "crn": "73593",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "F",
-        "filled": "73",
-        "instructor": "Andrea   Slane (",
-        "location": "Synchronous SYN",
-        "remaining": "-8",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies-Bridge Program\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n\n\n\n\n",
-        "section": "001",
-        "time": "12:40 pm - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "65",
+                "coursecode": "LGLS 3520U",
+                "coursename": "Law and Technology",
+                "crn": "73593",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "F",
+                "filled": "73",
+                "instructor": "Andrea   Slane",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       LGLS  2940 - LEGAL RESEARCH METHODS         [Min Grade: D]  "
+                ],
+                "remaining": "-8",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies-Bridge Program\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n\n\n\n\n",
+                "section": "001",
+                "time": "12:40 pm - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "40",
         "coursecode": "LGLS 3600U",
         "coursename": "Family Mediation",
-        "crn": "72489",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "32",
-        "instructor": "Sheila   Jennings (",
-        "location": "Synchronous SYN",
-        "remaining": "8",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "12:40 pm - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "40",
+                "coursecode": "LGLS 3600U",
+                "coursename": "Family Mediation",
+                "crn": "72489",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "32",
+                "instructor": "Sheila   Jennings",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       LGLS  2940 - LEGAL RESEARCH METHODS         [Min Grade: D]  ",
+                    "** PRERQ: AND   LGLS  3130 - FAMILY LAW                     [Min Grade: D]  "
+                ],
+                "remaining": "8",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "12:40 pm - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "40",
         "coursecode": "LGLS 4000U",
         "coursename": "Advanced Topics in Legal Stud",
-        "crn": "73594",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "41",
-        "instructor": "Sheila   Jennings (",
-        "location": "Synchronous SYN",
-        "remaining": "-1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\u00a0 \u00a0 \u00a0 Third year\n\n\n\n",
-        "section": "001",
-        "time": "5:10 pm - 6:30 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "40",
+                "coursecode": "LGLS 4000U",
+                "coursename": "Advanced Topics in Legal Stud",
+                "crn": "73594",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "41",
+                "instructor": "Sheila   Jennings",
+                "location": "Synchronous SYN",
+                "remaining": "-1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\u00a0 \u00a0 \u00a0 Third year\n\n\n\n",
+                "section": "001",
+                "time": "5:10 pm - 6:30 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "45",
         "coursecode": "LGLS 4010U",
         "coursename": "Communication Law and Policy",
-        "crn": "74930",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "F",
-        "filled": "48",
-        "instructor": "Andrea   Slane (",
-        "location": "Synchronous SYN",
-        "remaining": "-3",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year",
-        "section": "001",
-        "time": "2:10 pm - 3:30 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "45",
+                "coursecode": "LGLS 4010U",
+                "coursename": "Communication Law and Policy",
+                "crn": "74930",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "F",
+                "filled": "48",
+                "instructor": "Andrea   Slane",
+                "location": "Synchronous SYN",
+                "remaining": "-3",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Communication\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year",
+                "section": "001",
+                "time": "2:10 pm - 3:30 pm",
+                "type": "Lecture"
+            }
+        ]
     }
 ]

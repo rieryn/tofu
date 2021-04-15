@@ -1,258 +1,380 @@
 [
     {
-        "capacity": "250",
         "coursecode": "PSYC 1000U",
         "coursename": "Introductory Psychology",
-        "crn": "70481",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "241",
-        "instructor": "Tanya   Karam-Zanders (",
-        "location": "Synchronous SYN",
-        "remaining": "9",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nPost Secondary, Undergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Biological Science\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Forensic Psychology\n\n\u00a0 \u00a0 \u00a0 Forensic Psychology\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Liberal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Political Science\n\n\u00a0 \u00a0 \u00a0 Political Science\n\n\u00a0 \u00a0 \u00a0 Psychology BA\n\n\n\n\n\n\n\n",
-        "section": "001",
-        "time": "3:40 pm - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "250",
+                "coursecode": "PSYC 1000U",
+                "coursename": "Introductory Psychology",
+                "crn": "70481",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "241",
+                "instructor": "Tanya   Karam-Zanders",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:     ( PSYC  1000 - INTRODUCTORY PSYCHOLOGY        [Min Grade: D]  ",
+                    "** PRERQ:  OR   PSYC  0101 - INTRODUCTION TO PSYCHOLOGY     [Min Grade: D]  ",
+                    "** PRERQ:  OR   NURS  0420 - NURSING BRIDGE                 [Min Grade: C]  ",
+                    "** PRERQ:  OR   PSYC  0102 - INTRODUCTION TO PSYCHOLOGY I   [Min Grade: D]  "
+                ],
+                "remaining": "9",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nPost Secondary, Undergraduate \n\nLiberal Studies - Fac of Eng, Liberal Stds - Energy /Nuclear, Liberal Stds/Non Science Elect \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Biological Science\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Commun & Digital Media Stdies\n\n\u00a0 \u00a0 \u00a0 Forensic Psychology\n\n\u00a0 \u00a0 \u00a0 Forensic Psychology\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Liberal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\u00a0 \u00a0 \u00a0 Political Science\n\n\u00a0 \u00a0 \u00a0 Political Science\n\n\u00a0 \u00a0 \u00a0 Psychology BA\n\n\n\n\n\n\n\n",
+                "section": "001",
+                "time": "3:40 pm - 5:00 pm",
+                "type": "Lecture"
+            },
+            {
+                "capacity": "210",
+                "coursecode": "PSYC 1000U",
+                "coursename": "Introductory Psychology",
+                "crn": "70482",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "203",
+                "instructor": "Tanya   Karam-Zanders",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:     ( PSYC  1000 - INTRODUCTORY PSYCHOLOGY        [Min Grade: D]  "
+                ],
+                "remaining": "7",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nPost Secondary, Undergraduate \n\nLiberal Studies - Fac of Eng, Liberal Stds - Energy /Nuclear, Liberal Stds/Non Science Elect \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\n\n\n\n\n\n",
+                "section": "002",
+                "time": "2:10 pm - 3:30 pm",
+                "type": "Lecture"
+            },
+            {
+                "capacity": "210",
+                "coursecode": "PSYC 1000U",
+                "coursename": "Introductory Psychology",
+                "crn": "71038",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "202",
+                "instructor": "Tanya   Karam-Zanders",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:     ( PSYC  1000 - INTRODUCTORY PSYCHOLOGY        [Min Grade: D]  ",
+                    "** PRERQ: AND ( BIOL  1010 - BIOLOGY I                      [Min Grade: D]  ",
+                    "** PRERQ:  OR   BIOL  1011 - INTRO CELL & MOLECULAR BIOLOGY [Min Grade: D]  ",
+                    "** PRERQ:  OR   BIOL  1840 - BIOLOGY FOR ENGINEERS          [Min Grade: D]  ",
+                    "** PRERQ:  OR   BIOL  1841 - ESSENTIALS OF BIOLOGY          [Min Grade: D] )"
+                ],
+                "remaining": "8",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nPost Secondary, Undergraduate \n\nLiberal Studies - Fac of Eng, Liberal Stds - Energy /Nuclear, Liberal Stds/Non Science Elect \n\n\nOT-North Oshawa Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\n\n\n\n\n\n",
+                "section": "003",
+                "time": "2:10 pm - 3:30 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "210",
-        "coursecode": "PSYC 1000U",
-        "coursename": "Introductory Psychology",
-        "crn": "70482",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "203",
-        "instructor": "Tanya   Karam-Zanders (",
-        "location": "Synchronous SYN",
-        "remaining": "7",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nPost Secondary, Undergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\n\n\n\n\n\n",
-        "section": "002",
-        "time": "2:10 pm - 3:30 pm",
-        "type": "Lecture"
-    },
-    {
-        "capacity": "210",
-        "coursecode": "PSYC 1000U",
-        "coursename": "Introductory Psychology",
-        "crn": "71038",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "202",
-        "instructor": "Tanya   Karam-Zanders (",
-        "location": "Synchronous SYN",
-        "remaining": "8",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nPost Secondary, Undergraduate \n\n\nOT-North Oshawa \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\n\n\n\n\n\n",
-        "section": "003",
-        "time": "2:10 pm - 3:30 pm",
-        "type": "Lecture"
-    },
-    {
-        "capacity": "200",
         "coursecode": "PSYC 2010U",
         "coursename": "Developmental Psychology",
-        "crn": "70487",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "190",
-        "instructor": "Tanya   Karam-Zanders (",
-        "location": "Synchronous SYN",
-        "remaining": "10",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "12:40 pm - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "200",
+                "coursecode": "PSYC 2010U",
+                "coursename": "Developmental Psychology",
+                "crn": "70487",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "190",
+                "instructor": "Tanya   Karam-Zanders",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       PSYC  2010 - DEVELOPMENTAL PSYCHOLOGY       [Min Grade: D]  "
+                ],
+                "remaining": "10",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\nLiberal Stds (Adv) -Fac of Eng, Liberal Studies - Fac of Eng, Liberal Stds - Energy /Nuclear, Liberal Stds/Non Science Elect \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "12:40 pm - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "200",
         "coursecode": "PSYC 2020U",
         "coursename": "Social Psychology",
-        "crn": "72352",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "F",
-        "filled": "197",
-        "instructor": "Tanya   Karam-Zanders (",
-        "location": "Synchronous SYN",
-        "remaining": "3",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "12:40 pm - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "200",
+                "coursecode": "PSYC 2020U",
+                "coursename": "Social Psychology",
+                "crn": "72352",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "F",
+                "filled": "197",
+                "instructor": "Tanya   Karam-Zanders",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       PSYC  1000 - INTRODUCTORY PSYCHOLOGY        [Min Grade: D]  "
+                ],
+                "remaining": "3",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "12:40 pm - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "200",
         "coursecode": "PSYC 2050U",
         "coursename": "Brain and Behaviour",
-        "crn": "72774",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "195",
-        "instructor": "Lindsay   Groat (",
-        "location": "Synchronous SYN",
-        "remaining": "5",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n\n\n\n\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "200",
+                "coursecode": "PSYC 2050U",
+                "coursename": "Brain and Behaviour",
+                "crn": "72774",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "195",
+                "instructor": "Lindsay   Groat",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       PSYC  1000 - INTRODUCTORY PSYCHOLOGY        [Min Grade: D]  "
+                ],
+                "remaining": "5",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n\n\n\n\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "150",
         "coursecode": "PSYC 3039U",
         "coursename": "Children, Psychology & the Law",
-        "crn": "74763",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "149",
-        "instructor": "Lindsay   Malloy (",
-        "location": "N/A",
-        "remaining": "1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "150",
+                "coursecode": "PSYC 3039U",
+                "coursename": "Children, Psychology & the Law",
+                "crn": "74763",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "149",
+                "instructor": "Lindsay   Malloy",
+                "location": "N/A",
+                "prereq": [
+                    "** PRERQ:     ( PSYC  1000 - INTRODUCTORY PSYCHOLOGY        [Min Grade: D]  ",
+                    "** PRERQ: AND   SSCI  2900 - RESEARCH METHODS               [Min Grade: D]  "
+                ],
+                "remaining": "1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "200",
         "coursecode": "PSYC 3210U",
         "coursename": "Forensic Psychology",
-        "crn": "73440",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "177",
-        "instructor": "Joshua   Wyman (",
-        "location": "Synchronous SYN",
-        "remaining": "23",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "200",
+                "coursecode": "PSYC 3210U",
+                "coursename": "Forensic Psychology",
+                "crn": "73440",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "177",
+                "instructor": "Joshua   Wyman",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       PSYC  1000 - INTRODUCTORY PSYCHOLOGY        [Min Grade: D]  "
+                ],
+                "remaining": "23",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "150",
         "coursecode": "PSYC 3320U",
         "coursename": "Eyewitness Psychology",
-        "crn": "74140",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "149",
-        "instructor": "Brian   Cutler (",
-        "location": "N/A",
-        "remaining": "1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
-        "section": "002",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "150",
+                "coursecode": "PSYC 3320U",
+                "coursename": "Eyewitness Psychology",
+                "crn": "74140",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "149",
+                "instructor": "Brian   Cutler",
+                "location": "N/A",
+                "prereq": [
+                    "** PRERQ:       PSYC  4101 - FORENSIC PSYC HONOURS THES I   [Min Grade: A-]  "
+                ],
+                "remaining": "1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
+                "section": "002",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "150",
         "coursecode": "PSYC 3500U",
         "coursename": "Stereotypes and Prejudice",
-        "crn": "73447",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "147",
-        "instructor": "Lesley   Zannella (",
-        "location": "N/A",
-        "remaining": "3",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "150",
+                "coursecode": "PSYC 3500U",
+                "coursename": "Stereotypes and Prejudice",
+                "crn": "73447",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "147",
+                "instructor": "Lesley   Zannella",
+                "location": "N/A",
+                "remaining": "3",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "150",
         "coursecode": "PSYC 3999U",
         "coursename": "STFP I:Jury Decision Making",
-        "crn": "73595",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "\u00a0",
-        "filled": "144",
-        "instructor": "Lesley   Zannella (",
-        "location": "TBA",
-        "remaining": "6",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "TBA",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "150",
+                "coursecode": "PSYC 3999U",
+                "coursename": "STFP I:Jury Decision Making",
+                "crn": "73595",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "\u00a0",
+                "filled": "144",
+                "instructor": "Lesley   Zannella",
+                "location": "TBA",
+                "remaining": "6",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "TBA",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "10",
         "coursecode": "PSYC 4102U",
         "coursename": "Forensic Psyc Honour Thesis II",
-        "crn": "74128",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "F",
-        "filled": "8",
-        "instructor": "Joseph   Eastwood (",
-        "location": "Synchronous SYN",
-        "remaining": "2",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "11:10 am - 12:30 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "10",
+                "coursecode": "PSYC 4102U",
+                "coursename": "Forensic Psyc Honour Thesis II",
+                "crn": "74128",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "F",
+                "filled": "8",
+                "instructor": "Joseph   Eastwood",
+                "location": "Synchronous SYN",
+                "remaining": "2",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "11:10 am - 12:30 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "10",
         "coursecode": "PSYC 5030G",
         "coursename": "Adv. Multivariate Stats.",
-        "crn": "73816",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "6",
-        "instructor": "Amirhossein   Mostaghim (",
-        "location": "Synchronous SYN",
-        "remaining": "4",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Graduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "10",
+                "coursecode": "PSYC 5030G",
+                "coursename": "Adv. Multivariate Stats.",
+                "crn": "73816",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "6",
+                "instructor": "Amirhossein   Mostaghim",
+                "location": "Synchronous SYN",
+                "remaining": "4",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Graduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "15",
         "coursecode": "PSYC 5140G",
         "coursename": "Interpersonal Relatns & Grp Pr",
-        "crn": "74651",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "15",
-        "instructor": "Brian   Cutler (",
-        "location": "Synchronous SYN",
-        "remaining": "0",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Graduate\n\n\n\n",
-        "section": "001",
-        "time": "8:10 am - 11:00 am",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "15",
+                "coursecode": "PSYC 5140G",
+                "coursename": "Interpersonal Relatns & Grp Pr",
+                "crn": "74651",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "15",
+                "instructor": "Brian   Cutler",
+                "location": "Synchronous SYN",
+                "remaining": "0",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Graduate\n\n\n\n",
+                "section": "001",
+                "time": "8:10 am - 11:00 am",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "10",
         "coursecode": "PSYC 5630G",
         "coursename": "Forensic Psychology Practicum",
-        "crn": "74863",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "3",
-        "instructor": "Brian   Cutler (",
-        "location": "N/A",
-        "remaining": "7",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate \n\n\nOT-Online \n\nField Placement \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Graduate\n\n\n\n",
-        "section": "001",
-        "time": "Online",
-        "type": "Field Placement"
+        "crns": [
+            {
+                "capacity": "10",
+                "coursecode": "PSYC 5630G",
+                "coursename": "Forensic Psychology Practicum",
+                "crn": "74863",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "2",
+                "instructor": "Brian   Cutler",
+                "location": "N/A",
+                "remaining": "8",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate \n\n\nOT-Online Campus\n\nField Placement Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Graduate\n\n\n\n",
+                "section": "001",
+                "time": "Online",
+                "type": "Field Placement"
+            }
+        ]
     },
     {
-        "capacity": "20",
         "coursecode": "PSYC 5920G",
         "coursename": "Professional Seminar",
-        "crn": "73818",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "18",
-        "instructor": "Joseph   Eastwood (",
-        "location": "Synchronous SYN",
-        "remaining": "2",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Graduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities",
-        "section": "001",
-        "time": "2:10 pm - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "20",
+                "coursecode": "PSYC 5920G",
+                "coursename": "Professional Seminar",
+                "crn": "73818",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "18",
+                "instructor": "Joseph   Eastwood",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       SSCI  5010 - DATA ANALYSIS 1 - GRADUATE     [Min Grade: B-]  "
+                ],
+                "remaining": "2",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Graduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities",
+                "section": "001",
+                "time": "2:10 pm - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     }
 ]

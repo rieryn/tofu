@@ -1,354 +1,488 @@
 [
     {
-        "capacity": "190",
         "coursecode": "CRMN 2010U",
         "coursename": "Criminal Law",
-        "crn": "74223",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "190",
-        "instructor": "Sasha   Baglay (",
-        "location": "N/A",
-        "remaining": "0",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "190",
+                "coursecode": "CRMN 2010U",
+                "coursename": "Criminal Law",
+                "crn": "74223",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "190",
+                "instructor": "Sasha   Baglay",
+                "location": "N/A",
+                "prereq": [
+                    "** PRERQ:       SSCI  1010 - INTRO TO CANADIAN LEGAL SYSTEM [Min Grade: D]  ",
+                    "** PRERQ:  OR   LGLS  1000 - FOUNDATIONS OF LEGAL STUDIES   [Min Grade: D]  "
+                ],
+                "remaining": "0",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Fields of Study (Major, Minor, Concentration,  or Field of Study):\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Legal Studies\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "130",
         "coursecode": "CRMN 2030U",
         "coursename": "Social Control",
-        "crn": "74476",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "130",
-        "instructor": "Jordan   Harel (",
-        "location": "N/A",
-        "remaining": "0",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "130",
+                "coursecode": "CRMN 2030U",
+                "coursename": "Social Control",
+                "crn": "74476",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "130",
+                "instructor": "Jordan   Harel",
+                "location": "N/A",
+                "prereq": [
+                    "** PRERQ:       SOCI  1000 - INTRODUCTORY SOCIOLOGY         [Min Grade: D]  ",
+                    "** PRERQ: AND ( SSCI  1000 - INTRO. TO CRIMINAL JUSTICE     [Min Grade: D]  ",
+                    "** PRERQ:  OR   CRMN  1000 - INTRO CRIMINAL JUSTICE         [Min Grade: D] )"
+                ],
+                "remaining": "0",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "50",
         "coursecode": "CRMN 2831U",
         "coursename": "Critical Race Theory",
-        "crn": "74224",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "R",
-        "filled": "28",
-        "instructor": "Wesley   Crichlow (",
-        "location": "Synchronous SYN",
-        "remaining": "22",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n\n\n\n",
-        "section": "001",
-        "time": "2:10 pm - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "50",
+                "coursecode": "CRMN 2831U",
+                "coursename": "Critical Race Theory",
+                "crn": "74224",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "R",
+                "filled": "28",
+                "instructor": "Wesley   Crichlow",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       SOCI  1000 - INTRODUCTORY SOCIOLOGY         [Min Grade: D]  ",
+                    "** PRERQ: AND ( SSCI  1000 - INTRO. TO CRIMINAL JUSTICE     [Min Grade: D]  ",
+                    "** PRERQ:  OR   CRMN  1000 - INTRO CRIMINAL JUSTICE         [Min Grade: D] )"
+                ],
+                "remaining": "22",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n\n\n\n",
+                "section": "001",
+                "time": "2:10 pm - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "75",
         "coursecode": "CRMN 3010U",
         "coursename": "Social Justice/Criminal Just",
-        "crn": "74226",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "67",
-        "instructor": "Steven   Hayle (",
-        "location": "Synchronous SYN",
-        "remaining": "8",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "75",
+                "coursecode": "CRMN 3010U",
+                "coursename": "Social Justice/Criminal Just",
+                "crn": "74226",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "67",
+                "instructor": "Steven   Hayle",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       SSCI  3060 - PUNISHMENT AND SOCIETY         [Min Grade: D]  ",
+                    "** PRERQ:  OR   CRMN  3060 - PUNISHMENT AND SOCIETY         [Min Grade: D]  "
+                ],
+                "remaining": "8",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "110",
         "coursecode": "CRMN 3020U",
         "coursename": "Corporate Crime",
-        "crn": "74744",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "108",
-        "instructor": "Jordan   Harel (",
-        "location": "N/A",
-        "remaining": "2",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
-        "section": "001",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "110",
+                "coursecode": "CRMN 3020U",
+                "coursename": "Corporate Crime",
+                "crn": "74744",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "108",
+                "instructor": "Jordan   Harel",
+                "location": "N/A",
+                "prereq": [
+                    "** PRERQ:       CRMN  2850 - CLASSICAL THEORIES OF CRIME    [Min Grade: D]  ",
+                    "** PRERQ: AND   SSCI  2900 - RESEARCH METHODS               [Min Grade: D]  "
+                ],
+                "remaining": "2",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
+                "section": "001",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "95",
         "coursecode": "CRMN 3023U",
         "coursename": "Family Violence",
-        "crn": "74976",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "80",
-        "instructor": "Hannah   Scott (",
-        "location": "Synchronous SYN",
-        "remaining": "15",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\n\n\n\n\n",
-        "section": "001",
-        "time": "9:40 am - 11:00 am",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "95",
+                "coursecode": "CRMN 3023U",
+                "coursename": "Family Violence",
+                "crn": "74976",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "80",
+                "instructor": "Hannah   Scott",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       CRMN  2850 - CLASSICAL THEORIES OF CRIME    [Min Grade: D]  ",
+                    "** PRERQ: AND   SSCI  2900 - RESEARCH METHODS               [Min Grade: D]  "
+                ],
+                "remaining": "15",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\n\n\n\n\n",
+                "section": "001",
+                "time": "9:40 am - 11:00 am",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "95",
         "coursecode": "CRMN 3024U",
         "coursename": "Criminal Gangs",
-        "crn": "74230",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "86",
-        "instructor": "Steven   Hayle (",
-        "location": "Synchronous SYN",
-        "remaining": "9",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "95",
+                "coursecode": "CRMN 3024U",
+                "coursename": "Criminal Gangs",
+                "crn": "74230",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "86",
+                "instructor": "Steven   Hayle",
+                "location": "Synchronous SYN",
+                "remaining": "9",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "95",
         "coursecode": "CRMN 3027U",
         "coursename": "Delinq, Deviance & Youth Crime",
-        "crn": "74234",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "94",
-        "instructor": "Steven   Hayle (",
-        "location": "Synchronous SYN",
-        "remaining": "1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
-        "section": "001",
-        "time": "2:10 pm - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "95",
+                "coursecode": "CRMN 3027U",
+                "coursename": "Delinq, Deviance & Youth Crime",
+                "crn": "74234",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "94",
+                "instructor": "Steven   Hayle",
+                "location": "Synchronous SYN",
+                "remaining": "1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
+                "section": "001",
+                "time": "2:10 pm - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "110",
         "coursecode": "CRMN 3040U",
         "coursename": "Restorative Justice",
-        "crn": "74237",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "110",
-        "instructor": "Vivian   Stamatopoulos (",
-        "location": "N/A",
-        "remaining": "0",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
-        "section": "001",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "110",
+                "coursecode": "CRMN 3040U",
+                "coursename": "Restorative Justice",
+                "crn": "74237",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "110",
+                "instructor": "Vivian   Stamatopoulos",
+                "location": "N/A",
+                "remaining": "0",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
+                "section": "001",
+                "time": "Online",
+                "type": "Lecture"
+            },
+            {
+                "capacity": "110",
+                "coursecode": "CRMN 3040U",
+                "coursename": "Restorative Justice",
+                "crn": "74238",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "110",
+                "instructor": "Vivian   Stamatopoulos",
+                "location": "N/A",
+                "remaining": "0",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
+                "section": "002",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "110",
-        "coursecode": "CRMN 3040U",
-        "coursename": "Restorative Justice",
-        "crn": "74238",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "110",
-        "instructor": "Vivian   Stamatopoulos (",
-        "location": "N/A",
-        "remaining": "0",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
-        "section": "002",
-        "time": "Online",
-        "type": "Lecture"
-    },
-    {
-        "capacity": "95",
         "coursecode": "CRMN 3045U",
         "coursename": "Terrorism",
-        "crn": "74239",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "87",
-        "instructor": "James   Walsh (",
-        "location": "N/A",
-        "remaining": "8",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
-        "section": "001",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "95",
+                "coursecode": "CRMN 3045U",
+                "coursename": "Terrorism",
+                "crn": "74239",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "87",
+                "instructor": "James   Walsh",
+                "location": "N/A",
+                "remaining": "8",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
+                "section": "001",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "65",
         "coursecode": "74241",
         "coursename": "Race",
-        "crn": "ing Justice",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "63",
-        "instructor": "Olga   Marques (",
-        "location": "Synchronous SYN",
-        "remaining": "2",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
-        "section": "CRMN 3056U",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "65",
+                "coursecode": "74241",
+                "coursename": "Race",
+                "crn": "ing Justice",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "63",
+                "instructor": "Olga   Marques",
+                "location": "Synchronous SYN",
+                "remaining": "2",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
+                "section": "CRMN 3056U",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "90",
         "coursecode": "CRMN 3062U",
         "coursename": "The Prison Experience",
-        "crn": "74743",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "89",
-        "instructor": "Carla   Cesaroni (",
-        "location": "Synchronous SYN",
-        "remaining": "1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "1:10 pm - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "90",
+                "coursecode": "CRMN 3062U",
+                "coursename": "The Prison Experience",
+                "crn": "74743",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "89",
+                "instructor": "Carla   Cesaroni",
+                "location": "Synchronous SYN",
+                "remaining": "1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "1:10 pm - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "100",
         "coursecode": "CRMN 3850U",
         "coursename": "Contemp.Theories of Crime",
-        "crn": "74561",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "101",
-        "instructor": "Shahid   Alvi (",
-        "location": "Synchronous SYN",
-        "remaining": "-1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "2:10 pm - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "100",
+                "coursecode": "CRMN 3850U",
+                "coursename": "Contemp.Theories of Crime",
+                "crn": "74561",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "101",
+                "instructor": "Shahid   Alvi",
+                "location": "Synchronous SYN",
+                "remaining": "-1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "2:10 pm - 5:00 pm",
+                "type": "Lecture"
+            },
+            {
+                "capacity": "100",
+                "coursecode": "CRMN 3850U",
+                "coursename": "Contemp.Theories of Crime",
+                "crn": "74562",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "95",
+                "instructor": "Shahid   Alvi",
+                "location": "Synchronous SYN",
+                "remaining": "5",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n\n\n",
+                "section": "002",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "100",
-        "coursecode": "CRMN 3850U",
-        "coursename": "Contemp.Theories of Crime",
-        "crn": "74562",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "95",
-        "instructor": "Shahid   Alvi (",
-        "location": "Synchronous SYN",
-        "remaining": "5",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n\n\n",
-        "section": "002",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
-    },
-    {
-        "capacity": "40",
         "coursecode": "CRMN 4000U",
         "coursename": "Advanced Justice Studies",
-        "crn": "74276",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "36",
-        "instructor": "Olga   Marques (",
-        "location": "Synchronous SYN",
-        "remaining": "4",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate, Undergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "40",
+                "coursecode": "CRMN 4000U",
+                "coursename": "Advanced Justice Studies",
+                "crn": "74276",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "36",
+                "instructor": "Olga   Marques",
+                "location": "Synchronous SYN",
+                "remaining": "4",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate, Undergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "30",
         "coursecode": "CRMN 4001U",
         "coursename": "Spec Topic in Crim and Justice",
-        "crn": "74559",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "25",
-        "instructor": "Wesley   Crichlow (",
-        "location": "Synchronous SYN",
-        "remaining": "5",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n",
-        "section": "001",
-        "time": "2:10 pm - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "30",
+                "coursecode": "CRMN 4001U",
+                "coursename": "Spec Topic in Crim and Justice",
+                "crn": "74559",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "25",
+                "instructor": "Wesley   Crichlow",
+                "location": "Synchronous SYN",
+                "remaining": "5",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n\n\n",
+                "section": "001",
+                "time": "2:10 pm - 5:00 pm",
+                "type": "Lecture"
+            },
+            {
+                "capacity": "30",
+                "coursecode": "CRMN 4001U",
+                "coursename": "Spec Topic in Crim and Justice",
+                "crn": "74560",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "21",
+                "instructor": "Hannah   Scott",
+                "location": "Synchronous SYN",
+                "remaining": "9",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
+                "section": "002",
+                "time": "2:10 pm - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "30",
-        "coursecode": "CRMN 4001U",
-        "coursename": "Spec Topic in Crim and Justice",
-        "crn": "74560",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "21",
-        "instructor": "Hannah   Scott (",
-        "location": "Synchronous SYN",
-        "remaining": "9",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
-        "section": "002",
-        "time": "2:10 pm - 5:00 pm",
-        "type": "Lecture"
-    },
-    {
-        "capacity": "75",
         "coursecode": "CRMN 4032U",
         "coursename": "Mediation and Conflict Res",
-        "crn": "74278",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "72",
-        "instructor": "Michael   Rubenstein (",
-        "location": "Synchronous SYN",
-        "remaining": "3",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate, Undergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
-        "section": "001",
-        "time": "2:10 pm - 5:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "75",
+                "coursecode": "CRMN 4032U",
+                "coursename": "Mediation and Conflict Res",
+                "crn": "74278",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "72",
+                "instructor": "Michael   Rubenstein",
+                "location": "Synchronous SYN",
+                "remaining": "3",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate, Undergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
+                "section": "001",
+                "time": "2:10 pm - 5:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "40",
         "coursecode": "CRMN 4075U",
         "coursename": "Intl Perspect. on Criminal Jus",
-        "crn": "74282",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "18",
-        "instructor": "James   Walsh (",
-        "location": "N/A",
-        "remaining": "22",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
-        "section": "001",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "40",
+                "coursecode": "CRMN 4075U",
+                "coursename": "Intl Perspect. on Criminal Jus",
+                "crn": "74282",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "18",
+                "instructor": "James   Walsh",
+                "location": "N/A",
+                "remaining": "22",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
+                "section": "001",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "30",
         "coursecode": "CRMN 4099U",
         "coursename": "Crim. & Just. Integrating Proj",
-        "crn": "74286",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "11",
-        "instructor": "Phillip   Shon (",
-        "location": "Synchronous SYN",
-        "remaining": "19",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
-        "section": "001",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
-    },
-    {
-        "capacity": "30",
-        "coursecode": "CRMN 4099U",
-        "coursename": "Crim. & Just. Integrating Proj",
-        "crn": "74288",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "17",
-        "instructor": "Arshia Urooj  Zaidi (",
-        "location": "Synchronous SYN",
-        "remaining": "13",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year",
-        "section": "002",
-        "time": "11:10 am - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "30",
+                "coursecode": "CRMN 4099U",
+                "coursename": "Crim. & Just. Integrating Proj",
+                "crn": "74286",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "11",
+                "instructor": "Phillip   Shon",
+                "location": "Synchronous SYN",
+                "remaining": "19",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
+                "section": "001",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            },
+            {
+                "capacity": "30",
+                "coursecode": "CRMN 4099U",
+                "coursename": "Crim. & Just. Integrating Proj",
+                "crn": "74288",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "17",
+                "instructor": "Arshia Urooj  Zaidi",
+                "location": "Synchronous SYN",
+                "remaining": "13",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\n\u00a0 \u00a0 \u00a0 Criminology and Justice\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year",
+                "section": "002",
+                "time": "11:10 am - 2:00 pm",
+                "type": "Lecture"
+            }
+        ]
     }
 ]

@@ -1,18 +1,24 @@
 [
     {
-        "capacity": "250",
         "coursecode": "SOCI 1000U",
         "coursename": "Introductory Sociology",
-        "crn": "70484",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "Online",
-        "filled": "248",
-        "instructor": "Jordan   Harel (",
-        "location": "N/A",
-        "remaining": "2",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nSection is Fully Online \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities",
-        "section": "002",
-        "time": "Online",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "250",
+                "coursecode": "SOCI 1000U",
+                "coursename": "Introductory Sociology",
+                "crn": "70484",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "Online",
+                "filled": "248",
+                "instructor": "Jordan   Harel",
+                "location": "N/A",
+                "remaining": "2",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\nLiberal Studies - Fac of Eng, Liberal Stds/Non Science Elect \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nSection is Fully Online Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Social Science and Humanities",
+                "section": "002",
+                "time": "Online",
+                "type": "Lecture"
+            }
+        ]
     }
 ]
