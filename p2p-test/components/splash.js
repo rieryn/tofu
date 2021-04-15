@@ -3,6 +3,8 @@ import Search from '../components/splashSearchbar'
 
 
 export default function Component(props){
+    const [ session, loading ] = useSession()
+
   return (
     <div className="lg:relative lg:flex-none bg-white h-screen overflow-hidden">
       <div className="lg:max-w-7xl mx-auto ">
@@ -20,18 +22,25 @@ export default function Component(props){
                 Search bar here or in header or actually the landing page shouldn't have a header?
               </p>
               <div className="mt-5  md:flex md:justify-center  lg:justify-start">
-                <div className="rounded-md shadow ">
-                  <a href="/" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-400 hover:bg-blue-600">
+                <div  onClick = {props.setNav} className="rounded-md shadow ">
+                  <p  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-400 hover:bg-blue-600">
                     Explore
-                  </a>
+                  </p>
                 </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3 ">
-                  <a onClick={(e) => {
+                              <div className="mt-3 sm:mt-0 sm:ml-3 ">
+  
+                {session ? 
+                <a href={"/dashboard"} className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-blue-200 ">
+                    Welcome {session.user.name|| session.user.email }
+                  </a> :
+                <a onClick={(e) => {
                   e.preventDefault()
                   signIn()
                    }} href={"/api/auth/signin"} className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-blue-200 ">
                     Sign up
-                  </a>
+                  </a>}
+
+                  
                 </div>
               </div>
             </div>

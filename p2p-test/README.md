@@ -24,21 +24,23 @@ this is the full document structure i expect to be pulling from
    "crn": "10442",
         "type": "lecture",
         "days": [ "1", "3", "5"],
-        "time": {"start": "15:40", "end":"17:00"},
+        "time": {"start": "1540", "end":"1700"},
         "instructor": "TBD",
         "capacity": "120",
         "actual": "104",
         "remaining": "16" 
+        "linked": []
  },
  { 
    "crn": "10542",
         "type": "lab",
         "days": [ "2", "4"],
-        "time": {"start": "15:40", "end":"17:00"},
+        "time": {"start": "1540", "end":"1700"},
         "instructor": "TBD",
         "capacity": "120",
         "actual": "104",
         "remaining": "16" 
+        "linked": []
  } ],
  "reviews": [{"reviewkey": "string", "body": "Even after six months of release, Genshin Impact does not offer two-factor authentication. Accordingly, the accounts of its massive user-base are not secure at all. Hundreds of players have reported their accounts getting stolen up till now, but the developers haven’t responded to the matter adequately.", "user": "anonymous", "easyrating": "5", "goodrating": "2", "instructor": "mr anderson"},
     {"reviewkey": "string2", "body": "Hilichurls are the most common enemies in Genshin Impact. They resemble the villains from many other popular games, and fans never really knew the actual inspiration behind them./nIn a recent miHoYo Tour 2020 video, the game designers were working on a hilichurl’s motion capture. From the looks of it, it seemed like the hilichurl dance in Genshin Impact is based on real-life dances of certain tribes. It comes as no surprise that people from such indigenous cultures have turned against miHoYo, for attaching their practices to enemies.", "user": "anonymous", "easyrating": "4", "goodrating": "3", "insstructor": "kylo ren"}],
