@@ -2,58 +2,19 @@ import scrapy
 import json
 
 subjects = [
-"ALSU",
-"AEDT",
-"APBS",
-"AUTE",
-"BIOL",
-"BUSI",
-"CHEM",
-"COMM",
-"CSCI",
-"CRMN",
-"ECON",
-"EDUC",
-"ELEE",
-"ESNS",
-"ENGR",
-"EAP",
-"ENVS",
-"FSCI",
-"HLSC",
-"INFR",
-"KINE",
-"LGLS",
-"MANE",
-"MITS",
-"MTSC",
-"MATH",
-"MECE",
-"METE",
-"MLSC",
-"MCSC",
-"NUCL",
-"NURS",
-"PHY",
-"POSC",
-"PSYC",
-"RADI",
-"SCCO",
-"SSCI",
-"SOCI",
-"SOFE",
+
 "STAT",
 ]
 
 class OfuSpider(scrapy.Spider):
     name = "tofu"
-    start_urls = ['https://ssbp.mycampus.ca/prod_uoit/bwckschd.p_disp_dyn_sched?TRM=U']
+    start_urls = ['https://ssbp.mycampus.ca/prod_uoit/bwckschd.p_disp_dyn_sched?']
     output = []
 
     def parse(self, response):
         yield scrapy.FormRequest.from_response(
             response=response,
-            formdata={'p_term': self.term},
+            formdata={'p_term': "202101"},
             callback=self.parseSubj
         )
 
@@ -107,11 +68,23 @@ class OfuSpider(scrapy.Spider):
             index = 0
 
             j = []
+            items = []
+            for i in response.css('div[id]'):
+                item = {
+                    "key": i.css('::attr(id)').get()[-1],
+                    "value": i.css('::text').get(),
+                }
+                items.append(item)
+                print (item)
+                print(i.get())
+            for i in items:
+                output[int(i.get("key"))-1]['prereq']=i.get("value")
             garbage = ""
             for i in response.xpath(
                 '//td[@class = "dddefault"]/text()'):
                 file.write(i.get()+"\n")
                 garbage+=i.get()
+            
             garbage = garbage.strip()
             garbage = garbage.split('Winter')
             index = 0
