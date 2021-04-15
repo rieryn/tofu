@@ -111,11 +111,13 @@ class OfuSpider(scrapy.Spider):
             for i in response.css('div[id]'):
                 item = {
                     "key": i.css('::attr(id)').get()[-1],
-                    "value": i.css('::text').get(),
+                    "value": i.css('::text').getall(),
                 }
                 items.append(item)
                 print (item)
                 print(i.get())
+                for y in i.getall():
+                    file.write(y)
             for i in items:
                 output[int(i.get("key"))-1]['prereq']=i.get("value")
             garbage = ""
@@ -135,7 +137,39 @@ class OfuSpider(scrapy.Spider):
                 index+=1
             index = 0
 
+            for i in output:
+                if 'instructor' in i:
+                    i['instructor'] = i['instructor'].replace('(', '').strip()
+
+            sanitizedOutput = []
+
+            for i in output:
+                d = {}
+                try:
+                    sanitizedOutput[index]
+                    if sanitizedOutput[index]['coursecode'] == i['coursecode']:
+                        sanitizedOutput[index]['crns'].append(i)
+                    else:
+                        d['coursecode'] = i['coursecode']
+                        d['coursename'] = i['coursename']
+                        d['crns'] = []
+                        d['crns'].append(i)
+                        sanitizedOutput.append(d)
+                        index+=1
+
+                except IndexError:
+                    d['coursecode'] = i['coursecode']
+                    d['coursename'] = i['coursename']
+                    d['crns'] = []
+                    d['crns'].append(i)
+                    sanitizedOutput.append(d)
+            print(sanitizedOutput)
+
+
+
             with open('%s.json' %subj, 'w') as outfile:
-                json.dump(output, outfile, indent=4, sort_keys=True)
+                json.dump(sanitizedOutput, outfile, indent=4, sort_keys=True)
+
+
 
 

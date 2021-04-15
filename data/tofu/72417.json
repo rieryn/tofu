@@ -1,82 +1,121 @@
 [
     {
-        "capacity": "75",
         "coursecode": "75043",
         "coursename": "Science Co",
-        "crn": "op Success Program",
-        "daterange": "Jan 21, 2021 - Jan 21, 2021",
-        "days": "R",
-        "filled": "43",
-        "instructor": "Dario Torquato  Bonetta (",
-        "location": "Synchronous SYN",
-        "remaining": "32",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\n\n\n",
-        "section": "SCCO 0999U",
-        "time": "5:10 pm - 7:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "75",
+                "coursecode": "75043",
+                "coursename": "Science Co",
+                "crn": "op Success Program",
+                "daterange": "Jan 21, 2021 - Jan 21, 2021",
+                "days": "R",
+                "filled": "43",
+                "instructor": "Dario Torquato  Bonetta",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       SCCO  1000 - SCIENCE CO-OP WORK TERM I      [Min Grade: PAS]  "
+                ],
+                "remaining": "32",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\n\n\n",
+                "section": "SCCO 0999U",
+                "time": "5:10 pm - 7:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "25",
         "coursecode": "72414",
         "coursename": "Science Co",
-        "crn": "op Work Term I",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "\u00a0",
-        "filled": "4",
-        "instructor": "Dario Torquato  Bonetta (",
-        "location": "TBA",
-        "remaining": "21",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Other \n\nWork Term \n\nOffsite \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Applied and Indust Math-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Sci. & Mgmt-Co-op\n\n\u00a0 \u00a0 \u00a0 Chemistry-Co-op\n\n\u00a0 \u00a0 \u00a0 Computer Science Co-op\n\n\u00a0 \u00a0 \u00a0 Computing Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Physics-Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science & Mgmt Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science-Co-op\n\n\n\n",
-        "section": "SCCO 1000W",
-        "time": "TBA",
-        "type": "Work Term"
+        "crns": [
+            {
+                "capacity": "25",
+                "coursecode": "72414",
+                "coursename": "Science Co",
+                "crn": "op Work Term I",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "\u00a0",
+                "filled": "4",
+                "instructor": "Dario Torquato  Bonetta",
+                "location": "TBA",
+                "prereq": [
+                    "** PRERQ:       SCCO  2000 - SCIENCE CO-OP WORK TERM II     [Min Grade: PAS]  "
+                ],
+                "remaining": "21",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Other Campus\n\nWork Term Schedule Type\n\nOffsite Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Applied and Indust Math-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Sci. & Mgmt-Co-op\n\n\u00a0 \u00a0 \u00a0 Chemistry-Co-op\n\n\u00a0 \u00a0 \u00a0 Computer Science Co-op\n\n\u00a0 \u00a0 \u00a0 Computing Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Physics-Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science & Mgmt Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science-Co-op\n\n\n\n",
+                "section": "SCCO 1000W",
+                "time": "TBA",
+                "type": "Work Term"
+            }
+        ]
     },
     {
-        "capacity": "25",
         "coursecode": "72415",
         "coursename": "Science Co",
-        "crn": "op Work Term II",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "\u00a0",
-        "filled": "7",
-        "instructor": "Dario Torquato  Bonetta (",
-        "location": "TBA",
-        "remaining": "18",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Other \n\nWork Term \n\nOffsite \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Applied and Indust Math-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Sci. & Mgmt-Co-op\n\n\u00a0 \u00a0 \u00a0 Chemistry-Co-op\n\n\u00a0 \u00a0 \u00a0 Computer Science Co-op\n\n\u00a0 \u00a0 \u00a0 Computing Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Physics-Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science & Mgmt Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science-Co-op\n\n\nShow PRERQ\n",
-        "section": "SCCO 2000W",
-        "time": "TBA",
-        "type": "Work Term"
+        "crns": [
+            {
+                "capacity": "25",
+                "coursecode": "72415",
+                "coursename": "Science Co",
+                "crn": "op Work Term II",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "\u00a0",
+                "filled": "7",
+                "instructor": "Dario Torquato  Bonetta",
+                "location": "TBA",
+                "prereq": [
+                    "** PRERQ:       SCCO  3000 - SCIENCE CO-OP WORK TERM III    [Min Grade: PAS]  "
+                ],
+                "remaining": "18",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Other Campus\n\nWork Term Schedule Type\n\nOffsite Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Applied and Indust Math-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Sci. & Mgmt-Co-op\n\n\u00a0 \u00a0 \u00a0 Chemistry-Co-op\n\n\u00a0 \u00a0 \u00a0 Computer Science Co-op\n\n\u00a0 \u00a0 \u00a0 Computing Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Physics-Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science & Mgmt Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science-Co-op\n\n\nShow PRERQ\n",
+                "section": "SCCO 2000W",
+                "time": "TBA",
+                "type": "Work Term"
+            }
+        ]
     },
     {
-        "capacity": "25",
         "coursecode": "72416",
         "coursename": "Science Co",
-        "crn": "op Work Term III",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "\u00a0",
-        "filled": "7",
-        "instructor": "Dario Torquato  Bonetta (",
-        "location": "TBA",
-        "remaining": "18",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Other \n\nWork Term \n\nOffsite \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Applied and Indust Math-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Sci. & Mgmt-Co-op\n\n\u00a0 \u00a0 \u00a0 Chemistry-Co-op\n\n\u00a0 \u00a0 \u00a0 Computer Science Co-op\n\n\u00a0 \u00a0 \u00a0 Computing Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Physics-Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science & Mgmt Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science-Co-op\n\n\nShow PRERQ\n",
-        "section": "SCCO 3000W",
-        "time": "TBA",
-        "type": "Work Term"
+        "crns": [
+            {
+                "capacity": "25",
+                "coursecode": "72416",
+                "coursename": "Science Co",
+                "crn": "op Work Term III",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "\u00a0",
+                "filled": "7",
+                "instructor": "Dario Torquato  Bonetta",
+                "location": "TBA",
+                "remaining": "18",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Other Campus\n\nWork Term Schedule Type\n\nOffsite Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Applied and Indust Math-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Sci. & Mgmt-Co-op\n\n\u00a0 \u00a0 \u00a0 Chemistry-Co-op\n\n\u00a0 \u00a0 \u00a0 Computer Science Co-op\n\n\u00a0 \u00a0 \u00a0 Computing Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Physics-Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science & Mgmt Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science-Co-op\n\n\nShow PRERQ\n",
+                "section": "SCCO 3000W",
+                "time": "TBA",
+                "type": "Work Term"
+            }
+        ]
     },
     {
-        "capacity": "25",
         "coursecode": "72417",
         "coursename": "Science Co",
-        "crn": "op Work Term IV",
-        "daterange": "Jan 11, 2021 - Apr 12, 2021",
-        "days": "\u00a0",
-        "filled": "0",
-        "instructor": "Dario Torquato  Bonetta (",
-        "location": "TBA",
-        "remaining": "25",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Other \n\nWork Term \n\nOffsite \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Applied and Indust Math-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Sci. & Mgmt-Co-op\n\n\u00a0 \u00a0 \u00a0 Chemistry-Co-op\n\n\u00a0 \u00a0 \u00a0 Computer Science Co-op\n\n\u00a0 \u00a0 \u00a0 Computing Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Physics-Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science & Mgmt Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science-Co-op\n\n\nShow PRERQ",
-        "section": "SCCO 4000W",
-        "time": "TBA",
-        "type": "Work Term"
+        "crns": [
+            {
+                "capacity": "25",
+                "coursecode": "72417",
+                "coursename": "Science Co",
+                "crn": "op Work Term IV",
+                "daterange": "Jan 11, 2021 - Apr 12, 2021",
+                "days": "\u00a0",
+                "filled": "0",
+                "instructor": "Dario Torquato  Bonetta",
+                "location": "TBA",
+                "remaining": "25",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Other Campus\n\nWork Term Schedule Type\n\nOffsite Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Applied and Indust Math-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Biological Sci. & Mgmt-Co-op\n\n\u00a0 \u00a0 \u00a0 Chemistry-Co-op\n\n\u00a0 \u00a0 \u00a0 Computer Science Co-op\n\n\u00a0 \u00a0 \u00a0 Computing Science-Co-op\n\n\u00a0 \u00a0 \u00a0 Physics-Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science & Mgmt Co-op\n\n\u00a0 \u00a0 \u00a0 Physical Science-Co-op\n\n\nShow PRERQ",
+                "section": "SCCO 4000W",
+                "time": "TBA",
+                "type": "Work Term"
+            }
+        ]
     }
 ]

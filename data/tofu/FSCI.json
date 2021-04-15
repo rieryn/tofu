@@ -1,242 +1,329 @@
 [
     {
-        "capacity": "200",
         "coursecode": "FSCI 1010U",
         "coursename": "Introductory  Forensic Science",
-        "crn": "70140",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "188",
-        "instructor": "Nelson   Lafreniere (",
-        "location": "Synchronous SYN",
-        "remaining": "12",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\n\n",
-        "section": "001",
-        "time": "8:10 am - 11:00 am",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "200",
+                "coursecode": "FSCI 1010U",
+                "coursename": "Introductory  Forensic Science",
+                "crn": "70140",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "188",
+                "instructor": "Nelson   Lafreniere",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       FSCI  3040 - FORENSIC CHEMISTRY             [Min Grade: D]  "
+                ],
+                "remaining": "12",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\n\n",
+                "section": "001",
+                "time": "8:10 am - 11:00 am",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "30",
         "coursecode": "FSCI 3030U",
         "coursename": "Criminalistics II",
-        "crn": "70147",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "30",
-        "instructor": "Cecilia   Hageman (",
-        "location": "Synchronous SYN",
-        "remaining": "0",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
-        "section": "001",
-        "time": "5:10 pm - 8:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "30",
+                "coursecode": "FSCI 3030U",
+                "coursename": "Criminalistics II",
+                "crn": "70147",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "30",
+                "instructor": "Cecilia   Hageman",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** NOTE: This section is linked with FSCI 4040 - 001 ( CRN: 73929 )."
+                ],
+                "remaining": "0",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
+                "section": "001",
+                "time": "5:10 pm - 8:00 pm",
+                "type": "Lecture"
+            },
+            {
+                "capacity": "15",
+                "coursecode": "FSCI 3030U",
+                "coursename": "Criminalistics II",
+                "crn": "70148",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "14",
+                "instructor": "TBA",
+                "location": "Business and IT Building (UB) UB4075",
+                "prereq": [
+                    "** PRERQ:       FSCI  2010 - CRIME SCENE SCIENCE            [Min Grade: D]  ",
+                    "** PRERQ:  OR   FSCI  2020 - ESSENTIALS OF CRIME SCENE SCIE [Min Grade: D]  "
+                ],
+                "remaining": "1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa Campus\n\nLaboratory Schedule Type\n\nIn-class Delivery Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
+                "section": "002",
+                "time": "8:10 am - 11:00 am",
+                "type": "Laboratory"
+            },
+            {
+                "capacity": "15",
+                "coursecode": "FSCI 3030U",
+                "coursename": "Criminalistics II",
+                "crn": "71282",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "T",
+                "filled": "16",
+                "instructor": "TBA",
+                "location": "Business and IT Building (UB) UB4075",
+                "prereq": [
+                    "** PRERQ:       FSCI  4410 - FORENSIC SCI THESIS PROJECT I  [Min Grade: D]  "
+                ],
+                "remaining": "-1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa Campus\n\nLaboratory Schedule Type\n\nIn-class Delivery Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
+                "section": "003",
+                "time": "12:40 pm - 3:30 pm",
+                "type": "Laboratory"
+            }
+        ]
     },
     {
-        "capacity": "15",
-        "coursecode": "FSCI 3030U",
-        "coursename": "Criminalistics II",
-        "crn": "70148",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "14",
-        "instructor": "TBA",
-        "location": "Business and IT Building (UB) UB4075",
-        "remaining": "1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa \n\nLaboratory \n\nIn-class Delivery \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
-        "section": "002",
-        "time": "8:10 am - 11:00 am",
-        "type": "Laboratory"
-    },
-    {
-        "capacity": "15",
-        "coursecode": "FSCI 3030U",
-        "coursename": "Criminalistics II",
-        "crn": "71282",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "T",
-        "filled": "16",
-        "instructor": "TBA",
-        "location": "Business and IT Building (UB) UB4075",
-        "remaining": "-1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa \n\nLaboratory \n\nIn-class Delivery \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
-        "section": "003",
-        "time": "12:40 pm - 3:30 pm",
-        "type": "Laboratory"
-    },
-    {
-        "capacity": "30",
         "coursecode": "FSCI 3040U",
         "coursename": "Forensic Chemistry",
-        "crn": "70262",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "31",
-        "instructor": "Theresa   Stotesbury (",
-        "location": "Synchronous SYN",
-        "remaining": "-1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
-        "section": "001",
-        "time": "11:10 am - 12:30 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "30",
+                "coursecode": "FSCI 3040U",
+                "coursename": "Forensic Chemistry",
+                "crn": "70262",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "31",
+                "instructor": "Theresa   Stotesbury",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       FSCI  2010 - CRIME SCENE SCIENCE            [Min Grade: D]  ",
+                    "** PRERQ: AND   BIOL  2020 - GENETICS & MOLECULAR BIOLOGY   [Min Grade: D]  ",
+                    "** PRERQ: AND   BIOL  2030 - CELL BIOLOGY                   [Min Grade: D]  ",
+                    "** PRERQ: AND ( BIOL  2040 - BIOCHEMISTRY                   [Min Grade: D]  ",
+                    "** PRERQ:  OR   BIOL  2080 - BIOCHEMISTRY I                 [Min Grade: D] )"
+                ],
+                "remaining": "-1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
+                "section": "001",
+                "time": "11:10 am - 12:30 pm",
+                "type": "Lecture"
+            },
+            {
+                "capacity": "15",
+                "coursecode": "FSCI 3040U",
+                "coursename": "Forensic Chemistry",
+                "crn": "70263",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "F",
+                "filled": "16",
+                "instructor": "TBA",
+                "location": "Science Building (UA) UA3420",
+                "prereq": [
+                    "** NOTE: This section is linked with FSCI 3120 - 001 ( CRN: 73423 )."
+                ],
+                "remaining": "-1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa Campus\n\nLaboratory Schedule Type\n\nIn-class Delivery Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
+                "section": "002",
+                "time": "8:10 am - 11:00 am",
+                "type": "Laboratory"
+            },
+            {
+                "capacity": "15",
+                "coursecode": "FSCI 3040U",
+                "coursename": "Forensic Chemistry",
+                "crn": "71285",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "F",
+                "filled": "15",
+                "instructor": "TBA",
+                "location": "Science Building (UA) UA3420",
+                "prereq": [
+                    "** PRERQ:       FSCI  2010 - CRIME SCENE SCIENCE            [Min Grade: D]  ",
+                    "** PRERQ: AND   BIOL  2020 - GENETICS & MOLECULAR BIOLOGY   [Min Grade: D]  ",
+                    "** PRERQ: AND   BIOL  2030 - CELL BIOLOGY                   [Min Grade: D]  ",
+                    "** PRERQ: AND ( BIOL  2040 - BIOCHEMISTRY                   [Min Grade: D]  ",
+                    "** PRERQ:  OR   BIOL  2080 - BIOCHEMISTRY I                 [Min Grade: D] )"
+                ],
+                "remaining": "0",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa Campus\n\nLaboratory Schedule Type\n\nIn-class Delivery Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
+                "section": "003",
+                "time": "12:40 pm - 3:30 pm",
+                "type": "Laboratory"
+            }
+        ]
     },
     {
-        "capacity": "15",
-        "coursecode": "FSCI 3040U",
-        "coursename": "Forensic Chemistry",
-        "crn": "70263",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "F",
-        "filled": "16",
-        "instructor": "TBA",
-        "location": "Science Building (UA) UA3420",
-        "remaining": "-1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa \n\nLaboratory \n\nIn-class Delivery \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
-        "section": "002",
-        "time": "8:10 am - 11:00 am",
-        "type": "Laboratory"
-    },
-    {
-        "capacity": "15",
-        "coursecode": "FSCI 3040U",
-        "coursename": "Forensic Chemistry",
-        "crn": "71285",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "F",
-        "filled": "15",
-        "instructor": "TBA",
-        "location": "Science Building (UA) UA3420",
-        "remaining": "0",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa \n\nLaboratory \n\nIn-class Delivery \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
-        "section": "003",
-        "time": "12:40 pm - 3:30 pm",
-        "type": "Laboratory"
-    },
-    {
-        "capacity": "30",
         "coursecode": "FSCI 3120U",
         "coursename": "Forensic Biology",
-        "crn": "73423",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "M",
-        "filled": "31",
-        "instructor": "Helene   LeBlanc (",
-        "location": "Synchronous SYN",
-        "remaining": "-1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
-        "section": "001",
-        "time": "12:40 pm - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "30",
+                "coursecode": "FSCI 3120U",
+                "coursename": "Forensic Biology",
+                "crn": "73423",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "M",
+                "filled": "31",
+                "instructor": "Helene   LeBlanc",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** NOTE: This section is linked with FSCI 3120 - 001 ( CRN: 73423 )."
+                ],
+                "remaining": "-1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
+                "section": "001",
+                "time": "12:40 pm - 2:00 pm",
+                "type": "Lecture"
+            },
+            {
+                "capacity": "15",
+                "coursecode": "FSCI 3120U",
+                "coursename": "Forensic Biology",
+                "crn": "73424",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "15",
+                "instructor": "TBA",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** PRERQ:       FSCI  3040 - FORENSIC CHEMISTRY             [Min Grade: D]  "
+                ],
+                "remaining": "0",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLaboratory Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science & Mgt\n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
+                "section": "002",
+                "time": "8:10 am - 11:00 am",
+                "type": "Laboratory"
+            },
+            {
+                "capacity": "15",
+                "coursecode": "FSCI 3120U",
+                "coursename": "Forensic Biology",
+                "crn": "73425",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "16",
+                "instructor": "TBA",
+                "location": "Synchronous SYN",
+                "remaining": "-1",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLaboratory Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science & Mgt\n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
+                "section": "003",
+                "time": "12:40 pm - 3:30 pm",
+                "type": "Laboratory"
+            }
+        ]
     },
     {
-        "capacity": "15",
-        "coursecode": "FSCI 3120U",
-        "coursename": "Forensic Biology",
-        "crn": "73424",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "15",
-        "instructor": "TBA",
-        "location": "Synchronous SYN",
-        "remaining": "0",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLaboratory \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science & Mgt\n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
-        "section": "002",
-        "time": "8:10 am - 11:00 am",
-        "type": "Laboratory"
-    },
-    {
-        "capacity": "15",
-        "coursecode": "FSCI 3120U",
-        "coursename": "Forensic Biology",
-        "crn": "73425",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "16",
-        "instructor": "TBA",
-        "location": "Synchronous SYN",
-        "remaining": "-1",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLaboratory \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science & Mgt\n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
-        "section": "003",
-        "time": "12:40 pm - 3:30 pm",
-        "type": "Laboratory"
-    },
-    {
-        "capacity": "12",
         "coursecode": "FSCI 4040U",
         "coursename": "Fire Investigation",
-        "crn": "73929",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "9",
-        "instructor": "Nelson   Lafreniere (",
-        "location": "Synchronous SYN",
-        "remaining": "3",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Concentrations:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Chemistry\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
-        "section": "001",
-        "time": "12:40 pm - 2:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "12",
+                "coursecode": "FSCI 4040U",
+                "coursename": "Fire Investigation",
+                "crn": "73929",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "9",
+                "instructor": "Nelson   Lafreniere",
+                "location": "Synchronous SYN",
+                "remaining": "3",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Concentrations:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Chemistry\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
+                "section": "001",
+                "time": "12:40 pm - 2:00 pm",
+                "type": "Lecture"
+            },
+            {
+                "capacity": "12",
+                "coursecode": "FSCI 4040U",
+                "coursename": "Fire Investigation",
+                "crn": "74121",
+                "daterange": "Jan 18, 2021 - Jan 18, 2021",
+                "days": "M",
+                "filled": "9",
+                "instructor": "TBA",
+                "location": "Business and IT Building (UB) UB4075",
+                "remaining": "3",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa Campus\n\nLaboratory Schedule Type\n\nIn-class Delivery Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science & Mgt\n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
+                "section": "002",
+                "time": "12:40 pm - 3:30 pm",
+                "type": "Laboratory"
+            }
+        ]
     },
     {
-        "capacity": "12",
-        "coursecode": "FSCI 4040U",
-        "coursename": "Fire Investigation",
-        "crn": "74121",
-        "daterange": "Jan 18, 2021 - Jan 18, 2021",
-        "days": "M",
-        "filled": "9",
-        "instructor": "TBA",
-        "location": "Business and IT Building (UB) UB4075",
-        "remaining": "3",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa \n\nLaboratory \n\nIn-class Delivery \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science & Mgt\n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
-        "section": "002",
-        "time": "12:40 pm - 3:30 pm",
-        "type": "Laboratory"
-    },
-    {
-        "capacity": "30",
         "coursecode": "FSCI 4050U",
         "coursename": "Law for Forensic Scientists",
-        "crn": "71289",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "W",
-        "filled": "20",
-        "instructor": "Cecilia   Hageman (",
-        "location": "Synchronous SYN",
-        "remaining": "10",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "5:10 pm - 8:00 pm",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "30",
+                "coursecode": "FSCI 4050U",
+                "coursename": "Law for Forensic Scientists",
+                "crn": "71289",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "W",
+                "filled": "20",
+                "instructor": "Cecilia   Hageman",
+                "location": "Synchronous SYN",
+                "remaining": "10",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "5:10 pm - 8:00 pm",
+                "type": "Lecture"
+            }
+        ]
     },
     {
-        "capacity": "30",
         "coursecode": "FSCI 4420U",
         "coursename": "Forensic Sci Thesis Project II",
-        "crn": "71295",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "13",
-        "instructor": "Cecilia   Hageman (",
-        "location": "Synchronous SYN",
-        "remaining": "17",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nThesis/Project \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\nShow PRERQ\n",
-        "section": "001",
-        "time": "8:10 am - 10:00 am",
-        "type": "Thesis/Project"
+        "crns": [
+            {
+                "capacity": "30",
+                "coursecode": "FSCI 4420U",
+                "coursename": "Forensic Sci Thesis Project II",
+                "crn": "71295",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "13",
+                "instructor": "Cecilia   Hageman",
+                "location": "Synchronous SYN",
+                "remaining": "17",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nThesis/Project Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\nShow PRERQ\n",
+                "section": "001",
+                "time": "8:10 am - 10:00 am",
+                "type": "Thesis/Project"
+            }
+        ]
     },
     {
-        "capacity": "10",
         "coursecode": "FSCI 4430U",
         "coursename": "Directd Stdies in Forensic Sci",
-        "crn": "71296",
-        "daterange": "Jan 11, 2021 - Apr 09, 2021",
-        "days": "R",
-        "filled": "5",
-        "instructor": "Helene   LeBlanc (",
-        "location": "Synchronous SYN",
-        "remaining": "5",
-        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science",
-        "section": "001",
-        "time": "8:10 am - 10:00 am",
-        "type": "Lecture"
+        "crns": [
+            {
+                "capacity": "10",
+                "coursecode": "FSCI 4430U",
+                "coursename": "Directd Stdies in Forensic Sci",
+                "crn": "71296",
+                "daterange": "Jan 11, 2021 - Apr 09, 2021",
+                "days": "R",
+                "filled": "5",
+                "instructor": "Helene   LeBlanc",
+                "location": "Synchronous SYN",
+                "prereq": [
+                    "** NOTE: This section is linked with FSCI 4040 - 002 ( CRN: 74121 )."
+                ],
+                "remaining": "5",
+                "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Forensic Science",
+                "section": "001",
+                "time": "8:10 am - 10:00 am",
+                "type": "Lecture"
+            }
+        ]
     }
 ]
