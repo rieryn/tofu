@@ -1,0 +1,50 @@
+[
+    {
+        "capacity": "6",
+        "coursecode": "MTSC 6000G",
+        "coursename": "Grad Sem in Science Comm I",
+        "crn": "72425",
+        "daterange": "Jan 11, 2021 - Apr 12, 2021",
+        "days": "W",
+        "filled": "0",
+        "instructor": "Brad   Easton (",
+        "location": "Synchronous SYN",
+        "remaining": "6",
+        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       0.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Graduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\n\n\n",
+        "section": "001",
+        "time": "2:10 pm - 4:00 pm",
+        "type": "Lecture"
+    },
+    {
+        "capacity": "16",
+        "coursecode": "MTSC 6140G",
+        "coursename": "Exper. Tech. in Materials Char",
+        "crn": "71117",
+        "daterange": "Jan 11, 2021 - Apr 12, 2021",
+        "days": "\u00a0",
+        "filled": "0",
+        "instructor": "Brad   Easton (",
+        "location": "Synchronous SYN",
+        "remaining": "16",
+        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Graduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science\n\n\n\n",
+        "section": "001",
+        "time": "TBA",
+        "type": "Lecture"
+    },
+    {
+        "capacity": "16",
+        "coursecode": "MTSC 6330G",
+        "coursename": "Electrochem.Methods & Material",
+        "crn": "73786",
+        "daterange": "Jan 11, 2021 - Apr 09, 2021",
+        "days": "W",
+        "filled": "4",
+        "instructor": "Brad   Easton (",
+        "location": "Synchronous SYN",
+        "remaining": "12",
+        "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nGraduate, Undergraduate \n\n\nOT-Online \n\nLecture \n\nVirtual Meet Times \n\n       3.000 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Graduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Science",
+        "section": "001",
+        "time": "11:10 am - 2:00 pm",
+        "type": "Lecture"
+    }
+]
