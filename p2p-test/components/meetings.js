@@ -3,12 +3,14 @@ import ChatPanel from '../components/chatPanel'
 import React, { useEffect, useState } from 'react';
 import Modal from '../components/addcourseModal'
 
-const messages = ["Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material."]
+const messages = ["Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material."]
 
 export default function Meetings(props){
+  console.log(props.room)
   var ref = React.createRef();
+
   const [toggleCam,setToggleCam] = useState(false);
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const [messageData,setMessageData] = useState([]);
   const openModal = () => {
     setShowModal(true);
@@ -34,8 +36,10 @@ export default function Meetings(props){
         if(toggleCam) getMedia(constraints);
 
     }, [toggleCam]);
+
+
   return (
-    <div className="h-screen flex overflow-auto bg-white">
+    <div className="h-full flex overflow-auto bg-white">
     <Modal showModal = {showModal} closeModal = {closeModal}/>
     <MeetingsBar openModal = {openModal}/>
       
@@ -45,7 +49,11 @@ export default function Meetings(props){
           <main className="flex-1 relative z-0 overflow-y-auto focus:outline-none">
             <div className="absolute inset-0 py-6 px-4 sm:px-6 lg:px-8 ">
             <div className = "flex flex-col items-center justify-center border-2 border-gray-200 h-full items-center border-dashed rounded-lg">
-              <p className = "text-blue-500 text-sm">You aren't in any meetings, join a meeting or just relax here by yourself 😊
+              
+              {Object.keys(props.room).length === 0 ?
+               
+                <>
+                <p className = "text-blue-500 text-sm">You aren't in any meetings, join a meeting or just relax here by yourself 😊
               </p>
               {  toggleCam ? <video className="h-3/4 p-12 rounded-lg" ref={ref} autoPlay ></video> :
               
@@ -59,7 +67,17 @@ export default function Meetings(props){
               >
                 Test webcam
               </button>
-              
+              </>
+              :
+              <div>
+              test
+              {  toggleCam ? <video className="h-3/4 p-12 rounded-lg" ref={ref} autoPlay ></video> :
+              <button onClick = {() => setToggleCam(!toggleCam)}
+                type="button"
+                className="inline-flex items-center px-2.5 py-1.5 w-20 border border-transparent text-xs font-medium rounded text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none"
+              >Enable webcam</button>}
+              </div>
+              }
               
             </div>
             </div>
@@ -69,7 +87,7 @@ export default function Meetings(props){
           
         </div>
       </div>
-      <ChatPanel/>
+      <ChatPanel messages= {messages}/>
 
       
     </div>

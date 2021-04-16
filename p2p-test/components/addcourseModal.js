@@ -1,9 +1,20 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
+import { v4 as uuidv4 } from 'uuid';
+import { useEffect } from 'react'
+
 
 export default function Example(props) {
   const [open, setOpen] = useState(true)
-
+  const [id, setID] = useState("")
+  useEffect(() => {
+    if (localStorage.getItem("peerid") === null) {
+  localStorage.setItem("peerid", uuidv4())
+  }
+  setID(localStorage.getItem("peerid"));
+  console.log(id)
+  }, []);
+  console.log(id)
   return (
     <Transition.Root show={props.showModal} as={Fragment}>
       <Dialog 
@@ -11,7 +22,7 @@ export default function Example(props) {
       className="fixed z-10 inset-0 overflow-y-auto" 
       open={props.showModal} 
       onClose={props.closeModal}>
-        <div className="flex items-end justify-center min-h-screen pt-4 px-4 text-center sm:block sm:p-0">
+        <div className="flex sm:items-end items-center justify-center min-h-screen pt-4 px-4 text-center sm:block sm:p-0">
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -23,6 +34,7 @@ export default function Example(props) {
           >
             <Dialog.Overlay className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
           </Transition.Child>
+          {/* This element is to trick the browser into centering the modal contents. */}
 
           <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">
             &#8203;
@@ -61,33 +73,35 @@ export default function Example(props) {
 
 
            <div className="p-6">       
-          <form className="space-y-6 text-left" action="#" method="POST">
+          <form className="space-y-6 text-left" action="api/newroom" method="POST">
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="roomname" className="block text-sm font-medium text-gray-700">
                 Room Name
               </label>
               <div className="mt-1">
                 <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  autoComplete="email"
+                  id="roomname"
+                  name="roomname"
+                  type="text"
+                  autoComplete="Default"
                   required
                   className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                 />
               </div>
             </div>
+            <input className="hidden" type="text" name="uuid" id="uuid" value={uuidv4()}/>
+            <input className="hidden" type="text" name="peerid" id="peerid" value={id}/>
 
             <div>
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="description" className="block text-sm font-medium text-gray-700">
                 Description
               </label>
               <div className="mt-1">
                 <input
-                  id="password"
-                  name="password"
-                  type="password"
-                  autoComplete="current-password"
+                  id="description"
+                  name="description"
+                  type="text"
+                  autoComplete="Default"
                   required
                   className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                 />
@@ -120,12 +134,17 @@ export default function Example(props) {
           </form>
           
                 </div>
+
                 </div>
+
               </div>
               
             </div>
+
           </Transition.Child>
+
         </div>
+
       </Dialog>
     </Transition.Root>
   )

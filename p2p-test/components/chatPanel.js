@@ -1,7 +1,7 @@
 import { useCallback,useRef, useEffect,useState } from 'react'
+import { v4 as uuidv4 } from 'uuid';
 
 
-const messages = ["Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material."]
 
 export default function ChatPanel(props){
 const [tab, setTab] = useState(true);
@@ -44,9 +44,9 @@ const [tab, setTab] = useState(true);
   <div>
       <div className="mt-2 flex flex-col ">
         <div className=" flex flex-col p-2 absolute bottom-28 top-20 w-56 justify-end  overflow-scroll  text-left  border-gray-200 bg-white " aria-label="ChatPanel">
-            <div className = "h-full">
+            <div className = "h-full text-xs">
             
-            {messages.map((it)=> <p className = "break-words text-sm py-2 odd:bg-blue-50">{it}</p>)}
+            {props.messages.map((it)=> <p key={uuidv4()} className = "break-words py-2 odd:bg-blue-50">{it}</p>)}
              </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ const [tab, setTab] = useState(true);
 ::-webkit-scrollbar-thumb {
   background: #cbd5e0;
   border-radius: 100vh;
-  
+
   border: 3px solid #edf2f7;
 }
  `}</style>

@@ -9,15 +9,19 @@ Before you submit your project, modify the following table to include everyone's
 | Siyavash Ghorbani | SiyavashGh |
 
 attributions:
-most of the markup extends from the free tailwindui example components with a lot of wrangling
+ markup started with the free tailwindui example components
 https://tailwindui.com/preview
 
-the raycast engine follows this excellent tutorial 
+ raycast engine follows this excellent tutorial 
 https://lodev.org/cgtutor/raycasting.html
 
 as of april 14th tailwindui has react components that work out of the box 
 https://blog.tailwindcss.com/tailwind-ui-now-with-react-and-vue-support
+
 the modals and signup forms are built with these
+
+svgs from this very nice website
+http://svgicons.sparkk.fr/
 
 | Requirement                        | Weight |	 	|
 | :--------------------------------- | ------:|-----|

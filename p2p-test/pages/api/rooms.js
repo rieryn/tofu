@@ -31,7 +31,8 @@ export default async (req, res) => {
       else{
         const rooms = await db
       .collection("rooms")
-      .distinct("roomid")
+      .find()
+      .toArray();
       res.status(200).json(rooms);
       }
    }
