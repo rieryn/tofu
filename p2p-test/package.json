@@ -7,7 +7,7 @@
     "start": "cross-env NODE_ENV=production node server.js"
   },
   "dependencies": {
-    "@headlessui/react": "^0.3.1",
+    "@headlessui/react": "^0.3.2-4942928",
     "cross-env": "^7.0.3",
     "eventemitter3": "^4.0.7",
     "express": "^4.17.1",

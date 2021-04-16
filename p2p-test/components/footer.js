@@ -24,8 +24,8 @@ import { Transition } from '@headlessui/react'
     */
 export default function Footer() {
   return (
-<footer className="bg-gray-800 justify-center ">
-<div className="md:pl-24 pt-8 mx-5 my-2 flex flex-wrap justify-center">
+<footer className="bg-gray-800 justify-center overflow-hidden z-50 ">
+<div className="md:pl-24 pt-8 mx-5 my-2 flex flex-wrap justify-center ">
 
               <img className="object-fill w-24 rounded-lg" src="/tofu.svg" alt="" />
           <div className="px-8 py-2">

@@ -9,7 +9,6 @@ export default function Frame ({children}) {
         <title>tofu</title>
       <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className = "h-screen">
       <Navbar/>
 
       <main >
@@ -18,7 +17,6 @@ export default function Frame ({children}) {
 
         {children}
       </main>
-      </div>
       <Footer/>
       </div>
     </>

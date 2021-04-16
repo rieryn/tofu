@@ -1,7 +1,7 @@
 import { useCallback,useRef, useEffect,useState } from 'react'
 
 
-const messages = ["Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material."]
+const messages = ["Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material.","Have you gone to the doctors?", "As an incoming first year, I really appreciate this.", "This is an amazing initiative!", "Example: asking for dealers, asking for copyrighted material."]
 
 export default function ChatPanel(props){
 const [tab, setTab] = useState(true);
@@ -13,7 +13,7 @@ const [tab, setTab] = useState(true);
 <aside className="h-full right-0 w-64 relative border-l-2  bg-red border-gray-200">
 
 
-            <div className="flex flex-col flex-grow pt-5 pb-4 p-2 bg-white overflow-y-auto">
+            <div className="flex flex-col flex-grow pt-5 pb-12 p-2 bg-white ">
       <div>
 
   <div className="hidden sm:block">
@@ -43,17 +43,18 @@ const [tab, setTab] = useState(true);
 {tab ? 
   <div>
       <div className="mt-2 flex flex-col ">
-        <div className=" flex flex-col p-2 absolute bottom-36 top-20 w-56 justify-end    text-left  border-gray-200 bg-white " aria-label="ChatPanel">
-            test
-            <p>test p</p>
-            <p className = "break-words text-sm">test p2 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+        <div className=" flex flex-col p-2 absolute bottom-28 top-20 w-56 justify-end  overflow-scroll  text-left  border-gray-200 bg-white " aria-label="ChatPanel">
+            <div className = "h-full">
+            
             {messages.map((it)=> <p className = "break-words text-sm py-2 odd:bg-blue-50">{it}</p>)}
-
+             </div>
         </div>
       </div>
       <div>
       
-      <textarea className = "absolute bottom-0 h-36 resize-none flex justify-self-start  w-56 border-2 border-blue-100"></textarea >
+      <textarea className = "absolute bottom-4 leading-relaxed p-2  h-24 resize-none rounded-lg flex  justify-self-start  w-56 border-2 border-blue-100 focus:outline-none focus:border-blue-400"
+      placeholder = "write message..."
+      ></textarea >
       </div>
       </div>
     :
@@ -63,6 +64,18 @@ const [tab, setTab] = useState(true);
   }
 
 </div>
+<style jsx>{`
+  ::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 100vh;
+  
+  border: 3px solid #edf2f7;
+}
+ `}</style>
           </aside>
           );
 }

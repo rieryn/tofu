@@ -17,18 +17,18 @@ export default function MeetingsBar(props){
                     Back to Dashboard
                   </a>
 
-              <div class="pt-2 text-gray-600">
+              <div class="pt-2 text-gray-600" >
                   <input class="text-lg bg-gray-200 bg-opacity-0 h-10 px-5 pr-8 rounded-lg text-sm focus:outline-none" type="search" name="search" placeholder="Join/Create room..." />
-                  <button type="submit" className="hidden absolute right-0 top-0 mt-5 mr-4"></button>
+                  <button type="submit"  className="hidden absolute right-0 top-0 mt-5 mr-4"></button>
                   <hr/>
                 </div>  
               <nav className="mt-5 flex-1" aria-label="Sidebar">
                 <div className="px-2 space-y-3">
-                  <a href="/" className="h-24 w-56 border-2 border-dashed border-gray-200 hover:bg-gray-50 justify-center text-gray-400 group flex items-center py-2 text-xl font-medium rounded-md">
+                  <button onClick = {props.openModal} className="h-24 w-56 border-2 border-dashed border-gray-200 hover:bg-white hover:text-gray-800 justify-center text-gray-400 group flex items-center py-2 text-xl font-medium rounded-md focus:outline-none">
                     +
                     <br/>
                     New Room
-                  </a>
+                  </button>
     
                   <a href="/" className="h-24 w-56 pt-2 border border-gray-300 text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                      

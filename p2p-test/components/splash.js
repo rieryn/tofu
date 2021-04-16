@@ -47,8 +47,8 @@ export default function Component(props){
           </main>
         </div>
       </div>
-      <div className="absolute inset-y-0 top-0 -right-10  w-5/6  pr-8 hidden lg:block">
-        <img className="object-cover h-full" src="https://i.imgur.com/Z8LRcsn.png" alt="" />
+      <div className="absolute top-0 -right-10   w-5/6  pr-8 hidden lg:block">
+        <img className="object-cover h-screen " src="https://i.imgur.com/Z8LRcsn.png" alt="" />
       </div>
     </div>
   );

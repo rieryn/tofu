@@ -18,12 +18,12 @@ const fetcher = url => fetch(url).then(r => r.json())
   	components.push(<p> {data[i]}</p>);
   }
   return (
-    <Frame>
+  
+    <div className = "h-screen">
+    <Navbar/>
     {error ? <div>something went wrong</div>: <></>}
     {data ? <Meetings/> : <div className = "h-full">loading...</div>}
-    
+    </div>
 
-      
-    </Frame>
   )
 }
