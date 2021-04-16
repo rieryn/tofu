@@ -5,13 +5,7 @@ import { useRouter } from 'next/router'
 
 
 //i don't know how to use swr
-const fruits = [
-    "apple",
-    "apricot",
-    "banana",
-    "blackberry",
-    "blueberry",
-];
+
 
  
 export default function Component() {
@@ -84,7 +78,7 @@ export default function Component() {
           </p></a>
  :
           <div className = "bg-white items-left z-50 absolute w-full overflow-hidden truncate border-2 border-grey rounded-md">
-          {suggestions.map(i =>(
+          {suggestions.slice(0, 7).map(i =>(
             <a key={i.coursecode}  href = {`course_search_results?q=${i.coursecode}`}>
             <p className=" hover:bg-red-100 p-2 truncate text-left">{i.coursecode} {i.coursename}</p>
             </a>))}

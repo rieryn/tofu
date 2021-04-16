@@ -1,7 +1,21 @@
 import CourseTableRow from '../components/courseTableRow'
 
-export default function courseTable () {
+import useSWR from 'swr'
+import { useRouter } from 'next/router'
+
+export default function courseTable (props) {
+    const router = useRouter()
+
+  const fetcher = url => fetch(url).then(r => r.json())
+  var url = ""
+  console.log(router.query)
+  if(router.query) { url = `/api/search?q=${router.query.q}`}
+    else{ url = `/api/courses`}
+   const { data, error } = useSWR(url, fetcher)
   
+  if(data) 
+    if(error) console.log(error)
+      console.log(url)
   return (
     <div className="flex flex-col ">
       <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -18,8 +32,10 @@ export default function courseTable () {
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
-                <CourseTableRow/>
-                <CourseTableRow/>
+              {data ? data.map((it)=> <CourseTableRow data = {it}/>)
+                :
+              <div>loading...</div>
+              }
               </tbody>
             </table>
           </div>

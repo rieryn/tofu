@@ -5,7 +5,7 @@ export default async (req, res) => {
     .collection("courses")
     .find()
     .sort({ coursecode: 1 })
-    .limit(50)
+    .limit(100)
     .toArray();
   res.json(courses);
 };

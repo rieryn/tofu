@@ -1,7 +1,18 @@
 import { connectToDatabase } from "../../util/mongodb";
 export default async (req, res) => {
   const { db } = await connectToDatabase();
-    try {
+    if(req.query.q =="" ||  req.query.q === "undefined") {
+          const courses = await db
+            .collection("courses")
+            .find()
+            .sort({ coursecode: 1 })
+            .limit(100)
+            .toArray();
+          res.json(courses);
+
+    }
+    else{
+        try {
         let result = await db.collection("courses").aggregate([
 
             {
@@ -11,17 +22,16 @@ export default async (req, res) => {
                         "path": "coursecode",
                         "fuzzy": {
                             "maxEdits":1,
-                            "prefixLength": 0,
+                            "prefixLength": 2,
                             "maxExpansions": 5
                         }
                     }
                 }
             }
-        ]).limit(8).toArray();
-        console.log(result);
-        console.log(result[5].CRNS)
+        ]).limit(50).toArray();
+
         res.send(result);
     } catch (e) {
         res.status(418).send({message: e.message});
-    }
+    }}
 }
