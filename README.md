@@ -5,10 +5,40 @@ Before you submit your project, modify the following table to include everyone's
 | Group Member Name          | GitHub Username    |
 | :------------------------- |:------------------:|
 | Aurie Tan                   | rieryn |
-| <first_name2> <last_name2> | <github_username2> |
-| <first_name3> <last_name3> | <github_username3> |
-| <first_name4> <last_name4> | <github_username4> |
-| <first_name5> <last_name5> | <github_username5> |
+| Paras Chandhok  				| Paras220 |
+| Siyavash Ghorbani | SiyavashGh |
+
+attributions:
+ markup started with the free tailwindui example components
+https://tailwindui.com/preview
+
+ raycast engine follows this excellent tutorial 
+https://lodev.org/cgtutor/raycasting.html
+
+as of april 14th tailwindui has react components that work out of the box 
+https://blog.tailwindcss.com/tailwind-ui-now-with-react-and-vue-support
+
+the modals and signup forms are built with these
+
+svgs from this very nice website
+http://svgicons.sparkk.fr/
+
+| Requirement                        | Weight |	 	|
+| :--------------------------------- | ------:|-----|
+| SVG and HTML                       | 0.5    |both inline and static svg|
+| CSS and CSS frameworks             | 1.0    |.css files and tailwindCSS 	|
+| JavaScript, jQuery, D3             | 1.5    |d3 in graph.html, jquery in about.html	|
+| DHTML                              | 1.0    |dhtml in schedule.js,game.html 	|
+| AJAX, web services                 | 1.0    |fetch, useswr, internal apis, alphavantage api 	|
+| Node.js                            | 2.0    |server.js and /api folder contains express code. 	|
+| Views and/or client-side framework | 1.0    |React 	|
+| Database                           | 1.5    |Mongodb Atlas 	|
+| Sockets, multi-threading           | 0.5    |sockets used to get initial connection details for webrtc, OffscreenCanvas uses a webworker 	|
+js/html everywhere
+
+# Independent Study
+topics covered: tailwindCSS and webRTC
+[pdf link]
 
 _**Note:** You can delete the unused rows from the table._
 

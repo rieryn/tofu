@@ -1,7 +1,15 @@
+import useSWR from 'swr'
+import RoomButton from '../components/roomjoinButton'
+
+
 export default function MeetingsBar(props){
+    const fetcher = url => fetch(url).then(r => r.json())
+  const { data, error } = useSWR('/api/rooms', fetcher)
   //create room pops out a modal
   //join/search input has a autocomplete and input on enter
   //if you create a room that already exists you join it
+  if (data) data.map((it) => {console.log(it)});
+
   return (
     <div className=" flex flex-shrink-0">
         <div className="flex flex-col">
@@ -12,46 +20,30 @@ export default function MeetingsBar(props){
               <a href="/" className="pt-4 text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                     
                     <svg className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     Back to Dashboard
                   </a>
 
-              <div class="pt-2 text-gray-600">
-                  <input class="text-lg bg-gray-200 bg-opacity-0 h-10 px-5 pr-8 rounded-lg text-sm focus:outline-none" type="search" name="search" placeholder="Join/Create room..." />
-                  <button type="submit" className="hidden absolute right-0 top-0 mt-5 mr-4"></button>
+              <div className="pt-2 text-gray-600" >
+                  <input className="text-lg bg-gray-200 bg-opacity-0 h-10 px-5 pr-8 rounded-lg text-sm focus:outline-none" type="search" name="search" placeholder="Join/Create room..." />
+                  <button type="submit"  className="hidden absolute right-0 top-0 mt-5 mr-4"></button>
                   <hr/>
                 </div>  
               <nav className="mt-5 flex-1" aria-label="Sidebar">
                 <div className="px-2 space-y-3">
-                  <a href="/" className="h-24 w-56 border-2 border-dashed border-gray-200 hover:bg-gray-50 justify-center text-gray-400 group flex items-center py-2 text-xl font-medium rounded-md">
+                  <button onClick = {props.openModal} className="h-24 w-56 border-2 border-dashed border-gray-200 hover:bg-white hover:text-gray-800 justify-center text-gray-400 group flex items-center py-2 text-xl font-medium rounded-md focus:outline-none">
                     +
                     <br/>
                     New Room
-                  </a>
+                  </button>
+                  {error ? <p>Something went wrong</p> : <></>}
+                  {data ? data.map((it) => <RoomButton roomid = {it.roomid} roomname = {it.roomname} description = {it.roomdesc}/>)
+                  :
+                  <div>Loading...</div>
+                  }
     
-                  <a href="/" className="h-24 w-56 pt-2 border border-gray-300 text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
-                     
-                      <div>
-                        <h4 className="w-48 text-lg font-bold truncate">Test room 1</h4>
-                        <p className="w-48 truncate mt-1 text-xs">
-                          meeting room for morning status stuff going on please wrap if this goes on for too long hello i asked it to
-                        </p>
-                        <p className = "items-end text-sm">4/4 participants</p>
-                      </div>
-
-                  </a>
-                  <a href="/" className="h-24 w-56 pt-2 border border-gray-300 text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
-                     
-                      <div>
-                        <h4 className="w-48 text-lg font-bold truncate ">Test room 2 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-                        <p className="w-48 truncate mt-1 text-xs">
-                          meeting room for morning status stuff going on please wrap if this goes on for too long hello i asked it to
-                        </p>
-                        <p className = "items-end text-sm">4/4 participants</p>
-                      </div>
-
-                  </a>
+                 
     
                  
     

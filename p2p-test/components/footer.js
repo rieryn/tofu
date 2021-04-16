@@ -24,8 +24,8 @@ import { Transition } from '@headlessui/react'
     */
 export default function Footer() {
   return (
-<footer className="bg-gray-800 justify-center ">
-<div className="md:pl-24 pt-8 mx-5 my-2 flex flex-wrap justify-center">
+<footer className="bg-gray-800 justify-center overflow-hidden z-50 ">
+<div className="md:pl-24 pt-8 mx-5 my-2 flex flex-wrap justify-center ">
 
               <img className="object-fill w-24 rounded-lg" src="/tofu.svg" alt="" />
           <div className="px-8 py-2">
@@ -62,6 +62,11 @@ export default function Footer() {
               API
             </a>
           </div>
+          <div className="px-5 py-2">
+            <a href="https://ontariotechu.ca/mycampus/" className="text-base text-gray-400 hover:text-gray-200">
+              myCampus
+            </a>
+          </div>
     
         </div>
         <div className="mt-8 flex justify-center space-x-6">
@@ -96,7 +101,7 @@ export default function Footer() {
         
       </div>
       <p className="pb-4 mt-8 text-center text-xs text-gray-500">
-          &copy; 2020 NOTU INC. ALL RIGHTS RESERVED
+          &copy; 2021 NOTU ALL RIGHTS RESERVED
         </p>
     </footer>
   )

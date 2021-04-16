@@ -12,6 +12,7 @@ export default function Frame ({children}) {
       <Navbar/>
 
       <main >
+
             
 
         {children}

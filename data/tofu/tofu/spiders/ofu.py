@@ -169,7 +169,8 @@ class OfuSpider(scrapy.Spider):
 
             with open('%s.json' %subj, 'w') as outfile:
                 json.dump(sanitizedOutput, outfile, indent=4, sort_keys=True)
-
+            with open("[aggregate].json", "a") as outfile:
+                json.dump(sanitizedOutput, outfile, indent=4, sort_keys=True)
 
 
 
