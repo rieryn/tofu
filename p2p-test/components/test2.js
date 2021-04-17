@@ -17,7 +17,6 @@ const Chat = (props) => {
     const refs = useRef(mediaConnections.map(() => createRef()));
     var ref1 = React.createRef();
     var ref2 = React.createRef();
-    var getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
 
   const [items, setItems] = useState([]);
 
@@ -40,6 +39,21 @@ const Chat = (props) => {
   }
 
     useEffect(() => {
+        var constraints = {
+            video: true,
+            audio: true
+        };
+        async function getMedia(constraints) {
+            let stream = null;
+            try { 
+                stream = await navigator.mediaDevices.getUserMedia(constraints);
+                return stream;
+              } catch (err) {
+                /* handle the error */
+                console.log(err);
+            }
+            }
+
                      function initialize() {
 
                          /*for (const i in props.props)
@@ -131,7 +145,7 @@ const Chat = (props) => {
                     peer.on('call', function(call) {
                         console.log("called")
                         mediaConnections.push(call)
-                          getUserMedia({video: true, audio: true}, function(stream) {
+                          getMedia({video: true, audio: true}, function(stream) {
                             call.answer(stream); 
                             console.log(stream)
                             let streams = 0
@@ -192,7 +206,7 @@ const Chat = (props) => {
                         console.log("Connected to: " + conn.peer);
 
                     });
-                        getUserMedia({video: true, audio: true}, function(stream) {
+                        getMedia({video: true, audio: true}, function(stream) {
                           var call = peer.call(conn.peer, stream);
                           console.log(stream)
                           call.on('stream', function(remoteStream) {

@@ -57,7 +57,7 @@ export default function Component() {
 
  
     return (
-      <div ref = {ref} className = "flex items-center lg:w-full justify-center z-50 font-medium text-blue-400 xl:px-6">
+      <div ref = {ref} className = " max-w-7xl flex items-center lg:w-full justify-center z-50 font-medium text-blue-400 xl:px-6">
       <div className = "relative inline-block w-full">
         <input onKeyDown={(e)=> {if(e.key==='Enter') router.push(`/course_search_results?q=${search}`)}}
         className = "relative w-full truncate border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"

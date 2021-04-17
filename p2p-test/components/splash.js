@@ -6,14 +6,14 @@ export default function Component(props){
     const [ session, loading ] = useSession()
 
   return (
-    <div className="lg:relative lg:flex-none bg-white h-screen overflow-hidden">
-      <div className="lg:max-w-7xl mx-auto ">
+    <div className="lg:relative lg:flex-none bg-white h-screen overflow-hidden ">
+      <div className="lg:max-w-7xl mx-auto xl:max-w-full ">
         <div className="relative z-10 pb-48 bg-white  md:w-3/5">
           <svg className="hidden lg:block absolute -right-40 w-80  h-screen text-white transform translate-x-3/5" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
             <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
 
-          <main className="mx-auto max-w-7xl  h-screen pt-56 lg:pr-16 px-8 lg:px-0 z-0">
+          <main className="mx-auto max-w-7xl  h-screen pt-56 lg:pr-16 px-8 lg:px-0 z-0 xl:pt-0 xl:pb-80 xl:pl-36 xl:flex xl:items-center ">
             <div className="text-center lg:text-left">
               <h1 className="text-6xl tracking-tight text-blue-400 pl-10 lg:pl-0">
                 <Search/>
@@ -47,7 +47,7 @@ export default function Component(props){
           </main>
         </div>
       </div>
-      <div className="absolute inset-y-0 top-0 -right-10  w-5/6  pr-8 hidden lg:block">
+      <div className="absolute inset-y-0 top-0 -right-10  xl:w-4/6 w-5/6  pr-8 hidden lg:block">
         <img className="object-cover h-full" src="https://i.imgur.com/Z8LRcsn.png" alt="" />
       </div>
     </div>
