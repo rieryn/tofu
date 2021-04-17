@@ -318,7 +318,7 @@ export default function Meetings(props){
               >Enable webcam</button>}
               </div>
               }
-              
+              {streams.map(s => <Video stream={s} />)}
             </div>
             </div>
           </main>
@@ -333,3 +333,20 @@ export default function Meetings(props){
     </div>
   );
 }
+
+const Video = ({ stream }) => {
+  const ref = React.createRef();
+
+  // ref.current is null on first render
+  useEffect(() => {
+    //update when ref gets a value
+    if (ref.current) ref.current.srcObject = stream;
+  }, [stream, ref]);
+
+  return (
+      <div>
+    test
+      <video style={{ height: 100, width: 100 }} ref={ref} autoPlay />
+    </div>
+  );
+};   
