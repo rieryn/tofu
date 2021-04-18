@@ -7,7 +7,6 @@ import ReactDOM from "react-dom";
 
 
 export default function Meetings(props){
-  console.log(props.room)
   var ref = React.createRef();
 
   const [toggleCam,setToggleCam] = useState(false);
@@ -25,6 +24,8 @@ export default function Meetings(props){
   var mediaStreams = []
    //unless something goes wrong these are 1:1
   var peer = null; 
+  const [peerstate,setPeer] = useState();
+
   var peerId = null;
   var conn = null;
   var messages = []
@@ -77,10 +78,11 @@ export default function Meetings(props){
 
   }, [toggleCam]);
 
-  
 
   //initialize peer
   useEffect(() => {
+
+    console.log(props.room.roomid)
     console.log("Remote peers:")
     console.log(remotePeerIds)
     let idlocalStorage;
@@ -96,7 +98,6 @@ export default function Meetings(props){
                              remotePeerIds.push(i);
                          }*/
                    console.log("Initializing peer")
-                   console.log(props.peerid);
                     //new peer
                     peer = new Peer( {
                         debug: 2,
@@ -104,6 +105,7 @@ export default function Meetings(props){
                         port: 9000,
                         path: 'peerjs/myapp'
                     });
+
                     //on conn to peerserver
 
                     peer.on('open', function (id) {
@@ -111,11 +113,17 @@ export default function Meetings(props){
                             console.log('null id from peer open');
                             peer.id = peerId;
                         } else {
+                            fetch(`http://localhost:3000/api/join?peerid=${peer.id}&roomid=${props.room.roomid}`)
                             peerId = peer.id;
                         }
+                        setPeer(peerstate);
 
                         peerId = peer.id;
+
                         console.log('check if these ids are the same\n' + peer.id+'\n'+ idlocalStorage+'\n'+ peerId+'\n');
+                        if(remotePeerIds.length>0){
+                    join(remotePeerIds);
+                    }
                     });
                     //set up listener fns for incoming conns
                     //on data connection. note there are 2 connections
@@ -184,6 +192,7 @@ export default function Meetings(props){
                     peer.on('close', function() {
                         dataConnections = [];
                         mediaConnections= [];
+                        fetch(`http://localhost:3000/api/leave?peerid=${peer.id}&roomid=${props.room.roomid}`)
                         console.log('peer destroyed');
                     });
 
@@ -193,6 +202,7 @@ export default function Meetings(props){
                         alert('' + err);
                     });
                     console.log(mediaConnections.length)
+
                 };
 
 
@@ -232,40 +242,65 @@ export default function Meetings(props){
 
                 //joining call
                 function join(remotePeerIds) {
+                  console.log("run join")
+                  for (let i in dataConnections){
+                    dataConnections[i].close()
+                  }
+                  console.log(remotePeerIds)
                     mediaConnections = [];
                     dataConnections = [];
                     for (let i in remotePeerIds){
-                      dataconn = peer.connect(i, {reliable: true});
-                      dataconn.on('open', function () {
-                        dataConnections.push(dataconn)
-                        console.log("Connected to: " + conn.peer);
-                      });
+                      console.log(i)
+                      console.log(remotePeerIds[i])
+                      let dataconn = peer.connect("e3bf6aca-12ea-45c5-b428-d4c562d3ac9f", {reliable: true});
+                      console.log(dataconn)
+                      dataConnections.push(dataconn)
                       getUserMedia({video: true, audio: true}, function(stream) {
-                        let mediaconn = peer.call(conn.peer, stream);
-                        console.log(stream)
-                        call.on('stream', function(remoteStream) {
-                          mediaConnections.push(mediaconn)
-                          testStreamRef.current.srcObject = remoteStream;
-                        });
-                        }, function(err) {
-                          console.log('Failed to get local stream' ,err);
-                        });
-
-                      dataconn.on('open', function () {
-                          console.log("Connected to: " + conn.peer);
-                      });
-                      dataconn.on('data', function (data) {
+                        let mediaconn = peer.call(remotePeerIds[i], stream);
+                        mediaConnections.push(mediaconn)}
+                      );
+                      for (i in dataConnections){
+                        console.log(dataConnections[i])
+                        dataConnections[i].on('open', function () {
+                        console.log("Connected to: " + dataConnections[i].peer);
+                        dataConnections[i].on('data', function (data) {
                           addMessage(data);
                       });
-                      dataconn.on('close', function () {
+                      dataConnections[i].on('close', function () {
                       });  
+                      });
+                      }
+                      for(i in mediaConnections){
+                        let streams = 0
+                        mediaConnections[i].on('stream', function(remoteStream) {
+                          //will call twice for video/audio but both have video/audio thx 2019
+                          console.log("Connecting called media streams")
+                          streams +=1
+                          if(streams==1){
+                               setStreams(streams => [...streams, stream]);
+                          }
+                        });
+                      }
                     }
                 };
-                if(remotePeerIds>0){}
-                initialize();
-                join(remotePeerIds)
-    }, [remotePeerIds]);
-
+                if(props.room.roomid){
+                    initialize()
+                    
+                }
+                
+    }, [remotePeerIds, props.room.roomid]);
+const beforeUnload = (peerstate) => {
+  window.onbeforeunload = (event) => {
+    const e = event || window.event;
+    e.preventDefault();
+    peer.destroy();
+    console.log("unloadevent")
+  };
+};
+useEffect(() => {
+    setRemotePeerIds(["e3bf6aca-12ea-45c5-b428-d4c562d3ac9f"])
+    beforeUnload();
+  }, [peerstate]);
 
     var comps = []
     //for( let i in mediaStreams){
@@ -280,7 +315,7 @@ export default function Meetings(props){
   return (
     <div className="h-full flex overflow-auto bg-white">
     <Modal showModal = {showModal} closeModal = {closeModal}/>
-    <MeetingsBar openModal = {openModal}/>
+    {props.room.roomid ?  <></> :<MeetingsBar openModal = {openModal}/> }
       
       <div className="flex flex-col flex-1 overflow-hidden">
         
@@ -315,9 +350,11 @@ export default function Meetings(props){
                 type="button"
                 className="inline-flex items-center px-2.5 py-1.5 w-20 border border-transparent text-xs font-medium rounded text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none"
               >Enable webcam</button>}
+
+              {streams.map(s => <Video stream={s} />)}
               </div>
               }
-              {streams.map(s => <Video stream={s} />)}
+              
             </div>
             </div>
           </main>
@@ -345,7 +382,7 @@ const Video = ({ stream }) => {
   return (
       <div>
     test
-      <video style={{ height: 100, width: 100 }} ref={ref} autoPlay />
+      <video className="h-full w-full" ref={ref} autoPlay />
     </div>
   );
 };   
