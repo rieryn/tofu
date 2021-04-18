@@ -122,8 +122,8 @@ export default function Meetings(props){
 
                         console.log('check if these ids are the same\n' + peer.id+'\n'+ idlocalStorage+'\n'+ peerId+'\n');
                         if(remotePeerIds.length>0){
-                    join(remotePeerIds);
-                    }
+                            join(remotePeerIds);
+                        }
                     });
                     //set up listener fns for incoming conns
                     //on data connection. note there are 2 connections
@@ -343,9 +343,8 @@ useEffect(() => {
               </button>
               </>
               :
-              <div>
-              test
-              {  toggleCam ? <video className="h-3/4 p-12 rounded-lg" ref={testStreamRef} autoPlay ></video> :
+              <div className = "grid  grid-cols-4 grid-rows-4 grid-flow-col h-full w-full place-content-stretch    ">
+              {  toggleCam ? <video className="h-full w-full" ref={testStreamRef} autoPlay ></video> :
               <button onClick = {() => setToggleCam(!toggleCam)}
                 type="button"
                 className="inline-flex items-center px-2.5 py-1.5 w-20 border border-transparent text-xs font-medium rounded text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none"
@@ -381,8 +380,7 @@ const Video = ({ stream }) => {
 
   return (
       <div>
-    test
-      <video className="h-full w-full" ref={ref} autoPlay />
+      <video className="w-full h-full" ref={ref} autoPlay />
     </div>
   );
 };   
