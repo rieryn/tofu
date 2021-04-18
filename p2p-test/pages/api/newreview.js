@@ -15,6 +15,7 @@ export default async (req, res) => {
       if(user[0].reviewedcourses?.includes(data.coursecode)){
         console.log(data.coursecode)
         console.log("already reviewed")
+        res.redirect('/message?msg=You%20already%20reviewed%20this%20course');
       }
       else{
         db.collection('accounts').findOneAndUpdate(
@@ -26,6 +27,7 @@ export default async (req, res) => {
           { $addToSet: {"reviews": data.reviewbody},
             $inc: {"numratings": 1,"easyratingtotal": parseInt(data.easyrating),"goodratingtotal": parseInt(data.goodrating)}},
           { upsert:true})
+        res.redirect('/message?msg=Thank%20you%20for%20your%20review');
       }
 
    }

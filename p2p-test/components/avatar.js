@@ -26,7 +26,7 @@ export default function Avatar () {
             
             <span className="text-gray-300 pr-6 pb-1">
               <small>Signed in as</small><br/>
-              <strong>{session.user.id || session.user.name|| session.user.email }</strong>
+              <strong>{session.user.name|| session.user.email }</strong>
             </span>
             
               <div className="flex-1 flex items-center justify-start">

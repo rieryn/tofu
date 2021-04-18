@@ -31,7 +31,7 @@ export default function courseTable (props) {
       </td>
       <td className="hidden md:block block px-6 py-4 whitespace-nowrap lg:w-36 xl:w-full lg:max-w-xs transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-101">
         <div className="text-sm text-gray-900">
-        {props.numreviews || 0} Reviews</div>
+        {props.data.numratings || 0} Reviews</div>
         <div className="hidden md:block overflow-ellipsis w-8 lg:w-full  overflow-hidden text-sm text-gray-500">
         {props.data.reviews || "n/a"}</div>
         <a href="#" className="text-sm text-blue-400">(expand)</a>
