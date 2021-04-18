@@ -7,7 +7,7 @@ export default function CourseSearch () {
   console.log(router.query);
   return (
     <Frame>
-      <div className = "flex items-center justify-center p-24 ">
+      <div className = "flex items-center md:justify-center lg:p-24 ">
       <CourseTable query = {router.query} />
       </div>
     </Frame>

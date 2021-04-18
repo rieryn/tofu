@@ -3,7 +3,7 @@ import RoomButton from '../components/roomjoinButton'
 
 
 export default function MeetingsBar(props){
-    const fetcher = url => fetch(url).then(r => r.json())
+  const fetcher = url => fetch(url).then(r => r.json())
   const { data, error } = useSWR('/api/rooms', fetcher)
   //create room pops out a modal
   //join/search input has a autocomplete and input on enter
@@ -13,7 +13,7 @@ export default function MeetingsBar(props){
   return (
     <div className=" flex flex-shrink-0">
         <div className="flex flex-col">
-          <div className="flex flex-col h-0 flex-1 border-r border-gray-200 bg-gray-100 pl-2">
+          <div className="flex flex-col h-0 flex-1 border-r border-gray-200 bg-blue-50 pl-2">
             <div className="flex-1 flex flex-col overflow-y-auto">
               <div className="flex items-center flex-shrink-0 px-4">
               </div>
@@ -24,9 +24,11 @@ export default function MeetingsBar(props){
                     </svg>
                     Back to Dashboard
                   </a>
+                    <p className = "text-xs pt-2 pl-2">Direct connection</p>
+              <div className="pl-2 pt-2 text-gray-600" >
 
-              <div className="pt-2 text-gray-600" >
-                  <input className="text-lg bg-gray-200 bg-opacity-0 h-10 px-5 pr-8 rounded-lg text-sm focus:outline-none" type="search" name="search" placeholder="Join/Create room..." />
+                  <input className="text-sm bg-white bg-opacity-80 h-10 px-5 pr-8 rounded-lg text-sm focus:outline-none" 
+                  type="text" name="peerid" placeholder="Enter id..." id="peerid" />
                   <button type="submit"  className="hidden absolute right-0 top-0 mt-5 mr-4"></button>
                   <hr/>
                 </div>  

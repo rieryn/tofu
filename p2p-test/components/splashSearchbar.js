@@ -29,7 +29,7 @@ return (
 }
 span{
   margin: 0 15px;
-  line-height: 4;
+  line-height: 2;
   text-shadow: 0 0 2px rgba(0, 0, 0, .45);
 
 }
@@ -46,7 +46,6 @@ span{
   box-shadow:
     0 0 2px rgba(0, 0, 0, .75),
     inset 0 0 2px rgba(0, 0, 0, .45);
-padding-left:20px;
   animation: bar 3s ease-in-out 0s 1;
   animation-fill-mode: forwards;
 }

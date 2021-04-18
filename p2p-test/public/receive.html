@@ -6,29 +6,13 @@
     </head>
     <body>
                 This page is purely for manual testing
-
-        <table class="display">
-            <tr>
-                <td class="title">Status:</td>
-                <td class="title">Messages:</td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="receiver-id" style="font-weight: bold;" title="Copy this to send.html.">ID:</div>
-                </td>
-                <td>
-                    <input type="text" id="sendMessageBox" placeholder="Enter a message..." autofocus="true" />
-                    <button type="button" id="sendButton">Send</button>
-                    <button type="button" id="clearMsgsButton">Clear Msgs (Local)</button>
-                </td>
-            </tr>
-            <tr>
-                <td><div id="status" class="status"></div></td>
-                <td><div class="message" id="message"></div></td>
-            </tr>
-        </table>
-                            <button type="button" id="idButton">post id</button>
-          <video id="localVideo" playsinline autoplay muted></video>
+    <div id="receiver-id" >ID:</div>
+    <input type="text" id="sendMessageBox" placeholder="Enter a message..." autofocus="true" />
+    <button type="button" id="sendButton">Send</button>
+    <div id="status" class="status">
+    <div class="message" id="message">
+    <button type="button" id="idButton">post id</button>
+    <video id="localVideo" autoplay muted></video>
 
         <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
         <script type="text/javascript">
@@ -78,16 +62,14 @@
                             c.on('open', function() {
                                 console.log("Connected with peer: "+c.peer);
                                 c.on('data',function(data){
-                                   // You can do whatever you want with the data from this connection - this is also the main part
+
                                    dataHandler(c,data);
                                 });
                                 c.on('error',function(){
-                                  // handle error 
                                   connectionError(c);
                                 });
 
                                 c.on('close',function(){
-                                  // Handle connection closed
                                   connectionClose(c);
                                 });
 
@@ -144,11 +126,9 @@
                 function ready() {
                     conn.on('data', function (data) {
                         console.log("Data recieved");
-                        var cueString = "<span class=\"cueMsg\">Cue: </span>";
                         switch (data) {
-                            case 'Reset':
+                            case 'reset':
                                 reset();
-                                addMessage(cueString + data);
                                 break;
                             default:
                                 addMessage("<span class=\"peerMsg\">Peer: </span>" + data);
@@ -162,6 +142,7 @@
                 }
 
                 function reset() {
+                    //just refresh the page please
                 };
 
                 function addMessage(msg) {
@@ -181,7 +162,7 @@
                         return t;
                     };
 
-                    message.innerHTML = "<br><span class=\"msg-time\">" + h + ":" + m + ":" + s + "</span>  -  " + msg + message.innerHTML;
+                    message.innerHTML = msg + message.innerHTML;
                 }
 
                 function clearMessages() {
@@ -189,14 +170,12 @@
                     addMessage("Msgs cleared");
                 }
 
-                // Listen for enter in message box
                 sendMessageBox.addEventListener('keypress', function (e) {
                     var event = e || window.event;
                     var char = event.which || event.keyCode;
                     if (char == '13')
                         sendButton.click();
                 });
-                // Send message
                 sendButton.addEventListener('click', function () {
                      let msg = sendMessageBox.value;
                      sendMessageBox.value = "";
@@ -224,11 +203,7 @@
                             }, newtworkError => console.log(networkError.message)
                         )
                     });
-
-                clearMsgsButton.addEventListener('click', clearMessages);
                 
-                        
-
                 initialize();
             })();
         </script>

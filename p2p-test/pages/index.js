@@ -11,11 +11,10 @@ import { useCallback,useRef, useEffect,useState } from 'react'
 import { Transition } from "@headlessui/react";
 
 export default function Home({ isConnected }) {
-    const [nav, setNav] = useState(false);
+    const [nav, setNav] = useState(true);
 useEffect(() => {
   const timer = setTimeout(() => {
-    setNav(!nav)
-    console.log('This will run after 1 second!')
+    setNav(true)
   }, 2000);
   return () => clearTimeout(timer);
 }, []);

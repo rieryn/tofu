@@ -1,6 +1,6 @@
-still todo list:
+```
+todo list:
 jquery and graph
-fill out results page
 course details page
 modal for adding review
 buttons for ratings
@@ -18,7 +18,7 @@ team page
 map planner
 notes
 drawing board
-
+```
 req:
 ```
 have mongodb 4.4 installed

@@ -71,6 +71,10 @@ export default NextAuth({
   // when an action is performed.
   // https://next-auth.js.org/configuration/callbacks
   callbacks: {
+    session: async (session, user) => {
+      session.user.id = user.id
+      return Promise.resolve(session)
+    }
     // async signIn(user, account, profile) { return true },
     // async redirect(url, baseUrl) { return baseUrl },
     // async session(session, user) { return session },

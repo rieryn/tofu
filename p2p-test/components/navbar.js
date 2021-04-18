@@ -21,28 +21,27 @@ export default function Component(props){
     [ref.current],
   )
     useEffect(() => {
-    // attach the listeners on component mount.
+    // attach the listeners on mount
     document.addEventListener('click', clickListener)
-    // detach the listeners on component unmount.
+    // detach the listeners on unmount
     return () => {
       document.removeEventListener('click', clickListener)
     }
   }, [])
-    //mobile menu
 
 
   return (
 
     <nav  ref = {ref} className="bg-gray-800 ">
-      <div className="max-w-full px-5">
+      <div className=" px-5">
         <div className="relative flex justify-between h-16">
-        {/* mobile menu hamburger */}
+        {/* hamburger */}
         <div className="relative inset-y-0 left-0 pr-6 flex items-center lg:hidden ">
         <button type="button" onClick={() => setMobileIsOpen(!mobileIsOpen)} className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
           <span className="sr-only">Open main menu</span>
 
-          <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke="white" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke="white" aria-hidden="true">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         
         </button>

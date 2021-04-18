@@ -1,7 +1,7 @@
 import MeetingsBar from '../components/meetingsBar'
 import ChatPanel from '../components/chatPanel'
 import React, { useCallback,useRef, useEffect,useState } from 'react'
-import Modal from '../components/addcourseModal'
+import Modal from '../components/addRoomModal'
 import Peer from 'peerjs';
 import ReactDOM from "react-dom";
 
@@ -40,26 +40,9 @@ export default function Meetings(props){
   const closeModal = () => {
     setShowModal(false);
   }
-  //toggle test cam
-  useEffect(() => {
-    var constraints = {
-        video: true,
-        audio: true
-    };
-    async function getMedia(constraints) {
-        let stream = null;
-        try {                
-            stream = await navigator.mediaDevices.getUserMedia(constraints);
-            // console.log(stream.getAudioTracks()[0].getCapabilities()) ;
-            testStreamRef.current.srcObject = stream;
-             } catch (err) {
-            console.log(err);
-        }
-    }
-    if(toggleCam) getMedia(constraints);
-
-  }, [toggleCam]);
-
+  const setPeers = (peerList) => {
+    setRemotePeerIds(peerList);
+  }
   //messages from datachannel
   function addMessage (msg) {
     setMessageData(messageData => [...messageData, msg]);
@@ -78,6 +61,23 @@ export default function Meetings(props){
        ref.srcObject = stream;
      }
   }
+  //toggle test cam
+  useEffect(() => {
+    async function getMedia() {
+        let stream = null;
+        try {                
+            stream = await navigator.mediaDevices.getUserMedia({video: true,audio: true});
+            // console.log(stream.getAudioTracks()[0].getCapabilities()) ;
+            testStreamRef.current.srcObject = stream;
+             } catch (err) {
+            console.log(err);
+        }
+    }
+    if(toggleCam) getMedia();
+
+  }, [toggleCam]);
+
+  
 
   //initialize peer
   useEffect(() => {
@@ -176,8 +176,7 @@ export default function Meetings(props){
 
                     //on disconnect from signalling server
                     peer.on('disconnected', function () {
-                        console.log('Connection lost. Attempting to reconnect');
-                        //peer.reconnect();
+                        peer.reconnect();
                     });
 
                     //on peer destroy
@@ -185,7 +184,7 @@ export default function Meetings(props){
                     peer.on('close', function() {
                         dataConnections = [];
                         mediaConnections= [];
-                        console.log('Connection destroyed');
+                        console.log('peer destroyed');
                     });
 
                     //errors always destroy the peer
@@ -327,7 +326,7 @@ export default function Meetings(props){
           
         </div>
       </div>
-      <ChatPanel messages= {messageData}/>
+      <ChatPanel messages= {messageData} setPeers = {setPeers}/>
 
       
     </div>
