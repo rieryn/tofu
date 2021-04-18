@@ -29,18 +29,26 @@
                 "crn": "74906",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "R",
-                "filled": "35",
+                "filled": "34",
                 "instructor": "William   Thurber",
                 "location": "Synchronous SYN",
                 "prereq": [
                     "** PRERQ:       BUSI  3040 - INFORMATION SYSTEMS            [Min Grade: D]  "
                 ],
-                "remaining": "15",
+                "remaining": "16",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nPost Secondary, Undergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Programs:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Bachelor of Commerce\n\n\u00a0 \u00a0 \u00a0 BIT(Hons)\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Game Dev & Entrepreneurship\n\n\u00a0 \u00a0 \u00a0 Game Dev & Entrepreneurship\n\n\u00a0 \u00a0 \u00a0 Information Technology\n\n\u00a0 \u00a0 \u00a0 Networking & IT Security\n\n\n\n",
                 "section": "009",
                 "time": "2:10 pm - 3:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -163,6 +171,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -176,7 +192,7 @@
                 "crn": "74308",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "W",
-                "filled": "62",
+                "filled": "61",
                 "instructor": "Kayla   Tomulka",
                 "location": "Synchronous SYN",
                 "prereq": [
@@ -185,7 +201,7 @@
                     "** PRERQ:  OR   BUSI  2205 - PRINCIPLES OF MARKETING        [Min Grade: D]  ",
                     "** PRERQ:  OR   BUSI  2210 - MRKT IN THE INFR TECH SECTOR   [Min Grade: D]  "
                 ],
-                "remaining": "3",
+                "remaining": "4",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Degrees:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 BCom (Hons)\n\n\nShow linked Section(s)\n",
                 "section": "001",
                 "time": "2:10 pm - 3:30 pm",
@@ -326,15 +342,23 @@
                 "crn": "74318",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "F",
-                "filled": "61",
+                "filled": "60",
                 "instructor": "TBA",
                 "location": "Synchronous SYN",
-                "remaining": "4",
+                "remaining": "5",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nTutorial Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\nShow linked Section(s)\n",
                 "section": "011",
                 "time": "2:10 pm - 3:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -373,6 +397,14 @@
                 "time": "11:10 am - 12:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -395,6 +427,14 @@
                 "time": "12:40 pm - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -417,6 +457,14 @@
                 "time": "5:10 pm - 6:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -439,6 +487,14 @@
                 "time": "5:10 pm - 8:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -477,6 +533,14 @@
                 "time": "12:40 pm - 2:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -611,6 +675,14 @@
                 "time": "2:10 pm - 3:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -633,6 +705,14 @@
                 "time": "6:40 pm - 9:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -671,6 +751,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -725,6 +813,14 @@
                 "time": "11:10 am - 12:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -763,6 +859,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -801,6 +905,14 @@
                 "time": "9:40 am - 11:00 am",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -839,6 +951,14 @@
                 "time": "2:10 pm - 3:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -957,6 +1077,14 @@
                 "time": "2:10 pm - 3:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -979,6 +1107,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1001,6 +1137,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lab Only"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1103,6 +1247,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1125,6 +1277,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1147,6 +1307,14 @@
                 "time": "12:40 pm - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1185,6 +1353,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1255,6 +1431,14 @@
                 "time": "6:40 pm - 8:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1293,6 +1477,14 @@
                 "time": "12:40 pm - 2:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1331,6 +1523,14 @@
                 "time": "9:40 am - 11:00 am",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1353,6 +1553,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1391,6 +1599,14 @@
                 "time": "5:10 pm - 8:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1413,6 +1629,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1435,6 +1659,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1457,6 +1689,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1479,6 +1719,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1517,6 +1765,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1539,6 +1795,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1561,6 +1825,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1583,6 +1855,14 @@
                 "time": "8:10 am - 11:00 am",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1605,6 +1885,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1627,6 +1915,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1649,6 +1945,14 @@
                 "time": "8:10 am - 11:00 am",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1671,6 +1975,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1693,6 +2005,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1715,6 +2035,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1737,6 +2065,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1759,6 +2095,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1781,6 +2125,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1835,6 +2187,14 @@
                 "time": "5:10 pm - 6:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1857,6 +2217,14 @@
                 "time": "5:10 pm - 8:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1879,6 +2247,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1901,6 +2277,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1923,6 +2307,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1961,6 +2353,14 @@
                 "time": "9:40 am - 11:00 am",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1999,6 +2399,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2021,6 +2429,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2043,6 +2459,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2065,6 +2489,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2087,6 +2519,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2109,6 +2549,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2131,6 +2579,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2153,6 +2609,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2175,6 +2639,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2197,6 +2669,14 @@
                 "time": "6:40 pm - 9:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2235,6 +2715,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2257,6 +2745,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2270,15 +2766,23 @@
                 "crn": "72437",
                 "daterange": "Jan 11, 2021 - Apr 12, 2021",
                 "days": "\u00a0",
-                "filled": "15",
+                "filled": "14",
                 "instructor": "Amanda   McEachern-Gaudet",
                 "location": "TBA",
-                "remaining": "25",
+                "remaining": "26",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Other Campus\n\nWork Term Schedule Type\n\nOffsite Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Third year\n\n\u00a0 \u00a0 \u00a0 Fourth year\n\n\u00a0 \u00a0 \u00a0 Fifth year\n\n\n\n",
                 "section": "001",
                 "time": "TBA",
                 "type": "Work Term"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2301,6 +2805,14 @@
                 "time": "TBA",
                 "type": "Work Term"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2314,15 +2826,23 @@
                 "crn": "74689",
                 "daterange": "Jan 11, 2021 - Apr 12, 2021",
                 "days": "\u00a0",
-                "filled": "2",
+                "filled": "3",
                 "instructor": "Amanda   McEachern-Gaudet",
                 "location": "TBA",
-                "remaining": "38",
+                "remaining": "37",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa Campus\n\nWork Term Schedule Type\n\nNot Applicable Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\n",
                 "section": "001",
                 "time": "TBA",
                 "type": "Work Term"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -2348,6 +2868,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     }
 ]

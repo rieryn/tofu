@@ -22,6 +22,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -47,6 +55,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -72,6 +88,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -97,6 +121,14 @@
                 "time": "Online",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -110,18 +142,26 @@
                 "crn": "71664",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "R",
-                "filled": "43",
+                "filled": "42",
                 "instructor": "Andrea   Braithwaite",
                 "location": "Synchronous SYN",
                 "prereq": [
                     "** PRERQ:       COMM  4120 - CONTEMPORARY ISSUES IN COMMUN. [Min Grade: D]  "
                 ],
-                "remaining": "7",
+                "remaining": "8",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\nShow PRERQ\n",
                 "section": "001",
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -147,6 +187,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -172,6 +220,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -194,6 +250,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -216,6 +280,14 @@
                 "time": "12:40 pm - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -238,6 +310,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -276,6 +356,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -298,6 +386,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -320,6 +416,14 @@
                 "time": "2:10 pm - 3:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -342,6 +446,14 @@
                 "time": "11:10 am - 12:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     }
 ]

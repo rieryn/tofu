@@ -198,6 +198,14 @@
                 "time": "11:10 am - 12:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -227,10 +235,10 @@
                 "crn": "70198",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "W",
-                "filled": "140",
+                "filled": "139",
                 "instructor": "Rupinder   Brar",
                 "location": "Synchronous SYN",
-                "remaining": "100",
+                "remaining": "101",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Energy Systems & Nuclear Sci\n\n\u00a0 \u00a0 \u00a0 Engineering & Applied Science\n\n\u00a0 \u00a0 \u00a0 Science\n\nMay not be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Biological Science\n\n\u00a0 \u00a0 \u00a0 Integrative Neuroscience\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n\n\n\n\n",
                 "section": "002",
                 "time": "11:10 am - 12:30 pm",
@@ -243,10 +251,10 @@
                 "crn": "72883",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "T",
-                "filled": "216",
+                "filled": "215",
                 "instructor": "Rupinder   Brar",
                 "location": "Synchronous SYN",
-                "remaining": "84",
+                "remaining": "85",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Energy Systems & Nuclear Sci\n\n\u00a0 \u00a0 \u00a0 Engineering & Applied Science\n\n\u00a0 \u00a0 \u00a0 Science\n\nMay not be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Biological Science\n\n\u00a0 \u00a0 \u00a0 Integrative Neuroscience\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
                 "section": "048",
                 "time": "9:40 am - 11:00 am",
@@ -323,10 +331,10 @@
                 "crn": "70203",
                 "daterange": "Jan 11, 2021 - Jan 11, 2021",
                 "days": "M",
-                "filled": "22",
+                "filled": "21",
                 "instructor": "TBA",
                 "location": "Synchronous SYN",
-                "remaining": "2",
+                "remaining": "3",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLaboratory Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay not be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Health Sciences\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
                 "section": "007",
                 "time": "8:10 am - 11:00 am",
@@ -419,10 +427,10 @@
                 "crn": "71908",
                 "daterange": "Jan 12, 2021 - Jan 12, 2021",
                 "days": "T",
-                "filled": "24",
+                "filled": "23",
                 "instructor": "TBA",
                 "location": "Synchronous SYN",
-                "remaining": "0",
+                "remaining": "1",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLaboratory Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay not be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Health Sciences\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
                 "section": "024",
                 "time": "12:40 pm - 3:30 pm",
@@ -867,10 +875,10 @@
                 "crn": "72395",
                 "daterange": "Jan 13, 2021 - Jan 13, 2021",
                 "days": "W",
-                "filled": "34",
+                "filled": "33",
                 "instructor": "TBA",
                 "location": "Synchronous SYN",
-                "remaining": "2",
+                "remaining": "3",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nTutorial Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay not be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Health Sciences\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
                 "section": "038",
                 "time": "12:40 pm - 2:00 pm",
@@ -963,10 +971,10 @@
                 "crn": "72887",
                 "daterange": "Jan 18, 2021 - Jan 18, 2021",
                 "days": "M",
-                "filled": "29",
+                "filled": "28",
                 "instructor": "TBA",
                 "location": "Synchronous SYN",
-                "remaining": "7",
+                "remaining": "8",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nTutorial Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay not be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Health Sciences\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
                 "section": "052",
                 "time": "11:10 am - 12:30 pm",
@@ -1004,6 +1012,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1218,6 +1234,14 @@
                 "time": "9:40 am - 11:00 am",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1288,6 +1312,14 @@
                 "time": "12:40 pm - 2:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1310,6 +1342,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1348,6 +1388,14 @@
                 "time": "5:10 pm - 6:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1370,6 +1418,14 @@
                 "time": "9:40 am - 11:00 am",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1408,6 +1464,14 @@
                 "time": "12:40 pm - 3:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1430,6 +1494,14 @@
                 "time": "2:10 pm - 3:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1452,6 +1524,14 @@
                 "time": "5:10 pm - 8:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1474,6 +1554,14 @@
                 "time": "12:40 pm - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1496,6 +1584,14 @@
                 "time": "9:40 am - 11:00 am",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1518,6 +1614,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Thesis/Project"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1545,6 +1649,14 @@
                 "time": "11:10 am - 12:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     }
 ]

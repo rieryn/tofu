@@ -1,3 +1,27 @@
+
+### Testing
+Preferably check out the demo site https://utofu.vercel.app/
+
+Running locally
+```
+npm run dev
+wait ~10s for load
+
+You will need a discord account to sign in with.
+
+if using local db
+	edit .env to local mongodb connection settings
+	create courses collection
+	import /data/[aggregate].json into courses collection 
+
+```
+The api keys compromised in this repo will be disabled on May 3rd
+
+
+#### Testing p2p features
+Open /send.html and /receive.html to test room connections, the peerID for the conferencing page will be logged in the console
+
+
 # Major Group Project
 
 Before you submit your project, modify the following table to include everyone's full name and GitHub usernames:

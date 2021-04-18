@@ -68,6 +68,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -234,6 +242,14 @@
                 "time": "5:10 pm - 6:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -368,6 +384,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -406,6 +430,14 @@
                 "time": "11:10 am - 12:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -444,6 +476,14 @@
                 "time": "11:10 am - 12:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -562,6 +602,14 @@
                 "time": "6:40 pm - 8:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -600,6 +648,14 @@
                 "time": "9:40 am - 11:00 am",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -702,6 +758,14 @@
                 "time": "9:40 am - 11:00 am",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -804,6 +868,14 @@
                 "time": "11:10 am - 12:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -890,6 +962,14 @@
                 "time": "12:40 pm - 2:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1008,6 +1088,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1078,6 +1166,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1100,6 +1196,14 @@
                 "time": "2:10 pm - 3:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1138,6 +1242,14 @@
                 "time": "11:10 am - 12:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1181,6 +1293,14 @@
                 "time": "2:10 pm - 3:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     }
 ]

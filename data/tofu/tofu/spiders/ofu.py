@@ -17,7 +17,7 @@ subjects = [
 "ELEE",
 "ESNS",
 "ENGR",
-"EAP",
+#"EAP",
 "ENVS",
 "FSCI",
 "HLSC",
@@ -38,7 +38,7 @@ subjects = [
 "POSC",
 "PSYC",
 "RADI",
-"SCCO",
+#"SCCO",
 "SSCI",
 "SOCI",
 "SOFE",
@@ -152,6 +152,12 @@ class OfuSpider(scrapy.Spider):
                     else:
                         d['coursecode'] = i['coursecode']
                         d['coursename'] = i['coursename']
+                        d['numratings'] = 0
+                        d['reviews'] = ["testreview"]
+                        d['easyrating'] = 0
+                        d['easyratingtotal'] = 0
+                        d['goodrating'] = 0
+                        d['goodratingtotal'] = 0
                         d['crns'] = []
                         d['crns'].append(i)
                         sanitizedOutput.append(d)
@@ -160,6 +166,12 @@ class OfuSpider(scrapy.Spider):
                 except IndexError:
                     d['coursecode'] = i['coursecode']
                     d['coursename'] = i['coursename']
+                    d['numratings'] = 0
+                    d['reviews'] = ["testreview"]
+                    d['easyrating'] = 0
+                    d['easyratingtotal'] = 0
+                    d['goodrating'] = 0
+                    d['goodratingtotal'] = 0
                     d['crns'] = []
                     d['crns'].append(i)
                     sanitizedOutput.append(d)

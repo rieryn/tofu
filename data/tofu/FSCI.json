@@ -22,6 +22,14 @@
                 "time": "8:10 am - 11:00 am",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -86,6 +94,14 @@
                 "time": "12:40 pm - 3:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -157,6 +173,14 @@
                 "time": "12:40 pm - 3:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -217,6 +241,14 @@
                 "time": "12:40 pm - 3:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -255,6 +287,14 @@
                 "time": "12:40 pm - 3:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -277,6 +317,14 @@
                 "time": "5:10 pm - 8:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -299,6 +347,14 @@
                 "time": "8:10 am - 10:00 am",
                 "type": "Thesis/Project"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -324,6 +380,14 @@
                 "time": "8:10 am - 10:00 am",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     }
 ]

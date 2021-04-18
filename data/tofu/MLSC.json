@@ -65,6 +65,14 @@
                 "time": "1:10 pm - 2:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -147,6 +155,14 @@
                 "time": "12:30 pm - 2:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -223,6 +239,14 @@
                 "time": "12:30 pm - 2:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -293,6 +317,14 @@
                 "time": "12:30 pm - 2:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -306,10 +338,10 @@
                 "crn": "73265",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "F",
-                "filled": "34",
+                "filled": "33",
                 "instructor": "James   Thurber",
                 "location": "Synchronous SYN",
-                "remaining": "11",
+                "remaining": "12",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Medical Laboratory Science\n\nMay not be enrolled as the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 First year\n\n\u00a0 \u00a0 \u00a0 Second year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
                 "section": "001",
                 "time": "2:10 pm - 3:30 pm",
@@ -338,10 +370,10 @@
                 "crn": "73267",
                 "daterange": "Jan 18, 2021 - Jan 18, 2021",
                 "days": "M",
-                "filled": "11",
+                "filled": "10",
                 "instructor": "Donna   Smeeton",
                 "location": "Business and IT Building (UB) UB3075",
-                "remaining": "1",
+                "remaining": "2",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa Campus\n\nLaboratory Schedule Type\n\nIn-class Delivery Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Medical Laboratory Science\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
                 "section": "003",
                 "time": "3:00 pm - 5:00 pm",
@@ -363,6 +395,14 @@
                 "time": "12:30 pm - 2:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -385,6 +425,14 @@
                 "time": "8:10 am - 9:30 am",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -455,6 +503,14 @@
                 "time": "12:30 pm - 2:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -468,10 +524,10 @@
                 "crn": "73269",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "F",
-                "filled": "38",
+                "filled": "37",
                 "instructor": "Donna   Smeeton",
                 "location": "Synchronous SYN",
-                "remaining": "7",
+                "remaining": "8",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Medical Laboratory Science\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
                 "section": "001",
                 "time": "9:40 am - 11:00 am",
@@ -484,10 +540,10 @@
                 "crn": "73270",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "R",
-                "filled": "13",
+                "filled": "12",
                 "instructor": "Donna   Smeeton",
                 "location": "Business and IT Building (UB) UB3085",
-                "remaining": "0",
+                "remaining": "1",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa Campus\n\nLaboratory Schedule Type\n\nIn-class Delivery Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Medical Laboratory Science\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
                 "section": "002",
                 "time": "9:30 am - 11:30 am",
@@ -525,6 +581,14 @@
                 "time": "12:30 pm - 2:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -538,15 +602,23 @@
                 "crn": "70594",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "T",
-                "filled": "40",
+                "filled": "39",
                 "instructor": "Ruth   Simpson",
                 "location": "Business and IT Building (UB) UB3095",
-                "remaining": "5",
+                "remaining": "6",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-North Oshawa Campus\n\nLab Only Schedule Type\n\nIn-class Delivery Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Majors:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Medical Laboratory Science\n\n\nShow PRERQ\n",
                 "section": "001",
                 "time": "9:10 am - 5:30 pm",
                 "type": "Lab Only"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -569,6 +641,14 @@
                 "time": "TBA",
                 "type": "Field Placement"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -591,6 +671,14 @@
                 "time": "TBA",
                 "type": "Field Placement"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -613,6 +701,14 @@
                 "time": "TBA",
                 "type": "Field Placement"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -635,6 +731,14 @@
                 "time": "TBA",
                 "type": "Field Placement"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -657,6 +761,14 @@
                 "time": "TBA",
                 "type": "Field Placement"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -679,6 +791,14 @@
                 "time": "TBA",
                 "type": "Field Placement"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -704,6 +824,14 @@
                 "time": "7:10 pm - 8:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     }
 ]

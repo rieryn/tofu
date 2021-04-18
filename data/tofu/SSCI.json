@@ -22,6 +22,14 @@
                 "time": "Online",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -35,13 +43,13 @@
                 "crn": "73591",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "T",
-                "filled": "135",
+                "filled": "134",
                 "instructor": "Matthew Lawrence  Stein",
                 "location": "Synchronous SYN",
                 "prereq": [
                     "** NOTE: This section is linked with SSCI 2910 - 017 ( CRN: 73545 )."
                 ],
-                "remaining": "5",
+                "remaining": "6",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\nLiberal Studies - Fac of Eng, Liberal Stds/Non Science Elect \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\n\n\n",
                 "section": "001",
                 "time": "2:10 pm - 5:00 pm",
@@ -66,6 +74,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -110,6 +126,14 @@
                 "time": "Online",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -135,6 +159,14 @@
                 "time": "Online",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -198,6 +230,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -220,6 +260,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -242,6 +290,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -504,6 +560,14 @@
                 "time": "12:40 pm - 2:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -558,6 +622,14 @@
                 "time": "Online",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -596,6 +668,14 @@
                 "time": "Online",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -618,6 +698,14 @@
                 "time": "Online",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -640,6 +728,14 @@
                 "time": "Online",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -662,6 +758,14 @@
                 "time": "TBA",
                 "type": "Thesis/Project"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -684,6 +788,14 @@
                 "time": "TBA",
                 "type": "Work Term"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -706,6 +818,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -728,6 +848,14 @@
                 "time": "Online",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -750,6 +878,14 @@
                 "time": "11:10 am - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -772,6 +908,14 @@
                 "time": "TBA",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -797,6 +941,14 @@
                 "time": "2:10 pm - 5:00 pm",
                 "type": "Seminar"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     }
 ]

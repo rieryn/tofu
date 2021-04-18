@@ -22,6 +22,14 @@
                 "time": "11:10 am - 12:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -35,13 +43,13 @@
                 "crn": "70247",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "T",
-                "filled": "233",
+                "filled": "232",
                 "instructor": "Paula   Di Cato",
                 "location": "Synchronous SYN",
                 "prereq": [
                     "** PRERQ:       MATH  1020 - CALCULUS II                    [Min Grade: D]  "
                 ],
-                "remaining": "17",
+                "remaining": "18",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Colleges:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Energy Systems & Nuclear Sci\n\n\u00a0 \u00a0 \u00a0 Engineering & Applied Science\n\n\nShow PRERQ\n",
                 "section": "001",
                 "time": "11:10 am - 12:30 pm",
@@ -66,6 +74,14 @@
                 "time": "12:40 pm - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -92,6 +108,14 @@
                 "time": "5:10 pm - 6:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     }
 ]

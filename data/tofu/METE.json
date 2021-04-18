@@ -63,6 +63,14 @@
                 "time": "3:40 pm - 5:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -127,6 +135,14 @@
                 "time": "4:10 pm - 6:00 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -194,6 +210,14 @@
                 "time": "4:10 pm - 6:00 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -264,6 +288,14 @@
                 "time": "3:10 pm - 5:00 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -321,6 +353,14 @@
                 "time": "12:40 pm - 3:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     }
 ]
