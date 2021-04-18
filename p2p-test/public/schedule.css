@@ -10,14 +10,15 @@
 }
 
 #table, th, td {
-  border: none;
+    border: none;
 }
 
 th {
     border: solid 1px;
-    border-color:#8c9091;
+    border-color:#d6dadb;
 }
-:not(.time) tr:nth-child(odd){
+
+tr:nth-child(odd) > * {
     background: #e6fffe;
 }
 

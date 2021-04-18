@@ -31,6 +31,15 @@ newblock = {
 window.onload = function () {
     add_timeblock(userschedule, newblock)
     create_table(userschedule);
+    var d = document.getElementById("download");
+    d.addEventListener('click', function() {
+        html2canvas(document.querySelector('#table')).then(function(canvas) {
+            var a = document.createElement('a');
+            a.href = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+            a.download = 'schedule.png';
+            a.click();
+        });
+    });
 };
 
 function add_timeblock(cur_schedule, newblock) {
@@ -57,7 +66,6 @@ function add_timeblock(cur_schedule, newblock) {
 }
 
 function create_table(schedule) {
-    console.log(schedule)
     schedule.forEach(obj => {
         for (day in obj.times) {
             let times = obj.times[day];
