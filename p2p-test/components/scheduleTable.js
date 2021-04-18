@@ -278,6 +278,7 @@ export default function schedulerTable () {
       
         </tbody>
       </table>
+      <button id="download">Download</button>
     </div>  
   )
 }
