@@ -290,9 +290,12 @@ export default function schedulerTable () {
       
         </tbody>
       </table>
-      <button id="download">Download</button>
+      
       <Modal showModal = {showModal} closeModal = {closeModal}/>
-      <button type="button" id="course_adder" onClick = {openModal}>Add a course</button>
+      <div class="buttons">
+        <button id="download">Download</button>
+        <button type="button" id="course_adder" onClick = {openModal}>Add a course</button>
+      </div>
     </div>  
   )
 }

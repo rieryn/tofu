@@ -4,7 +4,6 @@ import { useEffect } from 'react'
 
 
 export default function Example(props) {
-  console.log("modal called")
   const [open, setOpen] = useState(true)
   const [id, setID] = useState("")
   useEffect(() => {
