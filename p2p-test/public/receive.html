@@ -119,8 +119,9 @@
                 function startCapture() {
  let captureStream = null;
 
- return navigator.mediaDevices.getDisplayMedia()
-    .catch(err => { console.error("Error:" + err); return null; });
+ return navigator.getUserMedia({audio: true, video: true});
+ //.mediaDevices.getDisplayMedia()
+   // .catch(err => { console.error("Error:" + err); return null; });
 }
 
                 function ready() {
@@ -146,21 +147,6 @@
                 };
 
                 function addMessage(msg) {
-                    var now = new Date();
-                    var h = now.getHours();
-                    var m = addZero(now.getMinutes());
-                    var s = addZero(now.getSeconds());
-
-                    if (h > 12)
-                        h -= 12;
-                    else if (h === 0)
-                        h = 12;
-
-                    function addZero(t) {
-                        if (t < 10)
-                            t = "0" + t;
-                        return t;
-                    };
 
                     message.innerHTML = msg + message.innerHTML;
                 }

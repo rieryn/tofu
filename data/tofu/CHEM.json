@@ -118,6 +118,14 @@
                 "time": "11:10 am - 12:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -391,6 +399,14 @@
                 "time": "8:10 am - 11:00 am",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1053,6 +1069,14 @@
                 "time": "6:40 pm - 8:00 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1139,6 +1163,14 @@
                 "time": "5:10 pm - 6:30 pm",
                 "type": "Tutorial"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1152,10 +1184,10 @@
                 "crn": "70088",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "M",
-                "filled": "101",
+                "filled": "100",
                 "instructor": "Yuri   Bolshan",
                 "location": "Synchronous SYN",
-                "remaining": "4",
+                "remaining": "5",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\n\nOT-Online Campus\n\nLecture Schedule Type\n\nVirtual Meet Times Instructional Method\n\n       3.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMust be enrolled in one of the following Levels:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Undergraduate\n\nMust be enrolled in one of the following Concentrations:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Biology\n\n\u00a0 \u00a0 \u00a0 Chemical Biology\n\n\u00a0 \u00a0 \u00a0 Chemistry\n\n\u00a0 \u00a0 \u00a0 Comprehensive\n\n\u00a0 \u00a0 \u00a0 Life Sciences\n\n\u00a0 \u00a0 \u00a0 Pharmaceutical Chemistry\n\n\u00a0 \u00a0 \u00a0 Physics\n\nMust be enrolled in one of the following Classifications:\u00a0 \u00a0 \u00a0 \n\n\u00a0 \u00a0 \u00a0 Second year\n\n\u00a0 \u00a0 \u00a0 Third year\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
                 "section": "001",
                 "time": "3:40 pm - 5:00 pm",
@@ -1232,10 +1264,10 @@
                 "crn": "71243",
                 "daterange": "Jan 11, 2021 - Apr 09, 2021",
                 "days": "R",
-                "filled": "15",
+                "filled": "14",
                 "instructor": "TBA",
                 "location": "Science Building (UA) UA3620",
-                "remaining": "0",
+                "remaining": "1",
                 "reqs": "Winter 2021 \n\nJun 16, 2020 to Jan 22, 2021 \n\nUndergraduate \n\nSenior Sci/Eng Elective (Radi) \n\n\nOT-North Oshawa Campus\n\nLaboratory Schedule Type\n\nIn-class Delivery Instructional Method\n\n       0.000 Credits\n\n\n\n\n\n\n\n\n\n\n\n\nShow PRERQ\u00a0Show linked Section(s)\n",
                 "section": "009",
                 "time": "12:40 pm - 3:30 pm",
@@ -1273,6 +1305,14 @@
                 "time": "8:10 am - 11:00 am",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1327,6 +1367,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1397,6 +1445,14 @@
                 "time": "12:40 pm - 3:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1467,6 +1523,14 @@
                 "time": "8:10 am - 11:00 am",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1537,6 +1601,14 @@
                 "time": "12:40 pm - 3:30 pm",
                 "type": "Laboratory"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1559,6 +1631,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1581,6 +1661,14 @@
                 "time": "3:40 pm - 5:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1603,6 +1691,14 @@
                 "time": "11:10 am - 12:30 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1625,6 +1721,14 @@
                 "time": "9:40 am - 11:00 am",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1647,6 +1751,14 @@
                 "time": "TBA",
                 "type": "Thesis/Project"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     },
     {
@@ -1672,6 +1784,14 @@
                 "time": "12:40 pm - 2:00 pm",
                 "type": "Lecture"
             }
+        ],
+        "easyrating": 0,
+        "easyratingtotal": 0,
+        "goodrating": 0,
+        "goodratingtotal": 0,
+        "numratings": 0,
+        "reviews": [
+            "testreview"
         ]
     }
 ]

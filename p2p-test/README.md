@@ -2,11 +2,7 @@
 todo list:
 jquery and graph
 course details page
-modal for adding review
-buttons for ratings
-api for adding ratings/reviews
 fill out dashboard
-video conference page
 profile page
 friends page
 query table pagination
