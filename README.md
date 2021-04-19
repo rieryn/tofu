@@ -4,8 +4,9 @@ Preferably check out the demo site https://utofu.vercel.app/
 
 Running locally
 ```
+cd p2p-test
 npm run dev
-wait ~10s for load
+wait ~10s for tailwind files to load, this could be cut down by using the JIT compiler but it's buggy, in production only the css classes that are used are included
 
 You will need a discord account to sign in with.
 
@@ -62,7 +63,7 @@ js/html everywhere
 
 # Independent Study
 topics covered: tailwindCSS and webRTC
-[pdf link]
+[pdf link](https://github.com/CSCI3230U/majorgroupproject-p2p/blob/main/Independent%20Learning.pdf)
 
 _**Note:** You can delete the unused rows from the table._
 
