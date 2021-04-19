@@ -128,21 +128,32 @@ export default function Meetings(props){
                     //set up listener fns for incoming conns
                     //on data connection. note there are 2 connections
                     //use this for messages and arbitrary data
+                    /*listen for incoming data
+                    docs: 
+                    data is serialized by BinaryPack by default and sent to the remote peer.
+                    You can send any type of data, including objects, strings, and blobs.*/
                     peer.on('connection', function (c) {
                         connectedPeers.push(c.peer);
-                        dataConnections.push(c);
                             c.on('open', function() {
                                 console.log("Connected with peer: "+c.peer);
+                                 dataConnections.push(c);
                                 c.on('data',function(data){
 
                                    addMessage(data)
                                 });
                                 c.on('error',function(){
-                                  connectionError(c);
+                                  console.log("Connection error");
                                 });
 
                                 c.on('close',function(){
-                                  connectionClose(c);
+                                  let idx = 0;
+                                  while (idx < dataConnections.length) {
+                                    if (dataConnections[idx] === c) {
+                                      dataConnections.splice(idx, 1);
+                                    } else {
+                                      i++;
+                                    }
+                                  }
                                 });
 
                             
@@ -151,12 +162,8 @@ export default function Meetings(props){
                                 dataConnections[i].send("Connected to: " + c.peer);
                             }
                     });
-
                         conn = c;
                         console.log("Connected to: " + c.peer);
-                        console.log(dataConnections.length)
-                        console.log(c)
-                        console.log(dataConnections)
                         
                     });
 
@@ -206,39 +213,8 @@ export default function Meetings(props){
                 };
 
 
-                /*listen for incoming data
-                docs: 
-                data is serialized by BinaryPack by default and sent to the remote peer.
-                 You can send any type of data, including objects, strings, and blobs.*/
-                function ready() {
-                    for (let i in dataConnections){
-                        console.log(i)
-                        dataConnections[i].on('data', function (data) {
-                        console.log("Data recieved");
-                        switch (data) {
-                            case 'test':
-                                console.log("tested");
-                                break;
-                            default:
-                                addMessage(data);
-                                break;
-                        };
-                    });
+                
 
-                    dataConnections[i].on('close', function () {
-                        //remove by value
-                        let idx = 0;
-                        while (idx < dataConnections.length) {
-                          if (dataConnections[idx] === i) {
-                            dataConnections.splice(idx, 1);
-                          } else {
-                            i++;
-                          }
-                        }
-                    });
-                    }
-
-                }
 
                 //joining call
                 function join(remotePeerIds) {
