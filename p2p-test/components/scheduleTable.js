@@ -1,4 +1,16 @@
+import React, { useCallback,useRef, useEffect,useState } from 'react'
+import Modal from '../components/addScheduleModal'
+
 export default function schedulerTable () {
+  const [showModal, setShowModal] = useState(false);
+
+  const viewBox = `0 0 50 50`;
+  const openModal = () => {
+    setShowModal(true);
+  }
+  const closeModal = () => {
+    setShowModal(false);
+  }
   
   return (
 
@@ -279,6 +291,8 @@ export default function schedulerTable () {
         </tbody>
       </table>
       <button id="download">Download</button>
+      <Modal showModal = {showModal} closeModal = {closeModal}/>
+      <button type="button" id="course_adder" onClick = {openModal}>Add a course</button>
     </div>  
   )
 }
