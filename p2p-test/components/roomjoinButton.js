@@ -13,7 +13,7 @@ export default function RoomJoinButton(props){
                         <p className="w-48 truncate mt-1 text-xs">
                           {props.description}
                         </p>
-                        <p className = "items-end text-sm">{props.peerlist.length}/4 participants</p>
+                        <p className = "items-end text-blue-400 hover:text-red-200 text-sm">Join this room</p>
                       </button>
 
                   </a>

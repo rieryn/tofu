@@ -19,7 +19,8 @@ export default function Meetings(props){
   //peers to reconnect to (hopeful)
   var connectedPeers = [];
   //connections
-  var dataConnections = []
+  const [dataConnections, setDataConnections] = useState([]);
+
   var mediaConnections = [] 
   var mediaStreams = []
    //unless something goes wrong these are 1:1
@@ -49,7 +50,14 @@ export default function Meetings(props){
     setMessageData(messageData => [...messageData, msg]);
     console.log(msg)
   };
+  function sendMessage (msg){
+    addMessage(msg)
+    console.log(dataConnections)
+    for (let i in dataConnections){
+      dataConnections[i].send(msg)
+    }
 
+  }
   //incoming media streams
   function addStream (stream) {
 
@@ -137,7 +145,7 @@ export default function Meetings(props){
                         connectedPeers.push(c.peer);
                             c.on('open', function() {
                                 console.log("Connected with peer: "+c.peer);
-                                 dataConnections.push(c);
+                                setDataConnections(dataConnections => [...dataConnections, c]);
                                 c.on('data',function(data){
 
                                    addMessage(data)
@@ -147,14 +155,14 @@ export default function Meetings(props){
                                 });
 
                                 c.on('close',function(){
-                                  let idx = 0;
+                                  /*let idx = 0;
                                   while (idx < dataConnections.length) {
                                     if (dataConnections[idx] === c) {
                                       dataConnections.splice(idx, 1);
                                     } else {
                                       i++;
                                     }
-                                  }
+                                  }*/
                                 });
 
                             
@@ -199,7 +207,7 @@ export default function Meetings(props){
                     //on peer destroy
                     //peer.destroy should be called when leaving room
                     peer.on('close', function() {
-                        dataConnections = [];
+                        setDataConnections(dataConnections => [...dataConnections, []]);
                         mediaConnections= [];
                         fetch(`http://localhost:3000/api/leave?peerid=${peer.id}&roomid=${props.room.roomid}`)
                         console.log('peer destroyed');
@@ -208,7 +216,6 @@ export default function Meetings(props){
                     //errors always destroy the peer
                     peer.on('error', function (err) {
                         console.log(err);
-                        alert('' + err);
                     });
                     console.log(mediaConnections.length)
 
@@ -221,18 +228,16 @@ export default function Meetings(props){
                 //joining call
                 function join(remotePeerIds) {
                   console.log("run join")
-                  for (let i in dataConnections){
-                    dataConnections[i].close()
-                  }
                   console.log(remotePeerIds)
                     mediaConnections = [];
-                    dataConnections = [];
                     for (let i in remotePeerIds){
-                      console.log(i)
-                      console.log(remotePeerIds[i])
                       let dataconn = peer.connect(remotePeerIds[i], {reliable: true});
-                      console.log(dataconn)
-                      dataConnections.push(dataconn)
+                      dataconn.on('open', function () {
+                        dataconn.on('data', function (data) {
+                          addMessage(data);
+                      });
+                      });
+                      setDataConnections(dataConnections => [...dataConnections, dataconn]);
                       getUserMedia({video: true, audio: true}, function(stream) {
                         let mediaconn = peer.call(remotePeerIds[i], stream);
                         mediaConnections.push(mediaconn)
@@ -245,29 +250,8 @@ export default function Meetings(props){
                                setStreams(streams => [...streams, remoteStream]);
                           }
                         })
-                        }
-                      );
-                      for (i in dataConnections){
-                        console.log(dataConnections[i])
-                        dataConnections[i].on('open', function () {
-                        console.log("Connected to: " + dataConnections[i].peer);
-                        dataConnections[i].on('data', function (data) {
-                          addMessage(data);
-                      });
-                        dataConnections[i].on('error', function (data) {
-                      });
-                      dataConnections[i].on('close', function () {
-                      });  
-                      });
-                      }
-                      for(i in mediaConnections){
-                        let streams = 0
-                        console.log(mediaConnections[i])
-                        mediaConnections[i].on('open', function(c){
-                          console.log(c)
-                        
-                        })
-                      }
+                        });
+                     
                     }
                 };
                 if(typeof props.peerlist !== 'undefined' && remotePeerIds.length ==0){
@@ -287,7 +271,7 @@ export default function Meetings(props){
 const beforeUnload = (event) => {
     const e = event || window.event;
     e.preventDefault();
-    e.returnValue = 'YOUR CONNECTIONS WILL BE DESTROYED AND THE SERVER WILL CRASH DO NOT HOT RELOAD THIS';
+    e.returnValue = 'YOUR CONNECTIONS WILL BE DESTROYED DO NOT HOT RELOAD THIS';
     fetch(`http://localhost:3000/api/leave?peerid=${peer?.id}&roomid=${props.room?.roomid}`)
    alert("HEY");
     peer?.destroy();
@@ -361,7 +345,7 @@ useEffect(() => {
           
         </div>
       </div>
-      <ChatPanel messages= {messageData} setPeers = {setPeers}/>
+      <ChatPanel messages= {messageData} setPeers = {setPeers} sendMessage = {sendMessage}/>
 
       
     </div>

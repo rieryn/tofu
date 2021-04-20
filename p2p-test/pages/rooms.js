@@ -19,7 +19,7 @@ const router = useRouter()
 console.log(router.query)
   return (
 
-    <div className = "h-screen">
+    <div className = "h-screen ">
     <Navbar/>
     <Meetings room={router.query} peerlist={router.query.peerlist}/>
     </div>

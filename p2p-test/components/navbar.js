@@ -32,7 +32,7 @@ export default function Component(props){
 
   return (
 
-    <nav  ref = {ref} className="bg-gray-800 ">
+    <nav  ref = {ref} className="bg-gray-800">
       <div className=" px-5">
         <div className="relative flex justify-between h-16">
         {/* hamburger */}
