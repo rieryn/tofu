@@ -115,3 +115,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 p2p-test/public/a.html
+p2p-test/public/firebasetest.html
