@@ -1,7 +1,7 @@
-import MeetingsBar from '../components/meetingsBar'
-import ChatPanel from '../components/chatPanel'
+import MeetingsBar from '../Rooms/meetingsBar'
+import ChatPanel from '../Rooms/chatPanel'
 import React, { useCallback,useRef, useEffect,useState } from 'react'
-import Modal from '../components/addRoomModal'
+import Modal from '../Rooms/addRoomModal'
 import Peer from 'peerjs';
 import ReactDOM from "react-dom";
 
@@ -19,7 +19,8 @@ export default function Meetings(props){
   //peers to reconnect to (hopeful)
   var connectedPeers = [];
   //connections
-  var dataConnections = []
+  const [dataConnections, setDataConnections] = useState([]);
+
   var mediaConnections = [] 
   var mediaStreams = []
    //unless something goes wrong these are 1:1
@@ -49,7 +50,14 @@ export default function Meetings(props){
     setMessageData(messageData => [...messageData, msg]);
     console.log(msg)
   };
+  function sendMessage (msg){
+    addMessage(msg)
+    console.log(dataConnections)
+    for (let i in dataConnections){
+      dataConnections[i].send(msg)
+    }
 
+  }
   //incoming media streams
   function addStream (stream) {
 
@@ -81,7 +89,9 @@ export default function Meetings(props){
 
   //initialize peer
   useEffect(() => {
-
+    console.log(props.peerlist)
+    console.log(remotePeerIds)
+    
     console.log(props.room.roomid)
     console.log("Remote peers:")
     console.log(remotePeerIds)
@@ -111,7 +121,6 @@ export default function Meetings(props){
                     peer.on('open', function (id) {
                         if (peer.id === null) {
                             console.log('null id from peer open');
-                            peer.id = peerId;
                         } else {
                             fetch(`http://localhost:3000/api/join?peerid=${peer.id}&roomid=${props.room.roomid}`)
                             peerId = peer.id;
@@ -128,21 +137,32 @@ export default function Meetings(props){
                     //set up listener fns for incoming conns
                     //on data connection. note there are 2 connections
                     //use this for messages and arbitrary data
+                    /*listen for incoming data
+                    docs: 
+                    data is serialized by BinaryPack by default and sent to the remote peer.
+                    You can send any type of data, including objects, strings, and blobs.*/
                     peer.on('connection', function (c) {
                         connectedPeers.push(c.peer);
-                        dataConnections.push(c);
                             c.on('open', function() {
                                 console.log("Connected with peer: "+c.peer);
+                                setDataConnections(dataConnections => [...dataConnections, c]);
                                 c.on('data',function(data){
 
                                    addMessage(data)
                                 });
                                 c.on('error',function(){
-                                  connectionError(c);
+                                  console.log("Connection error");
                                 });
 
                                 c.on('close',function(){
-                                  connectionClose(c);
+                                  /*let idx = 0;
+                                  while (idx < dataConnections.length) {
+                                    if (dataConnections[idx] === c) {
+                                      dataConnections.splice(idx, 1);
+                                    } else {
+                                      i++;
+                                    }
+                                  }*/
                                 });
 
                             
@@ -151,12 +171,8 @@ export default function Meetings(props){
                                 dataConnections[i].send("Connected to: " + c.peer);
                             }
                     });
-
                         conn = c;
                         console.log("Connected to: " + c.peer);
-                        console.log(dataConnections.length)
-                        console.log(c)
-                        console.log(dataConnections)
                         
                     });
 
@@ -165,18 +181,19 @@ export default function Meetings(props){
                         console.log("Incoming media stream")
                         mediaConnections.push(call)
                           getUserMedia({video: true, audio: true}, function(stream) {
-                            call.answer(stream); 
+                            
                             console.log(stream);
-                            let streams = 0
+                            let incoming = 0
                             //will call twice for video/audio but both have video/audio thx 2019
                             call.on('stream', function(remoteStream) {
                                 console.log("Connecting incoming media stream")
-                                streams +=1
-                                if(streams==1){
-                                     setStreams(streams => [...streams, stream]);
+                                incoming +=1
+                                if(incoming==1){
+                                     setStreams(streams => [...streams, remoteStream]);
                                 }
 
                             });
+                            call.answer(stream); 
                           }, function(err) {
                             console.log('getUserMedia error' ,err);
                           });
@@ -190,7 +207,7 @@ export default function Meetings(props){
                     //on peer destroy
                     //peer.destroy should be called when leaving room
                     peer.on('close', function() {
-                        dataConnections = [];
+                        setDataConnections(dataConnections => [...dataConnections, []]);
                         mediaConnections= [];
                         fetch(`http://localhost:3000/api/leave?peerid=${peer.id}&roomid=${props.room.roomid}`)
                         console.log('peer destroyed');
@@ -199,107 +216,73 @@ export default function Meetings(props){
                     //errors always destroy the peer
                     peer.on('error', function (err) {
                         console.log(err);
-                        alert('' + err);
                     });
                     console.log(mediaConnections.length)
 
                 };
 
 
-                /*listen for incoming data
-                docs: 
-                data is serialized by BinaryPack by default and sent to the remote peer.
-                 You can send any type of data, including objects, strings, and blobs.*/
-                function ready() {
-                    for (let i in dataConnections){
-                        console.log(i)
-                        dataConnections[i].on('data', function (data) {
-                        console.log("Data recieved");
-                        switch (data) {
-                            case 'test':
-                                console.log("tested");
-                                break;
-                            default:
-                                addMessage(data);
-                                break;
-                        };
-                    });
+                
 
-                    dataConnections[i].on('close', function () {
-                        //remove by value
-                        let idx = 0;
-                        while (idx < dataConnections.length) {
-                          if (dataConnections[idx] === i) {
-                            dataConnections.splice(idx, 1);
-                          } else {
-                            i++;
-                          }
-                        }
-                    });
-                    }
-
-                }
 
                 //joining call
                 function join(remotePeerIds) {
                   console.log("run join")
-                  for (let i in dataConnections){
-                    dataConnections[i].close()
-                  }
                   console.log(remotePeerIds)
                     mediaConnections = [];
-                    dataConnections = [];
                     for (let i in remotePeerIds){
-                      console.log(i)
-                      console.log(remotePeerIds[i])
-                      let dataconn = peer.connect("e3bf6aca-12ea-45c5-b428-d4c562d3ac9f", {reliable: true});
-                      console.log(dataconn)
-                      dataConnections.push(dataconn)
-                      getUserMedia({video: true, audio: true}, function(stream) {
-                        let mediaconn = peer.call(remotePeerIds[i], stream);
-                        mediaConnections.push(mediaconn)}
-                      );
-                      for (i in dataConnections){
-                        console.log(dataConnections[i])
-                        dataConnections[i].on('open', function () {
-                        console.log("Connected to: " + dataConnections[i].peer);
-                        dataConnections[i].on('data', function (data) {
+                      let dataconn = peer.connect(remotePeerIds[i], {reliable: true});
+                      dataconn.on('open', function () {
+                        dataconn.on('data', function (data) {
                           addMessage(data);
                       });
-                      dataConnections[i].on('close', function () {
-                      });  
                       });
-                      }
-                      for(i in mediaConnections){
-                        let streams = 0
-                        mediaConnections[i].on('stream', function(remoteStream) {
+                      setDataConnections(dataConnections => [...dataConnections, dataconn]);
+                      getUserMedia({video: true, audio: true}, function(stream) {
+                        let mediaconn = peer.call(remotePeerIds[i], stream);
+                        mediaConnections.push(mediaconn)
+                        let incoming = 0
+                        mediaconn.on('stream', function(remoteStream) {
                           //will call twice for video/audio but both have video/audio thx 2019
                           console.log("Connecting called media streams")
-                          streams +=1
-                          if(streams==1){
-                               setStreams(streams => [...streams, stream]);
+                          incoming +=1
+                          if(incoming==1){
+                               setStreams(streams => [...streams, remoteStream]);
                           }
+                        })
                         });
-                      }
+                     
                     }
                 };
-                if(props.room.roomid){
+                if(typeof props.peerlist !== 'undefined' && remotePeerIds.length ==0){
+      console.log("parse peerlist")
+      setRemotePeerIds(JSON.parse(props.peerlist))
+      console.log(remotePeerIds)
+    }
+                if(props.room.roomid && typeof props.peerlist == 'undefined'){
                     initialize()
                     
                 }
+                if(props.room.roomid && remotePeerIds.length >0){
+                  initialize()
+                }
                 
     }, [remotePeerIds, props.room.roomid]);
-const beforeUnload = (peerstate) => {
-  window.onbeforeunload = (event) => {
+const beforeUnload = (event) => {
     const e = event || window.event;
     e.preventDefault();
-    peer.destroy();
+    e.returnValue = 'YOUR CONNECTIONS WILL BE DESTROYED DO NOT HOT RELOAD THIS';
+    fetch(`http://localhost:3000/api/leave?peerid=${peer?.id}&roomid=${props.room?.roomid}`)
+   alert("HEY");
+    peer?.destroy();
     console.log("unloadevent")
-  };
+    return null;
+    
 };
 useEffect(() => {
-    setRemotePeerIds(["e3bf6aca-12ea-45c5-b428-d4c562d3ac9f"])
-    beforeUnload();
+    if(peerstate)window.addEventListener('beforeunload',beforeUnload );
+    return () => window.removeEventListener('beforeunload', beforeUnload);
+    
   }, [peerstate]);
 
     var comps = []
@@ -362,7 +345,7 @@ useEffect(() => {
           
         </div>
       </div>
-      <ChatPanel messages= {messageData} setPeers = {setPeers}/>
+      <ChatPanel messages= {messageData} setPeers = {setPeers} sendMessage = {sendMessage}/>
 
       
     </div>

@@ -90,8 +90,8 @@ export default function Example(props) {
               </div>
             </div>
             <input className="hidden" type="text" name="uuid" id="uuid" value={uuidv4()} readOnly/>
-            <input className="hidden" type="text" name="peerid" id="peerid" value={id} readOnly/>
-
+            {/*<input className="hidden" type="text" name="peerid" id="peerid" value={id} readOnly/>
+            */}
             <div>
               <label htmlFor="description" className="block text-sm font-medium text-gray-700">
                 Description

@@ -1,4 +1,4 @@
-import CourseTableRow from '../components/courseTableRow'
+import CourseTableRow from '../Courses/courseTableRow'
 
 import useSWR from 'swr'
 import { useRouter } from 'next/router'

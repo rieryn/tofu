@@ -1,9 +1,8 @@
 import { Transition } from '@headlessui/react'
 import { useCallback,useRef, useEffect,useState } from 'react'
-import Avatar from '../components/avatar'
-import clickAway from '../util/clickaway'
+import Avatar from '../Frame/avatar'
 import { signIn, signOut, useSession } from 'next-auth/client'
-import Test from '../components/test3'
+import Test from '../Frame/navSearchbar'
 
 
 export default function Component(props){
@@ -32,7 +31,7 @@ export default function Component(props){
 
   return (
 
-    <nav  ref = {ref} className="bg-gray-800 ">
+    <nav  ref = {ref} className="bg-gray-800">
       <div className=" px-5">
         <div className="relative flex justify-between h-16">
         {/* hamburger */}

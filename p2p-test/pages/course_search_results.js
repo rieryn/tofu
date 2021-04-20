@@ -1,5 +1,5 @@
-import Frame from '../components/frame'
-import CourseTable from '../components/courseTable'
+import Frame from '../components/Frame/frame'
+import CourseTable from '../components/Courses/courseTable'
 import { useRouter } from 'next/router'
 
 export default function CourseSearch () {

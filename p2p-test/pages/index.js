@@ -1,17 +1,15 @@
 import Head from 'next/head'
 import { connectToDatabase } from '../util/mongodb'
-import Frame from '../components/frame'
-import Splash from '../components/splash'
-import SplashTitle from '../components/splashSearchbar'
-import Footer from '../components/footer'
-import Navbar from '../components/navbar'
-import { TransitionGroup } from 'react-transition-group';
-import { CSSTransition } from 'react-transition-group';
+import Frame from '../components/Frame/frame'
+import Splash from '../components/Splash/splash'
+import SplashTitle from '../components/Splash/splashSearchbar'
+import Footer from '../components/Frame/footer'
+import Navbar from '../components/Frame/navbar'
 import { useCallback,useRef, useEffect,useState } from 'react'
 import { Transition } from "@headlessui/react";
 
 export default function Home({ isConnected }) {
-    const [nav, setNav] = useState(true);
+const [nav, setNav] = useState(true);
 useEffect(() => {
   const timer = setTimeout(() => {
     setNav(true)

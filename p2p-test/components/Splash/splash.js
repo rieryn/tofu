@@ -1,5 +1,5 @@
 import { signIn, signOut, useSession } from 'next-auth/client'
-import Search from '../components/splashSearchbar'
+import Search from '../Splash/splashSearchbar'
 
 
 export default function Component(props){

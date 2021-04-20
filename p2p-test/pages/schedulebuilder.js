@@ -1,4 +1,4 @@
-import Frame from '../components/frame'
+import Frame from '../components/Frame/frame'
 import ScheduleTable from '../components/scheduleTable'
 
 

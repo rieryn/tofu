@@ -1,8 +1,6 @@
-
-import Footer from '../components/footer'
 import Head from 'next/head'
-import Navbar from '../components/navbar'
-import Frame from '../components/frame'
+import Navbar from '../components/Frame/navbar'
+import Frame from '../components/Frame/frame'
 import { useRouter } from 'next/router'
 import { v4 as uuidv4 } from 'uuid';
 import { useEffect } from 'react'
@@ -19,10 +17,11 @@ const router = useRouter()
   console.log(router.query);
 
   return (
-    <div className = "h-screen">
-    <Navbar/>
+    <Frame>
+    <div className = "h-screen flex items-center justify-center">
     <p>{router.query.msg}  </p>
     </div>
+    </Frame>
 
   )
 }

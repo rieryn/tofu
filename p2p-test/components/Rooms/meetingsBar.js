@@ -1,5 +1,5 @@
 import useSWR from 'swr'
-import RoomButton from '../components/roomjoinButton'
+import RoomButton from '../Rooms/roomjoinButton'
 
 
 export default function MeetingsBar(props){
@@ -40,7 +40,7 @@ export default function MeetingsBar(props){
                     New Room
                   </button>
                   {error ? <p>Something went wrong</p> : <></>}
-                  {data ? data.map((it) => <RoomButton roomid = {it.roomid} roomname = {it.roomname} description = {it.roomdesc}/>)
+                  {data ? data.map((it) => <RoomButton key = {it.roomid} roomid = {it.roomid} roomname = {it.roomname} description = {it.roomdesc} peerlist = {it.peerid}/>)
                   :
                   <div>Loading...</div>
                   }
