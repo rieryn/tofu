@@ -1,4 +1,4 @@
-import Frame from '../components/frame'
+import Frame from '../components/Frame/frame'
 import Splash from '../components/splash'
 import dynamic from 'next/dynamic';
 import { useCallback,useRef, useEffect,useState } from 'react'

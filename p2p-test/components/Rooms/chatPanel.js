@@ -42,9 +42,17 @@ return(
   <div>
       <div className="mt-2 flex flex-col ">
         <div className=" flex flex-col p-2 absolute bottom-28 top-20 w-56 justify-end  overflow-scroll  text-left  border-gray-200 bg-white " aria-label="ChatPanel">
-            <div className = "h-full text-xs">
-            
+            <div className = "flex h-full text-xs">
+            {(props.messages.length!=0) ? <>
+               
             {props.messages.map((it)=> <p key={uuidv4()} className = "break-words py-2 odd:bg-blue-50">{it}</p>)}
+             
+             </> :
+             <div>
+             <img className ="pt-4" src="https://cdn.pixabay.com/photo/2015/07/06/14/57/speech-833379_1280.png"/>
+             <p className = "p-8 text-blue-400 text-center">Join a room to start!</p>
+             </div>
+             }
              </div>
         </div>
       </div>
@@ -60,7 +68,7 @@ return(
           setMessage("")}
         }}
       ></textarea >
-      <button className = "text-xs bg-blue-50 py-1 px-4 absolute bottom-4 right-34 z-50 w-56"
+      <button className = "text-xs border-blue-50 border-2 py-1 px-4 absolute bottom-4 right-34 z-50 w-56"
       onClick = {
         () => {props.sendMessage(message); 
               setMessage("")}}>

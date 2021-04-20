@@ -1,5 +1,5 @@
 import { useCallback,useRef, useEffect,useState } from 'react'
-import Test from '../components/test4'
+import Test from '../Splash/test4'
 
 export default function Component(props){
 const today = new Date();

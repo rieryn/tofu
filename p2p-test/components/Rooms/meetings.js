@@ -1,7 +1,7 @@
-import MeetingsBar from '../components/meetingsBar'
-import ChatPanel from '../components/chatPanel'
+import MeetingsBar from '../Rooms/meetingsBar'
+import ChatPanel from '../Rooms/chatPanel'
 import React, { useCallback,useRef, useEffect,useState } from 'react'
-import Modal from '../components/addRoomModal'
+import Modal from '../Rooms/addRoomModal'
 import Peer from 'peerjs';
 import ReactDOM from "react-dom";
 

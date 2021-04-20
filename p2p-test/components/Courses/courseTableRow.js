@@ -1,5 +1,5 @@
 import React, { useCallback,useRef, useEffect,useState } from 'react'
-import Modal from '../components/addReviewModal'
+import Modal from '../Courses/addReviewModal'
 import Link from 'next/link'
 import { signIn, signOut, useSession } from 'next-auth/client'
 

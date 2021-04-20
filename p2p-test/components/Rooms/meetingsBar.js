@@ -1,5 +1,5 @@
 import useSWR from 'swr'
-import RoomButton from '../components/roomjoinButton'
+import RoomButton from '../Rooms/roomjoinButton'
 
 
 export default function MeetingsBar(props){

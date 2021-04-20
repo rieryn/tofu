@@ -1,5 +1,5 @@
-import Frame from '../components/frame'
-import Dashbar from '../components/dashboardbar'
+import Frame from '../components/Frame/frame'
+import Dashbar from '../components/Dashboard/dashboardbar'
 import dynamic from 'next/dynamic';
 import { useCallback,useRef, useEffect,useState } from 'react'
 const Calendar = dynamic(() => import('../components/calendarHeatmap'), {

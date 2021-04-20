@@ -1,6 +1,6 @@
-import Footer from '../components/footer'
+import Footer from '../Frame/footer'
 import Head from 'next/head'
-import Navbar from '../components/navbar'
+import Navbar from '../Frame/navbar'
 export default function Frame ({children}) {
   return (
     < >

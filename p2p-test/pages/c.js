@@ -1,4 +1,4 @@
-import Frame from '../components/frame'
+import Frame from '../components/Frame/frame'
 import { useCallback,useRef, useEffect,useState } from 'react'
 import useSWR from 'swr'
 import Test from '../components/test4'

@@ -1,9 +1,8 @@
 import { Transition } from '@headlessui/react'
 import { useCallback,useRef, useEffect,useState } from 'react'
-import Avatar from '../components/avatar'
-import clickAway from '../util/clickaway'
+import Avatar from '../Frame/avatar'
 import { signIn, signOut, useSession } from 'next-auth/client'
-import Test from '../components/test3'
+import Test from '../Frame/navSearchbar'
 
 
 export default function Component(props){
