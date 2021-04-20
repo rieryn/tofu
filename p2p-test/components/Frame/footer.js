@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
     
           <div className="px-5 py-2">
-            <a href="/" className="text-base text-gray-400 hover:text-gray-200">
+            <a href="/apidocs" className="text-base text-gray-400 hover:text-gray-200">
               API
             </a>
           </div>

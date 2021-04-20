@@ -19,9 +19,10 @@ export default function Component(props){
               </h1>
                <div className="md:pl-4 xl:pl-20  text-center lg:text-left ">
 
-              <p className="mt-3 text-base text-gray-500 md:mt-5 md:text-lg md:max-w-xl md:mx-auto md:mt-5 md:text-2xl lg:mx-0">
-                Search bar here or in header or actually the landing page shouldn't have a header?
+              <p className="mt-3 pb-2 text-sm text-gray-500 md:mt-5 md:text-lg md:max-w-xl md:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                Search courses · Take courses · Rate courses · Fail courses 
               </p>
+
               <div className="mt-5  md:flex md:justify-center  lg:justify-start">
                 <div  onClick = {props.setNav} className="rounded-md shadow ">
                   <p  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-400 hover:bg-blue-600">
