@@ -2,7 +2,7 @@ import Frame from '../components/Frame/frame'
 import Dashbar from '../components/Dashboard/dashboardbar'
 import dynamic from 'next/dynamic';
 import { useCallback,useRef, useEffect,useState } from 'react'
-const Calendar = dynamic(() => import('../components/calendarHeatmap'), {
+const Calendar = dynamic(() => import('../components/Dashboard/calendarHeatmap'), {
   ssr: false
 });
 

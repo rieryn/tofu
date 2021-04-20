@@ -70,8 +70,8 @@ var player = {
   strafeSpeed:0,
 	rotSpeed : 6 * Math.PI / 180
 }
-player.plane.x = rotateVector(player.direction.x, player.direction.y, -Math.PI/2).x * 120;
-player.plane.y = rotateVector(player.direction.x, player.direction.y, -Math.PI/2).y * 120;
+player.plane.x = rotateVector(player.direction.x, player.direction.y, -Math.PI/2).x * 100;
+player.plane.y = rotateVector(player.direction.x, player.direction.y, -Math.PI/2).y * 100;
 function drawMap() {
 	for (var y=0; y < mapY; y++) {
 		for (var x=0; x < mapX; x++) {
@@ -102,7 +102,6 @@ function drawObj(){
   objctx.fillRect(
     4*unit,4*unit, 
     unit/5,unit/5);
-  //0.01 is the rotationspeed and actually i still don't get it
   //camera plane visualization
   objctx.beginPath();
   objctx.moveTo(

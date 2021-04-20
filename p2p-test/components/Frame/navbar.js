@@ -64,6 +64,8 @@ export default function Component(props){
     
     
                 <a href="/schedulebuilder" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Scheduler</a>
+                <a href="/game.html" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Games</a>
+
                 <a href="/d3graph.html" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Graphs</a>
               </div>
             </div>
@@ -91,13 +93,13 @@ export default function Component(props){
             leaveTo="transform opacity-0 scale-95"
           >
               <div className="z-50 origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-10" role="menu" aria-orientation="vertical" aria-labelledby="user-menu">
-                <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">+ Start New Meeting</a>
+                <a href="/rooms" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">+ Start New Meeting</a>
                 <hr/>
-                <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">My Profile</a>
+                <a href="/dashboard" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">My Profile</a>
                 
-                <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Dashboard</a>
+                <a href="/dashboard" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Dashboard</a>
                 
-                <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Friends</a>
+                <a href="/message?msg=YOU%20HAVE%20NO%20FRIENDS" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Friends</a>
                 <a href={`/api/auth/signout`} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem"
                   onClick={(e) => {
                   e.preventDefault()

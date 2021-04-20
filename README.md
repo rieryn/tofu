@@ -1,6 +1,6 @@
 
 ### Testing
-Preferably check out the demo site https://utofu.vercel.app/
+Preferably check out the demo site! https://utofu.vercel.app/
 
 Running locally
 ```
@@ -20,7 +20,7 @@ The api keys compromised in this repo will be disabled on May 3rd
 
 
 #### Testing p2p features
-Open /send.html and /receive.html to test room connections, the peerID for the conferencing page will be logged in the console
+Open multiple tabs and go to rooms and join the same room, don't open too many
 
 
 # Major Group Project

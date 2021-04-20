@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { useEffect } from 'react'
 
 import dynamic from 'next/dynamic';
-const Meetings = dynamic(() => import('../components/meetings'), {
+const Meetings = dynamic(() => import('../components/rooms/meetings'), {
   ssr: false
 });
      //<div>hello {data[0]}!</div>
