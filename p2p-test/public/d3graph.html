@@ -15,8 +15,8 @@
    		.then(res => res.json())
    		.then(data=> {
    			console.log(data)
-   			var margin = {top: 20, right: 20, bottom: 30, left: 50},
-    width = 960 - margin.left - margin.right,
+   			var margin = {top: 40, right: 40, bottom: 30, left: 50},
+    width = 860 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 var time = d3.timeParse("%Y-%m-%d %H:%M:%S");
@@ -109,7 +109,7 @@ var svg = d3.select("body").append("svg")
             .attr('x', 800 / 2)
             .attr('y', 155)
             .attr('text-anchor', 'middle')
-            .text(':|');
+            .text(':| GAMESTOCK');
 
     svg.append("circle")
        .attr("cx", 555)
