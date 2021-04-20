@@ -15,9 +15,7 @@
    		.then(res => res.json())
    		.then(data=> {
    			console.log(data)
-   			var margin = {top: 40, right: 40, bottom: 30, left: 50},
-    width = 860 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+
 
 var time = d3.timeParse("%Y-%m-%d %H:%M:%S");
 var realdata = data["Time Series (5min)"]
@@ -62,7 +60,7 @@ var svg = d3.select("body").append("svg")
       .attr("d", line(finaldata));
 
   svg.append("g")
-      .attr("transform", "translate(0," + height + ")")
+      .attr("transform", "translate(0, 400 )")
       .call(d3.axisBottom(x));
 
   svg.append("g")
