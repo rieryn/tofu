@@ -22,7 +22,7 @@ export default function courseTable (props) {
       <td className="px-6 py-4 whitespace-nowrap max-w-xs transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-101">
         <div className="w-24 md:w-full truncateflex items-center ">
           <div>
-            <a href="{`/coursepage?course=${props.data.coursecode}`}" className=" text-sm font-medium text-blue-400 hover:text-yellow-300">
+            <a href={`/coursepage?course=${props.data.coursecode}`} className=" text-sm font-medium text-blue-400 hover:text-yellow-300">
             {props.data?.coursecode}</a>
             <div className="truncate text-sm text-gray-500">
             {props.data?.coursename}</div>

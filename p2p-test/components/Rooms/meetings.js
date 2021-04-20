@@ -85,8 +85,7 @@ export default function Meetings(props){
     if(toggleCam) getMedia();
 
   }, [toggleCam]);
-
-
+  
   //initialize peer
   useEffect(() => {
     console.log(props.peerlist)
@@ -103,10 +102,6 @@ export default function Meetings(props){
     idlocalStorage = localStorage.getItem("peerid");
     console.log(idlocalStorage)
     function initialize() {
-                         /*for (const i in props.props)
-                             console.log(i);
-                             remotePeerIds.push(i);
-                         }*/
                    console.log("Initializing peer")
                     //new peer
                     peer = new Peer( {
@@ -220,10 +215,6 @@ export default function Meetings(props){
                     console.log(mediaConnections.length)
 
                 };
-
-
-                
-
 
                 //joining call
                 function join(remotePeerIds) {

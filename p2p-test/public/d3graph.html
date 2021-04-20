@@ -6,9 +6,12 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>d33333</title>
    <script src="https://d3js.org/d3.v5.min.js"></script>
+       <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
    <script>
    	//i don't really see how you can do anything in d3 without copying
    	window.onload = function() {
+   		fetch("https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=GME&interval=5min&apikey=TMDK1D9E0R9HDT0I").then(res => re)
     const data = [
         {"x": 1},
         {"x": 2},
@@ -72,12 +75,39 @@
                 return colourScale(data.x * 500);
        							}) 
                 .attr('height', 500)
+                let toggle = false;
+                $("#jquery").click(function() {
+                	if(toggle==false){
+                	$("body").css("transform", "rotate(180deg)")
+                	$("p").css("background-color","red")
+                	toggle= true}
+                	else{
+                		toggle=false;
+                		$("body").css("transform", "rotate(0deg)")
+                	$("p").css("background-color","blue")
+                	}
+                	$("#up").click(function() {
+                	if(toggle==false){
+                	$("body").css("transform", "rotate(180deg)")
+                	$("svg").css("background-color","red")
+                	toggle= true}
+                	else{
+                		toggle=false;
+                		$("body").css("transform", "rotate(0deg)")
+                	$("svg").css("background-color","green")
+                	}
+});
+});
 };
 
 
 
    </script>
 </head>
-<body>
+<body id="body">
+	<button id="jquery">jquery it</button>>
+	<p>test</p>
+		<button id="up">make graph go up</button>>
+
 </body>
 </html>

@@ -18,8 +18,16 @@ const router = useRouter()
 
   return (
     <Frame>
-    <div className = "h-screen flex items-center justify-center">
-    <p>{router.query.msg}  </p>
+    <div className = "h-screen flex items-center justify-center bg-gray-800">
+    <div className=" p-24 px-40">
+      <div className="flex flex-col justify-center items-center max-w-7xl mx-auto py-16 text-left px-4 sm:py-24 sm:px-6">
+          <h2 className="text-4xl font-extrabold  text-red-800 sm:text-xl sm:tracking-tight lg:text-6xl">
+            {router.query.msg}
+          </h2>
+          <img className="max-w-2xl p-12" src="https://cdn.pixabay.com/photo/2020/12/25/20/51/bunny-5860131_1280.png"/>
+
+          </div>
+          </div>
     </div>
     </Frame>
 
