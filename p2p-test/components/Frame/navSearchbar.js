@@ -79,7 +79,7 @@ export default function Component() {
  :
           <div className = "bg-white items-left z-50 absolute w-full overflow-hidden truncate border-2 border-grey rounded-md">
           {suggestions.slice(0, 7).map(i =>(
-            <a key={i.coursecode}  href = {`course_search_results?q=${i.coursecode}`}>
+            <a key={i.coursecode}  href = {`coursepage?course=${i.coursecode}`}>
             <p className=" hover:bg-red-100 p-2 truncate text-left">{i.coursecode} {i.coursename}</p>
             </a>))}
            <a href = '/course_search_results'><p className="p-2 hover:bg-red-50 truncate text-left"><u>Explore all courses</u>

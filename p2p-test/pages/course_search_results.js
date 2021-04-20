@@ -1,6 +1,7 @@
 import Frame from '../components/Frame/frame'
 import CourseTable from '../components/Courses/courseTable'
 import { useRouter } from 'next/router'
+import useSWR from 'swr'
 
 export default function CourseSearch () {
 	const router = useRouter()

@@ -9,7 +9,9 @@ export default function Component(props){
     <div className="lg:relative lg:flex-none bg-white h-screen overflow-hidden ">
       <div className="lg:max-w-7xl mx-auto xl:max-w-full ">
         <div className="relative z-10 pb-48 bg-white  md:w-3/5">
-          <svg className="hidden lg:block absolute -right-40 w-80  h-screen text-white transform translate-x-3/5" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <svg className="hidden lg:block absolute -right-40 w-80  h-screen text-white transform translate-x-3/5" 
+          fill="currentColor" viewBox="0 0 100 100" 
+          preserveAspectRatio="none" aria-hidden="true">
             <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
 
@@ -24,12 +26,13 @@ export default function Component(props){
               </p>
 
               <div className="mt-5  md:flex md:justify-center  lg:justify-start">
-                <div  onClick = {props.setNav} className="rounded-md shadow ">
-                  <p  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-400 hover:bg-blue-600">
+                <div onClick = {props.setNav} 
+                className="rounded-md shadow ">
+                  <p className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-400 hover:bg-blue-600">
                     Explore
                   </p>
                 </div>
-                              <div className="mt-3 sm:mt-0 sm:ml-3 ">
+              <div className="mt-3 sm:mt-0 sm:ml-3 ">
   
                 {session ? 
                 <a href={"/dashboard"} className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-blue-200 ">
@@ -38,7 +41,8 @@ export default function Component(props){
                 <a onClick={(e) => {
                   e.preventDefault()
                   signIn()
-                   }} href={"/api/auth/signin"} className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-blue-200 ">
+                   }} href={`/api/auth/signin`} 
+                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-blue-200 ">
                     Sign up
                   </a>}
 

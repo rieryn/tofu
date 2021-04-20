@@ -1,7 +1,7 @@
 import Frame from '../components/Frame/frame'
 
 
-export default function Example() {
+export default function Apidocs() {
   return (
     <Frame>
     <div className="bg-gray-800 p-24 px-40">
@@ -64,7 +64,7 @@ export default function Example() {
              URL: http://localhost:3000/api/isBool?q=[YOUR QUERY]
           </p>
           <p className="mt-2 pl-4 text-gray-400">
-              Returns a JSON!
+              isBool is a RESTFUL API that returns JSON
           </p>
           <p className="mt-2 pl-4 pb-4 text-gray-400">
             q: The object you want to check
@@ -73,9 +73,9 @@ export default function Example() {
             Example Response:
           </p>
           <div className="bg-black w-auto h-auto rounded">
-            <p className="mt-2 pl-4 pb-4 text-md text-gray-400">
-            &#123;isBool: False,<br/>
-            ad: advertisement: "Build the most efficient intergalactic factory in space simulation strategy game Dyson Sphere Program!"&#125;
+            <p className="pt-2 pl-4 pb-4 text-sm text-gray-400">
+            &#123; isBool: False,<br/>
+            advertisement: "Build the most efficient intergalactic factory in space simulation strategy game Dyson Sphere Program!"&#125;
           </p>
 
           </div>
