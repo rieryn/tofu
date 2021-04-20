@@ -7,6 +7,7 @@
    <title>d33333</title>
    <script src="https://d3js.org/d3.v5.min.js"></script>
    <script>
+   	//i don't really see how you can do anything in d3 without copying
    	window.onload = function() {
     const data = [
         {"x": 1},
@@ -33,11 +34,7 @@
     const xScale = d3.scaleBand() 
                         .domain(data.map((data) => data.year*1000))
                         .range([0, 12])
-                        .padding(0.3);
     
-    const yScale = d3.scaleLinear()
-                        .domain([0, 2200])
-                        .range([chartHeight, 0]);
 
     let svg = d3.select('body')
                     .append('svg')
@@ -55,7 +52,7 @@
        .attr("cx", 555)
        .attr("cy", 50)
        .attr("r", 50)
-       svg.append("circle")
+    svg.append("circle")
        .attr("cx", 333)
        .attr("cy", 55)
        .attr("r", 50)
@@ -75,9 +72,6 @@
                 return colourScale(data.x * 500);
        							}) 
                 .attr('height', 500)
-
-    
-
 };
 
 
