@@ -11,7 +11,67 @@
    <script>
    	//i don't really see how you can do anything in d3 without copying
    	window.onload = function() {
-   		fetch("https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=GME&interval=5min&apikey=TMDK1D9E0R9HDT0I").then(res => re)
+   		fetch("https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=GME&interval=5min&apikey=TMDK1D9E0R9HDT0I")
+   		.then(res => res.json())
+   		.then(data=> {
+   			console.log(data)
+   			var margin = {top: 20, right: 20, bottom: 30, left: 50},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var time = d3.timeParse("%Y-%m-%d %H:%M:%S");
+var realdata = data["Time Series (5min)"]
+var times = Object.keys(realdata)
+var minTime = new Date(times[0])
+var maxTime = new Date(times[99])
+var x = d3.scaleTime().range([0, 500]).domain([minTime,maxTime]);
+var y = d3.scaleLinear().range([0, 1000]).domain([150, 220]);
+var xdata = []
+times.forEach(function(data){
+	xdata.push(time(data))
+})
+var ydata = []
+for(let i in realdata){
+	ydata.push(realdata[i]['1. open'])
+
+}
+
+console.log(ydata)
+console.log(xdata)
+var finaldata = [];
+ydata.forEach((k, v) => {
+	let result = {y:k,x:xdata[v]}
+
+	finaldata.push(result)
+});
+console.log(finaldata)
+var line = d3.line()
+    .x(function(d) { return x(d.x); })
+    .y(function(d) { return y(d.y); });
+console.log(line)
+
+
+var svg = d3.select("body").append("svg")
+    .attr("width", 500)
+    .attr("height", 500)
+  .append("g")
+
+
+
+  svg.append("path")
+      .attr("d", line(finaldata));
+
+  svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+  svg.append("g")
+      .call(d3.axisLeft(y));
+
+});
+
+
+
     const data = [
         {"x": 1},
         {"x": 2},
