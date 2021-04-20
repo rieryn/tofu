@@ -111,7 +111,7 @@
                           var call = peer.call(conn.peer, stream);
                           console.log(stream)
                           call.on('stream', function(remoteStream) {
-                            localVideo.srcObject = stream;
+                            localVideo.srcObject = remoteStream;
                           });
                         }, function(err) {
                           console.log('Failed to get local stream' ,err);

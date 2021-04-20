@@ -81,7 +81,9 @@ export default function Meetings(props){
 
   //initialize peer
   useEffect(() => {
-
+    console.log(props.peerlist)
+    console.log(remotePeerIds)
+    
     console.log(props.room.roomid)
     console.log("Remote peers:")
     console.log(remotePeerIds)
@@ -111,7 +113,6 @@ export default function Meetings(props){
                     peer.on('open', function (id) {
                         if (peer.id === null) {
                             console.log('null id from peer open');
-                            peer.id = peerId;
                         } else {
                             fetch(`http://localhost:3000/api/join?peerid=${peer.id}&roomid=${props.room.roomid}`)
                             peerId = peer.id;
@@ -172,18 +173,19 @@ export default function Meetings(props){
                         console.log("Incoming media stream")
                         mediaConnections.push(call)
                           getUserMedia({video: true, audio: true}, function(stream) {
-                            call.answer(stream); 
+                            
                             console.log(stream);
-                            let streams = 0
+                            let incoming = 0
                             //will call twice for video/audio but both have video/audio thx 2019
                             call.on('stream', function(remoteStream) {
                                 console.log("Connecting incoming media stream")
-                                streams +=1
-                                if(streams==1){
-                                     setStreams(streams => [...streams, stream]);
+                                incoming +=1
+                                if(incoming==1){
+                                     setStreams(streams => [...streams, remoteStream]);
                                 }
 
                             });
+                            call.answer(stream); 
                           }, function(err) {
                             console.log('getUserMedia error' ,err);
                           });
@@ -228,12 +230,22 @@ export default function Meetings(props){
                     for (let i in remotePeerIds){
                       console.log(i)
                       console.log(remotePeerIds[i])
-                      let dataconn = peer.connect("e3bf6aca-12ea-45c5-b428-d4c562d3ac9f", {reliable: true});
+                      let dataconn = peer.connect(remotePeerIds[i], {reliable: true});
                       console.log(dataconn)
                       dataConnections.push(dataconn)
                       getUserMedia({video: true, audio: true}, function(stream) {
                         let mediaconn = peer.call(remotePeerIds[i], stream);
-                        mediaConnections.push(mediaconn)}
+                        mediaConnections.push(mediaconn)
+                        let incoming = 0
+                        mediaconn.on('stream', function(remoteStream) {
+                          //will call twice for video/audio but both have video/audio thx 2019
+                          console.log("Connecting called media streams")
+                          incoming +=1
+                          if(incoming==1){
+                               setStreams(streams => [...streams, remoteStream]);
+                          }
+                        })
+                        }
                       );
                       for (i in dataConnections){
                         console.log(dataConnections[i])
@@ -242,40 +254,51 @@ export default function Meetings(props){
                         dataConnections[i].on('data', function (data) {
                           addMessage(data);
                       });
+                        dataConnections[i].on('error', function (data) {
+                      });
                       dataConnections[i].on('close', function () {
                       });  
                       });
                       }
                       for(i in mediaConnections){
                         let streams = 0
-                        mediaConnections[i].on('stream', function(remoteStream) {
-                          //will call twice for video/audio but both have video/audio thx 2019
-                          console.log("Connecting called media streams")
-                          streams +=1
-                          if(streams==1){
-                               setStreams(streams => [...streams, stream]);
-                          }
-                        });
+                        console.log(mediaConnections[i])
+                        mediaConnections[i].on('open', function(c){
+                          console.log(c)
+                        
+                        })
                       }
                     }
                 };
-                if(props.room.roomid){
+                if(typeof props.peerlist !== 'undefined' && remotePeerIds.length ==0){
+      console.log("parse peerlist")
+      setRemotePeerIds(JSON.parse(props.peerlist))
+      console.log(remotePeerIds)
+    }
+                if(props.room.roomid && typeof props.peerlist == 'undefined'){
                     initialize()
                     
                 }
+                if(props.room.roomid && remotePeerIds.length >0){
+                  initialize()
+                }
                 
     }, [remotePeerIds, props.room.roomid]);
-const beforeUnload = (peerstate) => {
-  window.onbeforeunload = (event) => {
+const beforeUnload = (event) => {
     const e = event || window.event;
     e.preventDefault();
-    peer.destroy();
+    e.returnValue = 'YOUR CONNECTIONS WILL BE DESTROYED AND THE SERVER WILL CRASH DO NOT HOT RELOAD THIS';
+    fetch(`http://localhost:3000/api/leave?peerid=${peer?.id}&roomid=${props.room?.roomid}`)
+   alert("HEY");
+    peer?.destroy();
     console.log("unloadevent")
-  };
+    return null;
+    
 };
 useEffect(() => {
-    setRemotePeerIds(["e3bf6aca-12ea-45c5-b428-d4c562d3ac9f"])
-    beforeUnload();
+    if(peerstate)window.addEventListener('beforeunload',beforeUnload );
+    return () => window.removeEventListener('beforeunload', beforeUnload);
+    
   }, [peerstate]);
 
     var comps = []
