@@ -51,8 +51,8 @@ http://svgicons.sparkk.fr/
 | Requirement                        | Weight |	 	|
 | :--------------------------------- | ------:|-----|
 | SVG and HTML                       | 0.5    |both inline and static svg|
-| CSS and CSS frameworks             | 1.0    |.css files and tailwindCSS 	|
-| JavaScript, jQuery, D3             | 1.5    |d3 in graph.html, jquery in about.html	|
+| CSS and CSS frameworks             | 1.0    |.css files, inline css and tailwindCSS 	|
+| JavaScript, jQuery, D3             | 1.5    |d3, jquery in d3graph.html	|
 | DHTML                              | 1.0    |dhtml in schedule.js,game.html 	|
 | AJAX, web services                 | 1.0    |fetch, useswr, internal apis, alphavantage api 	|
 | Node.js                            | 2.0    |server.js and /api folder contains express code. 	|
