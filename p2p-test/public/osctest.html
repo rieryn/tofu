@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<canvas></canvas>
+<h1>^ That's a webworker</h1>
+<script>
+var canvas = document.querySelector("canvas")
+offScreenCanvas = canvas.transferControlToOffscreen();
+
+var worker = new Worker('testworker.js');
+worker.postMessage(offScreenCanvas, [offScreenCanvas]);
+</script>
+</body>
+</html>
